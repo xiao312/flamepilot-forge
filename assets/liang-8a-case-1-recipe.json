@@ -1,0 +1,29 @@
+{
+  "schema": "forge-plot-v1",
+  "id": "case-1",
+  "title": "Case 1 · method comparison",
+  "x": {
+    "label": "Equivalence ratio, φ"
+  },
+  "y": {
+    "label": "Laminar flame speed (cm/s)"
+  },
+  "series": [
+    "cantera-1",
+    "paper-1",
+    "developed-energy-historical-t",
+    "reactingfoam-stock-t",
+    "deepflame-deepflame-t"
+  ],
+  "smoothing": "pchip",
+  "colorBy": "engine",
+  "smoothingBySeries": {
+    "developed-energy-historical-t": "points",
+    "reactingfoam-stock-t": "points",
+    "deepflame-deepflame-t": "points"
+  },
+  "subtitle": "Cantera: PCHIP guide · CFD: transient markers · dashed: paper traces",
+  "renderer": "forge-series-v1",
+  "interpolation_is_evidence": false,
+  "source_target": "liang-8a"
+}

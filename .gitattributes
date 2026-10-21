@@ -1,0 +1,4 @@
+* -text
+*.png -diff
+*.svg -diff -whitespace
+*.js -whitespace

@@ -1,0 +1,1397 @@
+{
+  "schema": "forge-target-catalog-v1",
+  "reviewed_at": "2026-10-21",
+  "inspection": {
+    "papers": 8,
+    "pages": 187,
+    "numbered_figures": 138,
+    "scope": "Complete text, tables, figures, and captions reviewed. Selected crops visually checked. No new simulations or acceptance decisions."
+  },
+  "papers": [
+    {
+      "id": "singla2005",
+      "title": "Transcritical oxygen/transcritical or supercritical methane combustion",
+      "authors": "G. Singla, P. Scouflaire, C. Rolon, S. Candel",
+      "year": 2005,
+      "doi": "10.1016/j.proci.2004.08.063",
+      "short": "Singla 2005",
+      "pdf_sha256": "1b0001ed36aa5393eec106cb8b12f4f34bae86836aeed55862dbc68917710fd2",
+      "url": "https://doi.org/10.1016/j.proci.2004.08.063",
+      "rights": "Selected excerpt from a user-supplied paper, attributed for scholarly comparison. Copyright retained by the original rights holder; no open license established."
+    },
+    {
+      "id": "candel2006",
+      "title": "Structure and dynamics of cryogenic flames at supercritical pressure",
+      "authors": "S. Candel, M. Juniper, G. Singla, P. Scouflaire, C. Rolon",
+      "year": 2006,
+      "doi": "10.1080/00102200500292530",
+      "short": "Candel 2006",
+      "pdf_sha256": "f210060d5c3a87bd0669bc7d1d3ee4a66d7d8df6118cf0071c575f97fbb05573",
+      "url": "https://doi.org/10.1080/00102200500292530",
+      "rights": "Selected excerpt from a user-supplied paper, attributed for scholarly comparison. Copyright retained by the original rights holder; no open license established."
+    },
+    {
+      "id": "degiorgi2014",
+      "title": "Application and Comparison of Different Combustion Models of High Pressure LOX/CH4 Jet Flames",
+      "authors": "M. G. De Giorgi, A. Sciolti, A. Ficarella",
+      "year": 2014,
+      "doi": "10.3390/en7010477",
+      "short": "De Giorgi 2014",
+      "pdf_sha256": "5ae009f33dc44c177398cdfbb20644033e9a6451861a92bc5a4d30538aef1d6c",
+      "url": "https://doi.org/10.3390/en7010477",
+      "rights": "Author content: CC BY 3.0. Reused experimental evidence retains its original rights."
+    },
+    {
+      "id": "muller2015",
+      "title": "Large-Eddy Simulation of transcritical LOx/CH4 Jet Flames",
+      "authors": "H. Müller, M. Pfitzner",
+      "year": 2015,
+      "doi": "EUCASS 2015 paper 018",
+      "short": "Müller 2015",
+      "pdf_sha256": "889bba9dc807b9197efcabbebba5a06f1dbf9d55c26582d19c88fbd10f15a8b9",
+      "url": "https://www.eucass.eu/component/docindexer/?id=3841&task=download",
+      "rights": "Selected excerpt from a user-supplied paper, attributed for scholarly comparison. Copyright retained by the original rights holder; no open license established."
+    },
+    {
+      "id": "cutrone2010",
+      "title": "A RANS flamelet–progress-variable method for computing reacting flows of real-gas mixtures",
+      "authors": "L. Cutrone, P. De Palma, G. Pascazio, M. Napolitano",
+      "year": 2010,
+      "doi": "10.1016/j.compfluid.2009.10.001",
+      "url": "https://doi.org/10.1016/j.compfluid.2009.10.001",
+      "short": "Cutrone 2010",
+      "pdf_sha256": "489a91a23b6b8261bcc99eb2b174af0b2458768f0c06aad0b069281482a0388e",
+      "rights": "© 2009 Elsevier Ltd. All rights reserved. No reuse license printed."
+    },
+    {
+      "id": "schmitt2020",
+      "title": "Large-Eddy Simulations of the Mascotte Test Cases Operating at Supercritical Pressure",
+      "authors": "Thomas Schmitt",
+      "year": 2020,
+      "doi": "10.1007/s10494-019-00096-y",
+      "url": "https://doi.org/10.1007/s10494-019-00096-y",
+      "short": "Schmitt 2020",
+      "pdf_sha256": "f138b430e2cac438acf139d9a7f56d38e53adb11513346c69922734c1c419879",
+      "rights": "© Springer Nature B.V. 2020. No reuse license printed."
+    },
+    {
+      "id": "sharma2023",
+      "title": "Numerical Investigation of Supercritical Combustion Dynamics in a Multi-Element LOx-Methane Combustor Using Flamelet-Generated Manifold Approach",
+      "authors": "Abhishek Sharma, Ashoke De, S. Sunil Kumar",
+      "year": 2023,
+      "doi": "10.1063/5.0172100",
+      "url": "https://arxiv.org/abs/2311.15034",
+      "short": "Sharma 2023",
+      "pdf_sha256": "65ae91e8734d8006f4274c70f548f969ab18ca698d8aad8d3b3384882356349c",
+      "rights": "Downloaded arXiv v1 manuscript. No reuse license found in the PDF. Data available from corresponding author on reasonable request."
+    },
+    {
+      "id": "cavalieri2025",
+      "title": "Characterization of turbulent pseudo-boiling in transcritical and doubly-transcritical oxygen–methane flames",
+      "authors": "D. Cavalieri, D. Schintu, P. P. Ciottoli, P. E. Lapenna, F. Creta",
+      "year": 2025,
+      "doi": "10.1016/j.ijheatmasstransfer.2025.127284",
+      "url": "https://doi.org/10.1016/j.ijheatmasstransfer.2025.127284",
+      "short": "Cavalieri 2025",
+      "pdf_sha256": "bcd4f0fdac3c4063c744e331c0b2e6af7e311837f99230502cde2c97257d0843",
+      "rights": "© 2025 The Authors. CC BY 4.0, printed on page 1. Third-party experimental images retain their source attribution. Data available on request."
+    }
+  ],
+  "targets": [
+    {
+      "id": "muller2015-fig1a-density",
+      "paper": "muller2015",
+      "number": "1(a)",
+      "page_index": 2,
+      "crop_pt": [
+        62,
+        588,
+        294,
+        751
+      ],
+      "crop_asset": "foundations/crops/muller2015-fig1a-density.png",
+      "crop_sha256": "c5a4fd7493c2c09c2a7fb239e9ef225e21ddc4ebf397ab25daabf481be940124",
+      "title": "Cryogenic oxygen density",
+      "caption": "Oxygen density at 5.61 MPa compares PR, volume-translated PR, and NIST values.",
+      "conditions": {
+        "pressureMPa": 5.61,
+        "fluid": "O2",
+        "temperatureK": [
+          85,
+          300
+        ]
+      },
+      "role": "property verification",
+      "priority": 10,
+      "stage": "properties",
+      "dependencies": [],
+      "plot_views": [
+        {
+          "id": "models",
+          "kind": "line",
+          "x": "T_K",
+          "y": "rho_kg_m3",
+          "series": [
+            "PR",
+            "PR-VTA",
+            "NIST"
+          ],
+          "design": "Two model lines; NIST hollow circles. Our sampled values use sparse filled markers; one color per model, provenance by dash/marker."
+        },
+        {
+          "id": "error",
+          "kind": "residual",
+          "design": "Separate relative-error subplot versus NIST, with 85 K inset."
+        }
+      ],
+      "quantities": [
+        "density [kg/m^3]",
+        "temperature [K]"
+      ],
+      "note": "At 85 K the paper gives NIST density1177.2 kg/m^3; reported errors10.33% PR and0.005% PR-VTA. The reference NIST version is not pinned. Raw samples remain visible. Plot interpolation uses shape-preserving PCHIP within each continuous branch only. No extrapolation. Numerical metrics use raw values, not display curves.",
+      "selected": true
+    },
+    {
+      "id": "muller2015-fig1b-cp",
+      "paper": "muller2015",
+      "number": "1(b)",
+      "page_index": 2,
+      "crop_pt": [
+        300,
+        588,
+        535,
+        751
+      ],
+      "crop_asset": "foundations/crops/muller2015-fig1b-cp.png",
+      "crop_sha256": "25a37e122dc72d6fed6d8c2faafa0d8fa35b9fe34e4c85934c68be227eedaaab",
+      "title": "Oxygen heat capacity near pseudo-boiling",
+      "caption": "Constant-pressure oxygen heat capacity compares uncorrected PR and NIST at5.61 MPa.",
+      "conditions": {
+        "pressureMPa": 5.61,
+        "fluid": "O2",
+        "temperatureK": [
+          85,
+          300
+        ]
+      },
+      "role": "property verification",
+      "priority": 20,
+      "stage": "properties",
+      "dependencies": [
+        "muller2015-fig1a-density"
+      ],
+      "plot_views": [
+        {
+          "id": "cp",
+          "kind": "line",
+          "design": "PR line and NIST hollow circles; dedicated145-165 K zoom. No PR-VTA caloric curve implied."
+        },
+        {
+          "id": "peak-error",
+          "kind": "residual",
+          "design": "Peak location and amplitude differences; dense sampling around peak."
+        }
+      ],
+      "quantities": [
+        "cp [J/(kg K)]",
+        "temperature [K]"
+      ],
+      "note": "Paper explicitly uses uncorrected PR for caloric departures, despite PR-VTA density. The inconsistency is disclosed. Raw samples remain visible. Plot interpolation uses shape-preserving PCHIP within each continuous branch only. No extrapolation. Numerical metrics use raw values, not display curves.",
+      "selected": true
+    },
+    {
+      "id": "muller2015-fig2a-temperature",
+      "paper": "muller2015",
+      "number": "2(a)",
+      "page_index": 4,
+      "crop_pt": [
+        62,
+        97,
+        291,
+        268
+      ],
+      "crop_asset": "foundations/crops/muller2015-fig2a-temperature.png",
+      "crop_sha256": "c99d1c03cb61b4e68883572927821b2e54bd4f7a672812350e46a57bb400bb51",
+      "title": "Near-equilibrium oxygen/methane flamelet temperature",
+      "caption": "Ideal-gas flamelet temperature at nearly zero stoichiometric scalar dissipation compares GRI3.0 with a9-species6-reaction reduced mechanism.",
+      "conditions": {
+        "pressureMPa": 5.61,
+        "oxidizer": "O2",
+        "fuel": "CH4",
+        "oxidizerK": 85,
+        "fuelK": 288,
+        "chi_st_s1": "approximately0",
+        "LewisNumber": 1,
+        "flameletThermodynamics": "ideal gas"
+      },
+      "role": "laminar chemistry verification",
+      "priority": 30,
+      "stage": "chemistry",
+      "dependencies": [
+        "muller2015-fig1b-cp"
+      ],
+      "plot_views": [
+        {
+          "id": "cantera",
+          "kind": "line",
+          "design": "Full GRI3.0 and reduced JL9 curves against digitized references; matched axes."
+        },
+        {
+          "id": "openfoam",
+          "kind": "line",
+          "design": "Separate OpenFOAM result view against references, without crowding Cantera."
+        },
+        {
+          "id": "mechanism",
+          "kind": "small-multiples",
+          "design": "One panel per mechanism, containing paper+Cantera+OpenFOAM."
+        }
+      ],
+      "quantities": [
+        "temperature [K]",
+        "fuel mixture fraction f [-]"
+      ],
+      "note": "Flamemaster computes temperature/species under ideal-gas and unit-Lewis assumptions. Near-zero chi is not numerically specified. Raw samples remain visible. Plot interpolation uses shape-preserving PCHIP within each continuous branch only. No extrapolation. Numerical metrics use raw values, not display curves.",
+      "selected": true
+    },
+    {
+      "id": "muller2015-fig2b-density",
+      "paper": "muller2015",
+      "number": "2(b)",
+      "page_index": 4,
+      "crop_pt": [
+        298,
+        97,
+        531,
+        268
+      ],
+      "crop_asset": "foundations/crops/muller2015-fig2b-density.png",
+      "crop_sha256": "d3d8ffc1cfba79782221f0527aa98f8a634de27209f69979df81efadf3e7c553",
+      "title": "Real-fluid density reconstructed from flamelets",
+      "caption": "Density is calculated using the LES real-gas model from each flamelet solution; the paper uses a broken vertical axis.",
+      "conditions": {
+        "pressureMPa": 5.61,
+        "oxidizer": "O2",
+        "fuel": "CH4",
+        "oxidizerK": 85,
+        "fuelK": 288,
+        "chi_st_s1": "approximately0",
+        "densityThermodynamics": "PR-VTA applied after flamelet solution"
+      },
+      "role": "thermochemical coupling verification",
+      "priority": 40,
+      "stage": "chemistry",
+      "dependencies": [
+        "muller2015-fig2a-temperature"
+      ],
+      "plot_views": [
+        {
+          "id": "full",
+          "kind": "line",
+          "design": "Logarithmic density axis preserves the oxygen boundary and reaction zone without a hidden axis break."
+        },
+        {
+          "id": "flame-zone",
+          "kind": "line",
+          "design": "Separate linear0-70 kg/m^3 view with oxygen-side inset. One curve per mechanism; reference points hollow."
+        }
+      ],
+      "quantities": [
+        "density [kg/m^3]",
+        "fuel mixture fraction f [-]"
+      ],
+      "note": "Do not compare native ideal-gas density. Figure methane boundary label42.8 kg/m^3 differs from rounded Table2 NIST42 kg/m^3. Raw samples remain visible. Plot interpolation uses shape-preserving PCHIP within each continuous branch only. No extrapolation. Numerical metrics use raw values, not display curves.",
+      "selected": true
+    },
+    {
+      "id": "muller2015-fig2c-major-species",
+      "paper": "muller2015",
+      "number": "2(c)",
+      "page_index": 4,
+      "crop_pt": [
+        62,
+        269,
+        291,
+        436
+      ],
+      "crop_asset": "foundations/crops/muller2015-fig2c-major-species.png",
+      "crop_sha256": "feefb38fd50b5d919998464468cb5ec5c97a4d247b063c239e26f904abf9d14d",
+      "title": "Major-species flamelet profiles",
+      "caption": "Five major species compare full and reduced methane oxidation mechanisms in an oxygen/methane flamelet.",
+      "conditions": {
+        "pressureMPa": 5.61,
+        "oxidizer": "O2",
+        "fuel": "CH4",
+        "oxidizerK": 85,
+        "fuelK": 288,
+        "chi_st_s1": "approximately0",
+        "LewisNumber": 1
+      },
+      "role": "mechanism verification",
+      "priority": 50,
+      "stage": "chemistry",
+      "dependencies": [
+        "muller2015-fig2a-temperature"
+      ],
+      "plot_views": [
+        {
+          "id": "species",
+          "kind": "small-multiples",
+          "design": "Five panels, one species each. Each panel has GRI3.0 and JL9; paper hollow samples, new data solid lines. Separate Cantera/OpenFOAM views."
+        },
+        {
+          "id": "overview",
+          "kind": "line",
+          "design": "Optional overview; direct labels; disabled by default to avoid ten overlapping lines."
+        }
+      ],
+      "quantities": [
+        "mass fractions CH4,O2,CO2,H2O,CO [-]",
+        "fuel mixture fraction f [-]"
+      ],
+      "note": "Every species must use mass fraction and fuel-oriented mixture fraction. Mechanism/reaction orders need source verification. Raw samples remain visible. Plot interpolation uses shape-preserving PCHIP within each continuous branch only. No extrapolation. Numerical metrics use raw values, not display curves.",
+      "selected": true
+    },
+    {
+      "id": "muller2015-fig2d-minor-species",
+      "paper": "muller2015",
+      "number": "2(d)",
+      "page_index": 4,
+      "crop_pt": [
+        298,
+        269,
+        531,
+        436
+      ],
+      "crop_asset": "foundations/crops/muller2015-fig2d-minor-species.png",
+      "crop_sha256": "eb9b3f8ee5a76f82033499984dc09e53912efa41e9a7fd179c7f9da1aefd1ef9",
+      "title": "Hydrogen and OH flamelet profiles",
+      "caption": "H2 and OH mass fractions compare the full and reduced mechanisms; OH differs visibly despite similar temperatures.",
+      "conditions": {
+        "pressureMPa": 5.61,
+        "oxidizer": "O2",
+        "fuel": "CH4",
+        "oxidizerK": 85,
+        "fuelK": 288,
+        "chi_st_s1": "approximately0",
+        "LewisNumber": 1
+      },
+      "role": "mechanism verification",
+      "priority": 60,
+      "stage": "chemistry",
+      "dependencies": [
+        "muller2015-fig2c-major-species"
+      ],
+      "plot_views": [
+        {
+          "id": "species",
+          "kind": "small-multiples",
+          "design": "Two large panels for OH and H2. Show full and reduced separately from tool provenance; highlight peak amplitude/location numerically."
+        }
+      ],
+      "quantities": [
+        "mass fractions H2,OH [-]",
+        "fuel mixture fraction f [-]"
+      ],
+      "note": "Reduced mechanism OH peak is materially lower than GRI3.0. Good temperature agreement alone does not validate OH. Raw samples remain visible. Plot interpolation uses shape-preserving PCHIP within each continuous branch only. No extrapolation. Numerical metrics use raw values, not display curves.",
+      "selected": true
+    },
+    {
+      "id": "muller2015-fig3-extinction",
+      "paper": "muller2015",
+      "number": "3",
+      "page_index": 5,
+      "crop_pt": [
+        180,
+        98,
+        412,
+        246
+      ],
+      "crop_asset": "foundations/crops/muller2015-fig3-extinction.png",
+      "crop_sha256": "4f50f492d98615a85d16bc866bb127067eaccb04ba88010b3ff766d05d22039f",
+      "title": "Flamelet strain response and extinction",
+      "caption": "Maximum flamelet temperature falls with scalar dissipation; full and reduced mechanisms extinguish at different rates.",
+      "conditions": {
+        "pressureMPa": 5.61,
+        "oxidizer": "O2",
+        "fuel": "CH4",
+        "oxidizerK": 85,
+        "fuelK": 288,
+        "LewisNumber": 1,
+        "flameletThermodynamics": "ideal gas"
+      },
+      "role": "flamelet-library qualification",
+      "priority": 70,
+      "stage": "chemistry",
+      "dependencies": [
+        "muller2015-fig2c-major-species",
+        "muller2015-fig2d-minor-species"
+      ],
+      "plot_views": [
+        {
+          "id": "response",
+          "kind": "line",
+          "design": "Logarithmic chi axis. Two mechanism lines with visible raw solved points; separate tool views."
+        },
+        {
+          "id": "extinction",
+          "kind": "interval",
+          "design": "Extinction bracket per mechanism; mark last-burning and first-extinguished solve. Never interpolate across extinction."
+        }
+      ],
+      "quantities": [
+        "maximum temperature [K]",
+        "stoichiometric scalar dissipation [1/s]"
+      ],
+      "note": "Reported extinction approximately6e5/s GRI3.0 and8e5/s JL9. These are scalar dissipation values, not inlet strain rate. No smoothing across extinction. Raw samples remain visible. Plot interpolation uses shape-preserving PCHIP within each continuous branch only. No extrapolation. Numerical metrics use raw values, not display curves.",
+      "selected": true
+    },
+    {
+      "id": "singla2005-fig4cd-g2-ohstar",
+      "paper": "singla2005",
+      "number": "4(C,D)",
+      "page_index": 4,
+      "crop_pt": [
+        70,
+        430,
+        216,
+        592
+      ],
+      "crop_asset": "foundations/crops/singla2005-fig4cd-g2-ohstar.png",
+      "crop_sha256": "397d50e28929c77c94912c88f1d800d89950946bcd12f9945ea6c7febfccc7ae",
+      "title": "G2 mean OH* emission and reconstructed flame",
+      "caption": "Panel C averages200 OH* exposures. Panel D combines the Abel inversion with mean dense-jet backlighting for G2.",
+      "conditions": {
+        "pressureDefinition": "pr(O2)=1.11, pr(CH4)=1.22",
+        "pressureMPaReportedInCandel": 5.59,
+        "oxidizerK": 85,
+        "fuelK": 288,
+        "oxidizerMassFlow_g_s": 44.4,
+        "fuelMassFlow_g_s": 143.1,
+        "numberImages": 200,
+        "exposureMicroseconds": 30
+      },
+      "role": "primary experimental validation",
+      "priority": 100,
+      "stage": "optics",
+      "dependencies": [
+        "muller2015-fig3-extinction"
+      ],
+      "plot_views": [
+        {
+          "id": "measurement-operator",
+          "kind": "field-pair",
+          "design": "Keep C line-of-sight mean emission distinct from D Abel-inverted mean slice+backlighting. Compare each only with its corresponding forward optical operator."
+        },
+        {
+          "id": "shape",
+          "kind": "field-pair",
+          "design": "Equal-aspect x/dO2,y/dO2 images with identical field extent; relative scales stated separately."
+        },
+        {
+          "id": "profiles",
+          "kind": "small-multiples",
+          "design": "Axial emission integral, radial cuts, and flame-envelope curves in separate panels; baseline/raw digitization points remain visible."
+        }
+      ],
+      "quantities": [
+        "relative OH* emission [-]",
+        "dense-oxygen backlight support",
+        "flame length/dO2"
+      ],
+      "note": "Original image has no calibrated numerical colorbar or coordinate axes. Establish image-scale transform with uncertainty before scoring length. D combines two observables. G2 flame~11dO2 and core~7dO2 are textual estimates. No absolute OH* concentration. Original and CandelFig10b are the same experiment.",
+      "selected": true
+    },
+    {
+      "id": "singla2005-fig5b-g2-nearfield",
+      "paper": "singla2005",
+      "number": "5(B)",
+      "page_index": 4,
+      "crop_pt": [
+        285,
+        193,
+        432,
+        335
+      ],
+      "crop_asset": "foundations/crops/singla2005-fig5b-g2-nearfield.png",
+      "crop_sha256": "fcc99f3a69b860b47026780bfe5c8cacf18634f59e3103ec624042909269d900",
+      "title": "G2 near-injector CH* flame attachment",
+      "caption": "The G2 nearfield combines an Abel-inverted CH* emission slice and mean dense-oxygen jet backlighting.",
+      "conditions": {
+        "pressureMPaReportedInCandel": 5.59,
+        "oxidizerK": 85,
+        "fuelK": 288,
+        "oxidizerMassFlow_g_s": 44.4,
+        "fuelMassFlow_g_s": 143.1
+      },
+      "role": "secondary optical validation",
+      "priority": 120,
+      "stage": "optics",
+      "dependencies": [
+        "singla2005-fig4cd-g2-ohstar"
+      ],
+      "plot_views": [
+        {
+          "id": "nearfield",
+          "kind": "field-pair",
+          "design": "Injector lip-aligned nearfield with equal aspect; CH* and optical backlight overlay identified separately."
+        },
+        {
+          "id": "attachment",
+          "kind": "profile",
+          "design": "Flame-edge standoff and envelope with pixel-derived uncertainty; no arbitrary geometry regression."
+        }
+      ],
+      "quantities": [
+        "relative CH* emission [-]",
+        "mean dense-jet position"
+      ],
+      "note": "CH* is not CH or OH. Need an appropriate excited-state diagnostic before numerical validation. Uncalibrated raster and no physical axes limit quantitative claims.",
+      "selected": true
+    },
+    {
+      "id": "muller2015-fig7b-ohstar",
+      "paper": "muller2015",
+      "number": "7(b)",
+      "page_index": 8,
+      "crop_pt": [
+        298,
+        607,
+        532,
+        761
+      ],
+      "crop_asset": "foundations/crops/muller2015-fig7b-ohstar.png",
+      "crop_sha256": "1a16bd04e1d564b4f08ce047e5b5819c768d52ab71c40151cc676a671a8b8a09",
+      "title": "G2 LES synthetic OH* comparison",
+      "caption": "Mean synthetic OH* is compared with Singla G2 OH* emission; it shifts the bright region downstream relative to ground-state OH.",
+      "conditions": {
+        "pressureMPa": 5.61,
+        "oxidizer": "O2",
+        "fuel": "CH4",
+        "oxidizerK": 85,
+        "fuelK": 288,
+        "meanWindow_s": 0.01,
+        "spatialAverage": "4 symmetry half-planes",
+        "OHstarApproximation": "thermal equilibrium, representative wavelength308nm"
+      },
+      "role": "simulation comparison and observation-model verification",
+      "priority": 110,
+      "stage": "optics",
+      "dependencies": [
+        "singla2005-fig4cd-g2-ohstar",
+        "muller2015-fig2d-minor-species"
+      ],
+      "plot_views": [
+        {
+          "id": "optics",
+          "kind": "field-pair",
+          "design": "Full reference and computed images adjacent on identical axes, not opposing half-images. Separate experiment and simulation labels."
+        },
+        {
+          "id": "profiles",
+          "kind": "small-multiples",
+          "design": "Axial/radial relative-emission profiles and envelope; one comparison per panel."
+        },
+        {
+          "id": "convergence",
+          "kind": "time-series",
+          "design": "Flame length, peak location, and mean-field changes over independent averaging windows."
+        }
+      ],
+      "quantities": [
+        "mean relative OH* proxy [-]",
+        "x [mm]",
+        "y [mm]"
+      ],
+      "note": "Compute the nonlinear OH* proxy each time step, then average. Proxy(mean fields) is different. Authors do not reproduce rear blooming and abrupt end fully. Their result is not ground truth.",
+      "selected": true
+    },
+    {
+      "id": "muller2015-fig7a-oh-diagnostic",
+      "paper": "muller2015",
+      "number": "7(a)",
+      "page_index": 8,
+      "crop_pt": [
+        63,
+        607,
+        298,
+        761
+      ],
+      "crop_asset": "foundations/crops/muller2015-fig7a-oh-diagnostic.png",
+      "crop_sha256": "436d6128e6c814dbbc4fb0b350ab6ce9df17dbcffb6c0d4c255f3b1cfbbb2a62",
+      "title": "Ground-state OH diagnostic beside OH*",
+      "caption": "Mean simulated ground-state OH is visually compared with measured OH* radiation in the paper.",
+      "conditions": {
+        "pressureMPa": 5.61,
+        "oxidizer": "O2",
+        "fuel": "CH4",
+        "oxidizerK": 85,
+        "fuelK": 288,
+        "meanWindow_s": 0.01
+      },
+      "role": "diagnostic-only comparison",
+      "priority": 115,
+      "stage": "optics",
+      "dependencies": [
+        "muller2015-fig7b-ohstar"
+      ],
+      "plot_views": [
+        {
+          "id": "diagnostic",
+          "kind": "field-pair",
+          "design": "Show OH and OH* from the same run separately with clear species labels; independently normalized displays explicitly tagged."
+        }
+      ],
+      "quantities": [
+        "mean OH mass fraction [-]",
+        "x [mm]",
+        "y [mm]"
+      ],
+      "note": "OH and OH* are different quantities. This panel must not be a pass/fail experimental match. It demonstrates why the optical forward model matters.",
+      "selected": true
+    },
+    {
+      "id": "degiorgi2014-fig4b-edc",
+      "paper": "degiorgi2014",
+      "number": "4(b)",
+      "page_index": 10,
+      "crop_pt": [
+        300,
+        383,
+        528,
+        580
+      ],
+      "crop_asset": "foundations/crops/degiorgi2014-fig4b-edc.png",
+      "crop_sha256": "9e7845ec78339aaac5221ccd77470e5aa7e02c1e3cceaf8f64021d5b9b37a558",
+      "title": "RANS EDC mechanism sensitivity",
+      "caption": "Centerline temperature compares EDC with modified Jones-Lindstedt and a41-reaction skeletal methane mechanism.",
+      "conditions": {
+        "pressureMPa": 5.6,
+        "oxidizerK": 85,
+        "fuelK": 288,
+        "model": "Eulerian SRK+EDC",
+        "cases": [
+          "1 JL9",
+          "2 SKEL41"
+        ]
+      },
+      "role": "contextual simulation comparison",
+      "priority": 130,
+      "stage": "context",
+      "dependencies": [
+        "muller2015-fig3-extinction"
+      ],
+      "plot_views": [
+        {
+          "id": "mechanisms",
+          "kind": "line",
+          "design": "Two mechanism curves. Separate paper+our result panel per mechanism. Grey EXP span labelled optical end-location proxy, not temperature measurement."
+        },
+        {
+          "id": "residual",
+          "kind": "residual",
+          "design": "Difference to digitized simulation curves only; explicit sampling/geometry uncertainties."
+        }
+      ],
+      "quantities": [
+        "centerline temperature [K]",
+        "x [m]"
+      ],
+      "note": "Geometry/inlet velocity inconsistencies must be resolved before exact reproduction. EXP grey band comes from optical flame-end position; no measured centerline temperature is given. Raw samples remain visible. Plot interpolation uses shape-preserving PCHIP within each continuous branch only. No extrapolation. Numerical metrics use raw values, not display curves.",
+      "selected": true
+    },
+    {
+      "id": "degiorgi2014-fig6b-closure",
+      "paper": "degiorgi2014",
+      "number": "6(b)",
+      "page_index": 12,
+      "crop_pt": [
+        303,
+        217,
+        528,
+        424
+      ],
+      "crop_asset": "foundations/crops/degiorgi2014-fig6b-closure.png",
+      "crop_sha256": "1b15b854cfac017e10b6124bee0cbb81dc9f50ba8e18906b18058a64fec0fab1",
+      "title": "RANS equilibrium and flamelet sensitivity",
+      "caption": "Four centerline temperature profiles compare equilibrium-PDF and steady-laminar-flamelet closures with two reduced mechanisms.",
+      "conditions": {
+        "pressureMPa": 5.6,
+        "oxidizerK": 85,
+        "fuelK": 288,
+        "model": "Eulerian SRK",
+        "cases": [
+          "3 equilibrium+JL",
+          "4 equilibrium+SKEL",
+          "5 flamelet+JL",
+          "6 flamelet+SKEL"
+        ]
+      },
+      "role": "contextual closure comparison",
+      "priority": 140,
+      "stage": "context",
+      "dependencies": [
+        "degiorgi2014-fig4b-edc"
+      ],
+      "plot_views": [
+        {
+          "id": "closure",
+          "kind": "small-multiples",
+          "design": "One panel for equilibrium and one for steady flamelet, two mechanisms each. Supplement one panel per exact case with paper+our result."
+        },
+        {
+          "id": "peak-location",
+          "kind": "interval",
+          "design": "Summarize simulated peak locations and optical end-location band, with different labels."
+        }
+      ],
+      "quantities": [
+        "centerline temperature [K]",
+        "x [m]"
+      ],
+      "note": "A source implementation comparison, not proof that FGM is invalid. FGM and steady flamelet/equilibrium PDF are different models. Source temperature values are numerical. Raw samples remain visible. Plot interpolation uses shape-preserving PCHIP within each continuous branch only. No extrapolation. Numerical metrics use raw values, not display curves.",
+      "selected": true
+    },
+    {
+      "id": "cavalieri2025-fig-1",
+      "paper": "cavalieri2025",
+      "number": "1",
+      "page_index": 3,
+      "crop_pt": [
+        113,
+        48,
+        481,
+        335
+      ],
+      "crop_asset": "models/cavalieri2025/cavalieri2025-fig-1.png",
+      "crop_sha256": "64d5178f3c5608b7c5104f24665f8a2e2111fa2a5cccffedaa8b2ff8f00a263a",
+      "title": "Pure-fluid property checks at 56 bar",
+      "caption": "Pure-fluid property checks at 56 bar. Pure O2 and CH4; 56 bar; 100–400 K; SRK and Chung.",
+      "conditions": "Pure O2 and CH4; 56 bar; 100–400 K; SRK and Chung.",
+      "role": "property-verification",
+      "priority": 10,
+      "stage": "properties",
+      "dependencies": [],
+      "plot_views": [
+        "Property overview: one panel per quantity, O2 and CH4 in separate facets.",
+        "Per-fluid detail: paper/NIST markers and current model curve; residual strip below."
+      ],
+      "quantities": [
+        "density kg/m3",
+        "cp kJ/(kg K)",
+        "viscosity Pa s",
+        "conductivity W/(m K)"
+      ],
+      "note": "NIST is the independent reference. Preserve source-era/current-NIST distinction. Dense solver samples: continuous curve; sparse independent samples: visible markers plus optional shape-preserving interpolation. No extrapolation; retain raw coordinates and score raw data.",
+      "selected": true
+    },
+    {
+      "id": "schmitt2020-fig-1",
+      "paper": "schmitt2020",
+      "number": "1",
+      "page_index": 3,
+      "crop_pt": [
+        44,
+        478,
+        394,
+        584
+      ],
+      "crop_asset": "models/schmitt2020/schmitt2020-fig-1.png",
+      "crop_sha256": "9608b0906ae05253dff768863fa17eaedc0e7a6451d85da13c4986b375d4d356",
+      "title": "Density and sensible-energy consistency",
+      "caption": "Density and sensible-energy consistency. Pure O2 at 6.0 MPa and CH4 at 5.5 MPa; approximately100–500 K.",
+      "conditions": "Pure O2 at 6.0 MPa and CH4 at 5.5 MPa; approximately100–500 K.",
+      "role": "property-verification",
+      "priority": 11,
+      "stage": "properties",
+      "dependencies": [],
+      "plot_views": [
+        "Separate rho(T) and es(T) panels for each species.",
+        "Add residual and derivative-consistency checks; document energy reference datum."
+      ],
+      "quantities": [
+        "density kg/m3",
+        "sensible energy kJ/kg"
+      ],
+      "note": "Different pressures from G2; sensible energy requires matching datum, not arbitrary vertical alignment. Dense solver samples: continuous curve; sparse independent samples: visible markers plus optional shape-preserving interpolation. No extrapolation; retain raw coordinates and score raw data.",
+      "selected": true
+    },
+    {
+      "id": "cavalieri2025-fig-2a",
+      "paper": "cavalieri2025",
+      "number": "2a",
+      "page_index": 5,
+      "crop_pt": [
+        112,
+        49,
+        299,
+        193
+      ],
+      "crop_asset": "models/cavalieri2025/cavalieri2025-fig-2a.png",
+      "crop_sha256": "be10c8bc5a4012dd121eb1b290fda87c853300cedf6b4df24c8e0eef342a572f",
+      "title": "Transcritical methane/oxygen flamelet structure",
+      "caption": "Transcritical methane/oxygen flamelet structure. 56 bar; O2 85 K; CH4 288 K; chi_st=1 s^-1; RAMEC; SFM versus MFM; Le=1.",
+      "conditions": "56 bar; O2 85 K; CH4 288 K; chi_st=1 s^-1; RAMEC; SFM versus MFM; Le=1.",
+      "role": "laminar-flamelet",
+      "priority": 20,
+      "stage": "chemistry",
+      "dependencies": [
+        "cavalieri2025-fig-1"
+      ],
+      "plot_views": [
+        "Separate T(Z) and rho(Z), both log Z on [1e-4,1].",
+        "SFM-only and MFM-only tabs with paper plus generated flamelet.",
+        "Near-oxidizer density detail as a separate panel, not a dual y-axis."
+      ],
+      "quantities": [
+        "temperature K",
+        "density kg/m3"
+      ],
+      "note": "Paper scalar-dissipation normalization and printed EoS equations need audit before exact implementation. Density carries strong cold-side variation. Dense solver samples: continuous curve; sparse independent samples: visible markers plus optional shape-preserving interpolation. No extrapolation; retain raw coordinates and score raw data.",
+      "selected": true
+    },
+    {
+      "id": "cavalieri2025-fig-3a",
+      "paper": "cavalieri2025",
+      "number": "3a",
+      "page_index": 5,
+      "crop_pt": [
+        116,
+        229,
+        299,
+        373
+      ],
+      "crop_asset": "models/cavalieri2025/cavalieri2025-fig-3a.png",
+      "crop_sha256": "42302eb9f3097554d023fdce50cd7c60c7b2ee177e0f46ad7cbe27bf3b867543",
+      "title": "Flamelet transport across mixture fraction",
+      "caption": "Flamelet transport across mixture fraction. Same TF flamelet as Figure2(a):56bar,85/288K,chi_st=1s^-1.",
+      "conditions": "Same TF flamelet as Figure2(a):56bar,85/288K,chi_st=1s^-1.",
+      "role": "laminar-transport",
+      "priority": 21,
+      "stage": "transport",
+      "dependencies": [
+        "cavalieri2025-fig-2a"
+      ],
+      "plot_views": [
+        "Separate mu(Z) and lambda(Z) with log Z axes.",
+        "One facet per mixing rule; then model-difference panel."
+      ],
+      "quantities": [
+        "viscosity Pa s",
+        "conductivity W/(m K)"
+      ],
+      "note": "SFM uses Chung mixture rules; MFM uses Wilke viscosity and mixture-averaged conductivity with real O2/CH4 properties. Dense solver samples: continuous curve; sparse independent samples: visible markers plus optional shape-preserving interpolation. No extrapolation; retain raw coordinates and score raw data.",
+      "selected": true
+    },
+    {
+      "id": "cavalieri2025-fig-8a",
+      "paper": "cavalieri2025",
+      "number": "8a",
+      "page_index": 10,
+      "crop_pt": [
+        113,
+        48,
+        480,
+        198
+      ],
+      "crop_asset": "models/cavalieri2025/cavalieri2025-fig-8a.png",
+      "crop_sha256": "b8c0fcd3c0b6f9020f9fde5d4af110787dcde8b4190a76d4b4e62be51488dbf4",
+      "title": "LOx-side pseudo-boiling heat capacity and diffusion",
+      "caption": "LOx-side pseudo-boiling heat capacity and diffusion. TF oxidizer side; chi_st=1 and1000s^-1; SFM/MFM.",
+      "conditions": "TF oxidizer side; chi_st=1 and1000s^-1; SFM/MFM.",
+      "role": "laminar-pseudoboiling",
+      "priority": 22,
+      "stage": "transport",
+      "dependencies": [
+        "cavalieri2025-fig-2a",
+        "cavalieri2025-fig-3a"
+      ],
+      "plot_views": [
+        "Cp(Z) overview with a separate Z≈0.0038 zoom.",
+        "Diffusivity on log Z and log y, one strain per facet.",
+        "Per-model peak-location and peak-height summary with raw source uncertainty."
+      ],
+      "quantities": [
+        "cp kJ/(kg K)",
+        "rho-weighted diffusivity kg/(m s)"
+      ],
+      "note": "D=lambda/cp is density-weighted, not m2/s. Paper estimates Cp peaks≈31.5(SFM) and18(MFM)kJ/(kgK). Do not fit across under-resolved narrow peaks.",
+      "selected": true
+    },
+    {
+      "id": "schmitt2020-fig-2bc",
+      "paper": "schmitt2020",
+      "number": "2bc",
+      "page_index": 4,
+      "crop_pt": [
+        163,
+        500,
+        395,
+        575
+      ],
+      "crop_asset": "models/schmitt2020/schmitt2020-fig-2bc.png",
+      "crop_sha256": "b8c998b32138d26eb92a6990cf1db452ea69d9c7f516a101121a46a323484980",
+      "title": "G2 equilibrium baseline and species reduction",
+      "caption": "G2 equilibrium baseline and species reduction. CH4/O2 G2; seven retained species CH4,O2,H2O,CO2,CO,OH,H2; compare restricted equilibrium with detailed chemistry.",
+      "conditions": "CH4/O2 G2; seven retained species CH4,O2,H2O,CO2,CO,OH,H2; compare restricted equilibrium with detailed chemistry.",
+      "role": "chemistry-equilibrium",
+      "priority": 23,
+      "stage": "chemistry",
+      "dependencies": [
+        "schmitt2020-fig-1"
+      ],
+      "plot_views": [
+        "Separate species small multiples; one quantity per axis.",
+        "Methane temperature curve alone; H2 temperature excluded.",
+        "Detailed-equilibrium and restricted-species curves plus errors."
+      ],
+      "quantities": [
+        "species mass fractions",
+        "temperature K"
+      ],
+      "note": "Exact detailed chemistry equilibrium dataset not specified here; 83/300K and56bar are text setup values. Reduced-equilibrium OH peak intentionally differs.",
+      "selected": true
+    },
+    {
+      "id": "sharma2023-fig-1",
+      "paper": "sharma2023",
+      "number": "1",
+      "page_index": 5,
+      "crop_pt": [
+        89,
+        414,
+        506,
+        589
+      ],
+      "crop_asset": "models/sharma2023/sharma2023-fig-1.png",
+      "crop_sha256": "f4e2a87a6977e72b0ee507f37baef73e18b85aef89da581026146951cf0620db",
+      "title": "FGM manifold in mixture-fraction coordinates",
+      "caption": "FGM manifold in mixture-fraction coordinates. 60bar manifold; Zhukov–Kong mechanism;100mixture-fraction and100progress-variable nodes; c=1 burnt branch.",
+      "conditions": "60bar manifold; Zhukov–Kong mechanism;100mixture-fraction and100progress-variable nodes; c=1 burnt branch.",
+      "role": "fgm-table",
+      "priority": 30,
+      "stage": "fgm",
+      "dependencies": [
+        "cavalieri2025-fig-2a"
+      ],
+      "plot_views": [
+        "T(f,c) heatmap with selectable c slices; paper crop remains separate.",
+        "Burnt-state species as small multiples; optional overview limited to majors.",
+        "Table-interpolation error against direct flamelet values."
+      ],
+      "quantities": [
+        "temperature K",
+        "species mass fractions"
+      ],
+      "note": "Intermediate c values are not labeled in original Figure1(a), so only c=1 can be a precise digitization target without author data. Manifold inlet conditions need confirmation.",
+      "selected": true
+    },
+    {
+      "id": "sharma2023-fig-2",
+      "paper": "sharma2023",
+      "number": "2",
+      "page_index": 6,
+      "crop_pt": [
+        94,
+        116,
+        502,
+        290
+      ],
+      "crop_asset": "models/sharma2023/sharma2023-fig-2.png",
+      "crop_sha256": "19050226e69a62bbbbfafc6db39047e8fccaeb5388a7619167b2808c6d056fec",
+      "title": "FGM temperature and CO2 progress slices",
+      "caption": "FGM temperature and CO2 progress slices. 60bar manifold; f=0.1,0.2,0.4,0.6; c=(YCO2+YCO)/(YCO2eq+YCOeq), unburnt subtraction as needed.",
+      "conditions": "60bar manifold; f=0.1,0.2,0.4,0.6; c=(YCO2+YCO)/(YCO2eq+YCOeq), unburnt subtraction as needed.",
+      "role": "fgm-table",
+      "priority": 31,
+      "stage": "fgm",
+      "dependencies": [
+        "sharma2023-fig-1"
+      ],
+      "plot_views": [
+        "Two overview charts, T(c) and YCO2(c), four labeled mixture fractions.",
+        "One mixture-fraction view per f with paper, direct flamelet, interpolated table.",
+        "Show T and CO2 in vertically aligned axes; do not use dual y-axis."
+      ],
+      "quantities": [
+        "temperature K",
+        "CO2 mass fraction"
+      ],
+      "note": "Rich f=0.4/0.6 temperature is nonmonotonic in c; do not impose monotonic regression. Actual c normalization must use the recorded equilibrium. Dense solver samples: continuous curve; sparse independent samples: visible markers plus optional shape-preserving interpolation. No extrapolation; retain raw coordinates and score raw data.",
+      "selected": true
+    },
+    {
+      "id": "schmitt2020-fig-5",
+      "paper": "schmitt2020",
+      "number": "5",
+      "page_index": 9,
+      "crop_pt": [
+        44,
+        56,
+        394,
+        263
+      ],
+      "crop_asset": "models/schmitt2020/schmitt2020-fig-5.png",
+      "crop_sha256": "6cf13318d59f64a6289b46fc3c1374f4b0f91e03f24cd1bd0568ba86cd0dfa53",
+      "title": "Pure-oxygen contact-advection verification",
+      "caption": "Pure-oxygen contact-advection verification. p≈6MPa; rho1000→100kg/m3 erf interface;u=10m/s;dx=0.01m;n_x=2,4,6;t=20ms.",
+      "conditions": "p≈6MPa; rho1000→100kg/m3 erf interface;u=10m/s;dx=0.01m;n_x=2,4,6;t=20ms.",
+      "role": "solver-verification",
+      "priority": 40,
+      "stage": "numerics",
+      "dependencies": [
+        "schmitt2020-fig-1"
+      ],
+      "plot_views": [
+        "Four aligned fields versus x; one n_x per tab.",
+        "Pressure and velocity deviation from uniform initial values.",
+        "Conservation-budget time series alongside published final-state comparison."
+      ],
+      "quantities": [
+        "density kg/m3",
+        "temperature K",
+        "pressure MPa",
+        "velocity m/s"
+      ],
+      "note": "Compare exact transported interface and conservation separately from AVBP-specific artificial-viscosity curves. Never smooth pressure oscillations.",
+      "selected": true
+    },
+    {
+      "id": "schmitt2020-fig-6",
+      "paper": "schmitt2020",
+      "number": "6",
+      "page_index": 9,
+      "crop_pt": [
+        44,
+        379,
+        394,
+        585
+      ],
+      "crop_asset": "models/schmitt2020/schmitt2020-fig-6.png",
+      "crop_sha256": "bbeb55f0076ba098f6e42d3c24f9885e635dada54e5759afe7bd7ae88a6b754f",
+      "title": "Multispecies contact-advection verification",
+      "caption": "Multispecies contact-advection verification. Nonreacting H2/O2 interface;100K,60bar,u10m/s,dx0.01m;n_x=1e-5,2,4;t20ms.",
+      "conditions": "Nonreacting H2/O2 interface;100K,60bar,u10m/s,dx0.01m;n_x=1e-5,2,4;t20ms.",
+      "role": "solver-verification",
+      "priority": 41,
+      "stage": "numerics",
+      "dependencies": [
+        "schmitt2020-fig-5"
+      ],
+      "plot_views": [
+        "Four fields at20ms, one interface-width condition per tab.",
+        "Temperature/pressure error and energy defect versus time."
+      ],
+      "quantities": [
+        "density kg/m3",
+        "temperature K",
+        "pressure MPa",
+        "velocity m/s"
+      ],
+      "note": "The fully conservative AVBP calculation is unstable for n_x=1e-5. This is numerical verification, not G2 or reacting-flame validation. No smoothing of oscillations.",
+      "selected": true
+    },
+    {
+      "id": "cavalieri2025-fig-9a",
+      "paper": "cavalieri2025",
+      "number": "9a",
+      "page_index": 11,
+      "crop_pt": [
+        102,
+        50,
+        491,
+        234
+      ],
+      "crop_asset": "models/cavalieri2025/cavalieri2025-fig-9a.png",
+      "crop_sha256": "9588be964c741266766e1c4554c1ee5ff61a280ba889788a4bd15a215238041e",
+      "title": "Filtered Cp and subgrid variance near the LOx core",
+      "caption": "Filtered Cp and subgrid variance near the LOx core. TF LOx side; beta-PDF normalized variances0,0.005,0.05; SFM/MFM; selected LES instant.",
+      "conditions": "TF LOx side; beta-PDF normalized variances0,0.005,0.05; SFM/MFM; selected LES instant.",
+      "role": "fgm-pdf-and-les-diagnostic",
+      "priority": 50,
+      "stage": "fgm",
+      "dependencies": [
+        "cavalieri2025-fig-8a"
+      ],
+      "plot_views": [
+        "A priori PDF-convolved Cp curves per mixing rule as repeatable table checks.",
+        "Separate LES scatter/hexbin layer, colored by normalized variance.",
+        "Conditional-mean curve with bin counts and spread; raw points available."
+      ],
+      "quantities": [
+        "filtered cp kJ/(kg K)",
+        "normalized mixture-fraction variance"
+      ],
+      "note": "Paper conditional mean depends on a particular LES snapshot; use statistical comparison, not exact scatter matching. Effective turbulent Cp peak differs from laminar peak.",
+      "selected": true
+    },
+    {
+      "id": "cutrone2010-fig-5",
+      "paper": "cutrone2010",
+      "number": "5",
+      "page_index": 5,
+      "crop_pt": [
+        125,
+        57,
+        466,
+        212
+      ],
+      "crop_asset": "models/cutrone2010/cutrone2010-fig-5.png",
+      "crop_sha256": "fa3fe5b3167d6d0d422d77eb8607e21f62daaa951fd0f75ded00b59104cf5e3b",
+      "title": "Optional cold nitrogen mixing benchmark",
+      "caption": "Optional cold nitrogen mixing benchmark. RCM-1B2001:5.98MPa,128.7K,rho514kg/m3,u0.736m/s,d2.2mm;x/d5and25.",
+      "conditions": "RCM-1B2001:5.98MPa,128.7K,rho514kg/m3,u0.736m/s,d2.2mm;x/d5and25.",
+      "role": "optional-cold-flow",
+      "priority": 55,
+      "stage": "numerics",
+      "dependencies": [
+        "cavalieri2025-fig-1"
+      ],
+      "plot_views": [
+        "Two radial-density panels sharing R/d; measured points with uncertainty if obtained.",
+        "One model correction per view: ideal,EoS,EoS+caloric,fulltransport."
+      ],
+      "quantities": [
+        "density kg/m3"
+      ],
+      "note": "Separate nitrogen apparatus, not G2. Chamber ambient and inlet profile must come from sourcecase; do not invent missing BCs.",
+      "selected": false
+    },
+    {
+      "id": "cavalieri2025-fig-6",
+      "paper": "cavalieri2025",
+      "number": "6",
+      "page_index": 8,
+      "crop_pt": [
+        65,
+        383,
+        526,
+        619
+      ],
+      "crop_asset": "models/cavalieri2025/cavalieri2025-fig-6.png",
+      "crop_sha256": "9cb96be49fe1ac3fb4e50fe394cd664eafa27f2708d2fade345f5f2ce1928050",
+      "title": "G2 radial temperature and grid resolution",
+      "caption": "G2 radial temperature and grid resolution. TF56.1bar,O2 85K/44.4g/s,CH4 288K/143.1g/s;x15,45,70mm;60msstatistics.",
+      "conditions": "TF56.1bar,O2 85K/44.4g/s,CH4 288K/143.1g/s;x15,45,70mm;60msstatistics.",
+      "role": "les-statistics",
+      "priority": 60,
+      "stage": "statistics",
+      "dependencies": [
+        "cavalieri2025-fig-9a",
+        "schmitt2020-fig-6"
+      ],
+      "plot_views": [
+        "Mean and rms in separate rows; axial stations in columns.",
+        "Paper finest-grid curve plus our meshes; one solver/model per tab.",
+        "Mesh-difference and sampling-window convergence views."
+      ],
+      "quantities": [
+        "time-mean temperature K",
+        "temperature rms K"
+      ],
+      "note": "Paper M1/M2/M3≈6.3/13.1/23.7millioncells. Match averaging definition and enough flow-through time. This is numerical cross-code comparison, not measured temperature.",
+      "selected": true
+    },
+    {
+      "id": "sharma2023-fig-4b",
+      "paper": "sharma2023",
+      "number": "4b",
+      "page_index": 9,
+      "crop_pt": [
+        304,
+        494,
+        478,
+        645
+      ],
+      "crop_asset": "models/sharma2023/sharma2023-fig-4b.png",
+      "crop_sha256": "53c07302a1518aac57adaa5fb26d26e7de25cf804e2478bd8fdc7e7805d0033f",
+      "title": "FGM G2 centerline mean temperature",
+      "caption": "FGM G2 centerline mean temperature. G2 5.61MPa,85/288K;fine≈3M/finer≈6M cells;ensemble sampling after50flow-through times.",
+      "conditions": "G2 5.61MPa,85/288K;fine≈3M/finer≈6M cells;ensemble sampling after50flow-through times.",
+      "role": "les-statistics",
+      "priority": 61,
+      "stage": "statistics",
+      "dependencies": [
+        "sharma2023-fig-2",
+        "schmitt2020-fig-6"
+      ],
+      "plot_views": [
+        "Centerline T(x), paper fine/finer and our FGM mean.",
+        "Separate mean-temperature curve and flame-position interval; include sampling uncertainty."
+      ],
+      "quantities": [
+        "mean temperature K"
+      ],
+      "note": "Shaded experimental band is inferred flame location, not temperature measurement. Text swaps O2/CH4 mass flows; TableI and mass continuity need reconciliation before execution.",
+      "selected": true
+    },
+    {
+      "id": "schmitt2020-fig-21",
+      "paper": "schmitt2020",
+      "number": "21",
+      "page_index": 21,
+      "crop_pt": [
+        44,
+        484,
+        395,
+        592
+      ],
+      "crop_asset": "models/schmitt2020/schmitt2020-fig-21.png",
+      "crop_sha256": "4a635b11aeb701b427d684bf811c0cb20edb76c1ef8ab9cb6ec5c3844d638a66",
+      "title": "G2 centerline velocity and oxygen depletion",
+      "caption": "G2 centerline velocity and oxygen depletion. G2 curves only; Reynolds time statistics over50ms after one convective time; x/d with d oxygen diameter.",
+      "conditions": "G2 curves only; Reynolds time statistics over50ms after one convective time; x/d with d oxygen diameter.",
+      "role": "les-statistics",
+      "priority": 62,
+      "stage": "statistics",
+      "dependencies": [
+        "schmitt2020-fig-6"
+      ],
+      "plot_views": [
+        "Three aligned panels: velocity,mean O2,rms O2.",
+        "Show G2 only by default; C60/A60 optional context disabled.",
+        "Mark meanY_O2=0.1 crossing and central recirculation extent."
+      ],
+      "quantities": [
+        "mean axial velocity normalized by inlet",
+        "mean O2 mass fraction",
+        "O2 rms mass fraction"
+      ],
+      "note": "Schmitt defines flame length by centerlineY_O2<0.1, around12d forG2. This differs from optical peak, hot-zone length and Zst closure.",
+      "selected": true
+    },
+    {
+      "id": "cavalieri2025-fig-12",
+      "paper": "cavalieri2025",
+      "number": "12",
+      "page_index": 13,
+      "crop_pt": [
+        75,
+        325,
+        516,
+        488
+      ],
+      "crop_asset": "models/cavalieri2025/cavalieri2025-fig-12.png",
+      "crop_sha256": "87012cf00de52d09390f036c811bf94a1bbe8246c6fd6e6c8df03dd47eb4f183",
+      "title": "G2 mean OH* morphology: mixing-rule comparison",
+      "caption": "G2 mean OH* morphology: mixing-rule comparison. TF56.1bar,85/288K;SFM/MFM;partial-equilibrium OH*model;60msstatistics.",
+      "conditions": "TF56.1bar,85/288K;SFM/MFM;partial-equilibrium OH*model;60msstatistics.",
+      "role": "experimental-morphology",
+      "priority": 70,
+      "stage": "optics",
+      "dependencies": [
+        "cavalieri2025-fig-6"
+      ],
+      "plot_views": [
+        "One model per aligned comparison: mean OH* map and original source.",
+        "Extract axial/radial ridge and width separately with source-scale uncertainty.",
+        "Show OH mass fraction only in a separately labeled diagnostic."
+      ],
+      "quantities": [
+        "modeled OH* concentration mol/m3",
+        "experimental Abel-transformed emission"
+      ],
+      "note": "Paper explicitly says observation-area dimensions are unavailable and cannot support quantitative ranking of mixing models. Original lower-half experiment is third-party Singla material.",
+      "selected": true
+    },
+    {
+      "id": "schmitt2020-fig-18-g2",
+      "paper": "schmitt2020",
+      "number": "18-g2",
+      "page_index": 19,
+      "crop_pt": [
+        44,
+        461,
+        394,
+        564
+      ],
+      "crop_asset": "models/schmitt2020/schmitt2020-fig-18-g2.png",
+      "crop_sha256": "c0f681bd29891286a5a0d3cfc7a76aa944e35de4f4600fac987e8c42f1c96370",
+      "title": "G2 mean OH* shape with AVBP reference",
+      "caption": "G2 upper half: mean LES OH* concentration; lower half: Abel-transformed experimental OH* emission. Red and black dashed lines mark the experimental peak-emission positions on the two sides of the flame.",
+      "conditions": "G2 row only; LES mean over 50 ms. Retains the x/d ruler immediately above G2, with d the oxygen injector diameter.",
+      "role": "experimental-morphology",
+      "priority": 71,
+      "stage": "optics",
+      "dependencies": [
+        "schmitt2020-fig-21"
+      ],
+      "plot_views": [
+        "G2-only computed map and reference view with explicit coordinate calibration.",
+        "Ridge-line comparison and closure position; preserve upper/lower experimental spread."
+      ],
+      "quantities": [
+        "mean OH* concentration mol/m3",
+        "emission ridge position"
+      ],
+      "note": "The paper reports an OH* intensity mismatch and does not model optical absorption/re-emission or line-of-sight effects. Compare flame shape and peak-emission positions; do not interpret the experimental colors using the LES molar-concentration range. Only the G2 image and the x/d ruler printed immediately above it are retained. C60 and A60 data panels are excluded. No colorbar is retained; G2 has no separate colorbar in the original. The paper caption specifies 1e-6 to 1e-5 mol/m3 for the G2 LES color range; the experimental lower half is an emission visualization, not a calibrated molar-concentration field. The full ruler is retained to preserve its x/d label and ticks; its extent exceeds the G2 image width.",
+      "selected": true
+    },
+    {
+      "id": "sharma2023-fig-9",
+      "paper": "sharma2023",
+      "number": "9",
+      "page_index": 13,
+      "crop_pt": [
+        181,
+        300,
+        415,
+        444
+      ],
+      "crop_asset": "models/sharma2023/sharma2023-fig-9.png",
+      "crop_sha256": "770426b0312513bc28380503823e1404b7e45c7fe8c3fc18f5e0ad82544c8345",
+      "title": "G2 morphology from FGM LES",
+      "caption": "G2 morphology from FGM LES. G2;ensemble OH sampled every0.1ms;reported flame end≈60mm.",
+      "conditions": "G2;ensemble OH sampled every0.1ms;reported flame end≈60mm.",
+      "role": "experimental-morphology",
+      "priority": 72,
+      "stage": "optics",
+      "dependencies": [
+        "sharma2023-fig-4b"
+      ],
+      "plot_views": [
+        "One FGM mean OH map with experimental source and separate OH*proxy if implemented.",
+        "Compare flame shape and extent without equating intensity scales."
+      ],
+      "quantities": [
+        "mean OH mass fraction",
+        "experimental OH* emission"
+      ],
+      "note": "Original labels conflate concentration,OH,and temperature in surrounding prose. Preserve actual modeled OH versus excited OH* distinction.",
+      "selected": true
+    },
+    {
+      "id": "cutrone2010-fig-19",
+      "paper": "cutrone2010",
+      "number": "19",
+      "page_index": 11,
+      "crop_pt": [
+        303,
+        327,
+        552,
+        518
+      ],
+      "crop_asset": "models/cutrone2010/cutrone2010-fig-19.png",
+      "crop_sha256": "e5dd18df96a3b7aa24ff7ea4efc9c3efdf135e21681a576d4caff06878861398",
+      "title": "Historical G2 FPV morphology comparator",
+      "caption": "Historical G2 FPV morphology comparator. G2 5.61MPa,85/288K;LENI41species233reactions;C=YCO2+YH2O+YCO+YH2;PR EoS.",
+      "conditions": "G2 5.61MPa,85/288K;LENI41species233reactions;C=YCO2+YH2O+YCO+YH2;PR EoS.",
+      "role": "historical-morphology",
+      "priority": 73,
+      "stage": "context",
+      "dependencies": [
+        "cavalieri2025-fig-6"
+      ],
+      "plot_views": [
+        "One FPV computed OH map and original crop.",
+        "Separate ridge-angle summary over first25–30mm and downstream expansion."
+      ],
+      "quantities": [
+        "computed OH mass fraction",
+        "experimental optical emission"
+      ],
+      "note": "Original admits no scale for quantitative OH; computed angle downstream≈26deg versus experimental≈11deg. Shape disagreement is retained, not an acceptance standard.",
+      "selected": true
+    }
+  ]
+}

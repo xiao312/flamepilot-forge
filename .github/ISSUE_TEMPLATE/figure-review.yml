@@ -1,0 +1,22 @@
+name: Figure review
+description: Comment on an exact target and evidence generation
+title: "[Figure review] "
+body:
+  - type: textarea
+    id: identity
+    attributes:
+      label: Target and generation
+      description: Paste the target, view, URL, and hashes from the study feedback link.
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: Observation and requested evidence
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Review scope and conditions
+      description: State the exact conditions and observable. An issue does not itself record acceptance.

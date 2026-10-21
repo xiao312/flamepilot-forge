@@ -1,0 +1,1985 @@
+{
+  "schema": "forge-series-v1",
+  "target": "liang-3",
+  "units": {
+    "x": "equivalence ratio",
+    "y": "cm/s"
+  },
+  "provenance": {
+    "retained_snapshot": "835acf11186cc3b46a86e57fb5faef358d317fc23b4acd58dcb1a699cd3d11be",
+    "source_revision": "a73a6caa7b54ca32e112cd79adac1f7d36d875f6",
+    "capture": "Retained checkpoints imported on 2026-10-21; no fresh solver execution.",
+    "paper_duplicate_x": "Original digitized rows remain in the legacy table. Exact repeated x coordinates are omitted from display interpolation."
+  },
+  "series": [
+    {
+      "id": "cantera-1",
+      "label": "Cantera · Case 1",
+      "case": "1",
+      "engine": "cantera",
+      "origin": "computed",
+      "points": [
+        {
+          "x": 0.6,
+          "y": 4.104880949423651,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072763",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.8,
+          "y": 19.46601008096781,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072765",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.85,
+          "y": 24.69260288249702,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072768",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.9,
+          "y": 30.16361532865465,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072769",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.95,
+          "y": 35.83464489610972,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072772",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1,
+          "y": 42.17774766959314,
+          "case": "1",
+          "origin": "computed",
+          "job": "125068730",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.05,
+          "y": 49.87735476073752,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072773",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.1,
+          "y": 57.21439463567304,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072775",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.15,
+          "y": 63.13475957512865,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072777",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.2,
+          "y": 67.69282850113927,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072778",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.25,
+          "y": 71.11543040098418,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072780",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.3,
+          "y": 73.5611461512044,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072781",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.35,
+          "y": 75.19174551093452,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072782",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.4,
+          "y": 76.13211436474035,
+          "case": "1",
+          "origin": "computed",
+          "job": "125068733",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.5,
+          "y": 76.37233541346046,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072783",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.6,
+          "y": 74.94283384214756,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072787",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.7,
+          "y": 72.39512729964046,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072788",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.8,
+          "y": 69.0762835661496,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072789",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.9,
+          "y": 65.2705908751508,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072790",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2,
+          "y": 61.22017143366818,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072792",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.1,
+          "y": 57.05785310643506,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072794",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.2,
+          "y": 52.85665405697175,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072796",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.4,
+          "y": 44.85469648839352,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072798",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.6,
+          "y": 37.66426740111945,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072801",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.8,
+          "y": 31.50002090398147,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072803",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 3,
+          "y": 26.28535329802645,
+          "case": "1",
+          "origin": "computed",
+          "job": "125072804",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        }
+      ]
+    },
+    {
+      "id": "cantera-2",
+      "label": "Cantera · Case 2",
+      "case": "2",
+      "engine": "cantera",
+      "origin": "computed",
+      "points": [
+        {
+          "x": 0.6,
+          "y": 4.255840830641485,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072806",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.8,
+          "y": 20.15186176542451,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072815",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.85,
+          "y": 25.63265580793349,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072825",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.9,
+          "y": 31.29151470489911,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072828",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.95,
+          "y": 37.2316443102854,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072836",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1,
+          "y": 43.83763652662744,
+          "case": "2",
+          "origin": "computed",
+          "job": "125068903",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.05,
+          "y": 51.80953641715222,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072837",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.1,
+          "y": 59.39270702998409,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072839",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.15,
+          "y": 65.52079829553828,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072843",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.2,
+          "y": 70.25717427828067,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072845",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.25,
+          "y": 73.82235189651706,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072847",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.3,
+          "y": 76.37478612438746,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072848",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.35,
+          "y": 78.08922617222815,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072853",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.4,
+          "y": 79.09530787155403,
+          "case": "2",
+          "origin": "computed",
+          "job": "125068968",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.5,
+          "y": 79.40530992409141,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072857",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.6,
+          "y": 77.98053379518453,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072862",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.7,
+          "y": 75.38626112600339,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072866",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.8,
+          "y": 71.98357944271824,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072868",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.9,
+          "y": 68.06586599578218,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072871",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2,
+          "y": 63.87862943610335,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072872",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.1,
+          "y": 59.57242323412376,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072874",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.2,
+          "y": 55.22654369664794,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072875",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.4,
+          "y": 46.92030690396704,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072878",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.6,
+          "y": 39.43862241784687,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072879",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.8,
+          "y": 33.00314643192571,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072881",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 3,
+          "y": 27.56251396300313,
+          "case": "2",
+          "origin": "computed",
+          "job": "125072883",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        }
+      ]
+    },
+    {
+      "id": "cantera-3",
+      "label": "Cantera · Case 3",
+      "case": "3",
+      "engine": "cantera",
+      "origin": "computed",
+      "points": [
+        {
+          "x": 0.85,
+          "y": 23.93145407467416,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074894",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.9,
+          "y": 29.43002343618288,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074895",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.95,
+          "y": 35.11078526992354,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074898",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1,
+          "y": 41.47772363027754,
+          "case": "3",
+          "origin": "computed",
+          "job": "125068909",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.05,
+          "y": 49.22702151074435,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074902",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.1,
+          "y": 56.60136156661756,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074904",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.15,
+          "y": 62.53233584567386,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074906",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.2,
+          "y": 67.09310749365798,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074907",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.25,
+          "y": 70.51914355495836,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074916",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.3,
+          "y": 72.96783245451573,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074920",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.35,
+          "y": 74.59902280021777,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074921",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.4,
+          "y": 75.54796559163182,
+          "case": "3",
+          "origin": "computed",
+          "job": "125068982",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.5,
+          "y": 75.79999784639742,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074927",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.6,
+          "y": 74.3924007457472,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074928",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.7,
+          "y": 71.86181305927836,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074929",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.8,
+          "y": 68.55958807471548,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074931",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.9,
+          "y": 64.7722739920539,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074933",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2,
+          "y": 60.73434131480933,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074935",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.1,
+          "y": 56.58739690378831,
+          "case": "3",
+          "origin": "computed",
+          "job": "125074936",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        }
+      ]
+    },
+    {
+      "id": "cantera-3star",
+      "label": "Cantera · Case 3star",
+      "case": "3star",
+      "engine": "cantera",
+      "origin": "computed",
+      "points": [
+        {
+          "x": 0.85,
+          "y": 24.12810958715226,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074765",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.9,
+          "y": 29.64582634593004,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074769",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 0.95,
+          "y": 35.35133534529874,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074771",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1,
+          "y": 41.75030173395459,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125068920",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.05,
+          "y": 49.53503476480006,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074772",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.1,
+          "y": 56.93707575490862,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074775",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.15,
+          "y": 62.89698210840206,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074777",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.2,
+          "y": 67.48437556516804,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074781",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.25,
+          "y": 70.93221162900188,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074791",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.3,
+          "y": 73.40175148267215,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074809",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.35,
+          "y": 75.05078388944723,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074824",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.4,
+          "y": 76.0141365962198,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125068986",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.5,
+          "y": 76.28549350940396,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074854",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.6,
+          "y": 74.88362873673543,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074859",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.7,
+          "y": 72.35766679205075,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074868",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.8,
+          "y": 69.0520264034602,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074876",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.9,
+          "y": 65.25489841444173,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074887",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2,
+          "y": 61.20665017920322,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074890",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.1,
+          "y": 57.05765076376329,
+          "case": "3star",
+          "origin": "computed",
+          "job": "125074892",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        }
+      ]
+    },
+    {
+      "id": "cantera-4",
+      "label": "Cantera · Case 4",
+      "case": "4",
+      "engine": "cantera",
+      "origin": "computed",
+      "points": [
+        {
+          "x": 1,
+          "y": 42.05638309199814,
+          "case": "4",
+          "origin": "computed",
+          "job": "125068929",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.05,
+          "y": 49.85944248028282,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074937",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.1,
+          "y": 57.27369122037923,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074939",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.15,
+          "y": 63.23924881258321,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074940",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.2,
+          "y": 67.82548527311334,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074944",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.25,
+          "y": 71.26951730846358,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074946",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.3,
+          "y": 73.72929119616381,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074947",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.35,
+          "y": 75.36564960717723,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074955",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.4,
+          "y": 76.31516854660163,
+          "case": "4",
+          "origin": "computed",
+          "job": "125068993",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.5,
+          "y": 76.55498823793486,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074957",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.6,
+          "y": 75.12391843972208,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074961",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.7,
+          "y": 72.56255875496042,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074967",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.8,
+          "y": 69.22446093986274,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074976",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.9,
+          "y": 65.3974575461911,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074982",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2,
+          "y": 61.30567692238643,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074988",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.1,
+          "y": 57.11535465897909,
+          "case": "4",
+          "origin": "computed",
+          "job": "125074995",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        }
+      ]
+    },
+    {
+      "id": "cantera-5",
+      "label": "Cantera · Case 5",
+      "case": "5",
+      "engine": "cantera",
+      "origin": "computed",
+      "points": [
+        {
+          "x": 1,
+          "y": 41.18679101934151,
+          "case": "5",
+          "origin": "computed",
+          "job": "125068936",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.05,
+          "y": 48.93376807564893,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075058",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.1,
+          "y": 56.33684501435041,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075080",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.15,
+          "y": 62.27983842157171,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075087",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.2,
+          "y": 66.86526053187559,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075096",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.25,
+          "y": 70.31524703776897,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075109",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.3,
+          "y": 72.78240375012884,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075111",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.35,
+          "y": 74.42793270913084,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075114",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.4,
+          "y": 75.38319697195188,
+          "case": "5",
+          "origin": "computed",
+          "job": "125069018",
+          "source": "ff39189850d8ec83277e3abe093cfc037f8da900",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.5,
+          "y": 75.64273457309102,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075115",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.6,
+          "y": 74.24697146965471,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075117",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.7,
+          "y": 71.72067853111689,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075118",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.8,
+          "y": 68.39856237424551,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075121",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 1.9,
+          "y": 64.6289908139311,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075122",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2,
+          "y": 60.56411673435962,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075123",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        },
+        {
+          "x": 2.1,
+          "y": 56.44233269759897,
+          "case": "5",
+          "origin": "computed",
+          "job": "125075126",
+          "source": "cd62786661d050bcc9ea29023c8a1e3cd41ad41c",
+          "build_identity_basis": "Historical source-to-build registry association; original jobs lack direct build-path records. Result files and source-revision were observed."
+        }
+      ]
+    },
+    {
+      "id": "paper-1",
+      "label": "Paper · Case 1",
+      "case": "1",
+      "engine": "paper",
+      "origin": "paper",
+      "points": [
+        {
+          "x": 1.0500000000000003,
+          "y": 50.13975017835139,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.1000000000000005,
+          "y": 57.33257901272225,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.1500000000000004,
+          "y": 63.10972660115756,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.2000000000000006,
+          "y": 67.59657019671904,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.2500000000000004,
+          "y": 70.93557571718672,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.3000000000000007,
+          "y": 73.31507657414463,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.3500000000000005,
+          "y": 74.90224009291693,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.4000000000000008,
+          "y": 75.82811940131275,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.4500000000000006,
+          "y": 76.16419539677419,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.5000000000000009,
+          "y": 76.0290405606813,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.5500000000000007,
+          "y": 75.495236294746,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.600000000000001,
+          "y": 74.63917776947781,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.6500000000000008,
+          "y": 73.50185356124152,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.700000000000001,
+          "y": 72.12157061455574,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.7500000000000009,
+          "y": 70.53751057634776,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.8000000000000012,
+          "y": 68.8051979492979,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.850000000000001,
+          "y": 66.97877519498023,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.9000000000000012,
+          "y": 65.06265718796546,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.950000000000001,
+          "y": 63.04550504578661,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 2.0000000000000013,
+          "y": 60.97886420190959,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 2.050000000000001,
+          "y": 58.89885177928423,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        }
+      ]
+    },
+    {
+      "id": "paper-2",
+      "label": "Paper · Case 2",
+      "case": "2",
+      "engine": "paper",
+      "origin": "paper",
+      "points": [
+        {
+          "x": 1.0500000000000003,
+          "y": 52.03075540674065,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.1000000000000005,
+          "y": 59.4182909920838,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.1500000000000004,
+          "y": 65.4606347443676,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.2000000000000006,
+          "y": 70.10893907912636,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.2500000000000004,
+          "y": 73.5868881352045,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.3000000000000007,
+          "y": 76.09216463330219,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.3500000000000005,
+          "y": 77.7775932663888,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.4000000000000008,
+          "y": 78.76655368979091,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.4500000000000006,
+          "y": 79.15192282719879,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.5000000000000009,
+          "y": 79.04837182800698,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.5500000000000007,
+          "y": 78.52808465805818,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.600000000000001,
+          "y": 77.66743811484953,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.6500000000000008,
+          "y": 76.5097747702777,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.700000000000001,
+          "y": 75.1091461448533,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.7500000000000009,
+          "y": 73.50509391649624,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.8000000000000012,
+          "y": 71.73458034060957,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.850000000000001,
+          "y": 69.82758294706844,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.9000000000000012,
+          "y": 67.82606351129442,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.950000000000001,
+          "y": 65.75279138631966,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 2.0000000000000013,
+          "y": 63.63949019835499,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 2.050000000000001,
+          "y": 61.505318659802,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        }
+      ]
+    },
+    {
+      "id": "paper-3star",
+      "label": "Paper · Case 3star",
+      "case": "3star",
+      "engine": "paper",
+      "origin": "paper",
+      "points": [
+        {
+          "x": 1.05,
+          "y": 49.699546992836474,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.333294041081131
+        },
+        {
+          "x": 1.0999,
+          "y": 57.17367022046924,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.3331800912838438
+        },
+        {
+          "x": 1.15,
+          "y": 62.5482018162817,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.3331800912838438
+        },
+        {
+          "x": 1.2,
+          "y": 67.16468939793661,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.3331792147469416
+        },
+        {
+          "x": 1.25,
+          "y": 70.5023482068925,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.333294041081131
+        },
+        {
+          "x": 1.3,
+          "y": 72.87561481993117,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.3331792147469416
+        },
+        {
+          "x": 1.35,
+          "y": 74.48188184128242,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.333294041081131
+        },
+        {
+          "x": 1.4,
+          "y": 75.47797837695255,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.333294041081131
+        },
+        {
+          "x": 1.5,
+          "y": 75.75819495307209,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.33111146419463094
+        },
+        {
+          "x": 1.6,
+          "y": 74.52887824383124,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.33088181152625223
+        },
+        {
+          "x": 1.7,
+          "y": 72.0366918692699,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.3331792147469416
+        },
+        {
+          "x": 1.8,
+          "y": 68.943517609615,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.3309966378604416
+        },
+        {
+          "x": 1.9001,
+          "y": 65.19973471083247,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.333294041081131
+        },
+        {
+          "x": 2,
+          "y": 61.08117531145704,
+          "case": "3star",
+          "origin": "paper",
+          "uncertainty": 0.333294041081131
+        }
+      ]
+    },
+    {
+      "id": "paper-3",
+      "label": "Paper · Case 3",
+      "case": "3",
+      "engine": "paper",
+      "origin": "paper",
+      "points": [
+        {
+          "x": 1.0999,
+          "y": 52.180348029575015,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.3331800912838438
+        },
+        {
+          "x": 1.15,
+          "y": 58.03063931287318,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.33306438841275227
+        },
+        {
+          "x": 1.2,
+          "y": 62.66033016988606,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.3334097439522225
+        },
+        {
+          "x": 1.25,
+          "y": 66.19995798223822,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.333294041081131
+        },
+        {
+          "x": 1.3,
+          "y": 68.80886576377148,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.3309966378604416
+        },
+        {
+          "x": 1.35,
+          "y": 70.64607308621079,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.33340886741532033
+        },
+        {
+          "x": 1.4,
+          "y": 71.8145011595397,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.33111146419463094
+        },
+        {
+          "x": 1.5,
+          "y": 72.5213010733203,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.33340886741532033
+        },
+        {
+          "x": 1.6,
+          "y": 71.61952253793855,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.333294041081131
+        },
+        {
+          "x": 1.7,
+          "y": 69.51980293173052,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.333294041081131
+        },
+        {
+          "x": 1.8,
+          "y": 66.6016196226957,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.3309966378604416
+        },
+        {
+          "x": 1.9001,
+          "y": 63.10691695619244,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.33099576132353936
+        },
+        {
+          "x": 2,
+          "y": 59.42803898540778,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.33111146419463094
+        }
+      ]
+    },
+    {
+      "id": "paper-4",
+      "label": "Paper · Case 4",
+      "case": "4",
+      "engine": "paper",
+      "origin": "paper",
+      "points": [
+        {
+          "x": 1.1000000000000005,
+          "y": 51.65794478035992,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.7589609520864358
+        },
+        {
+          "x": 1.1500000000000004,
+          "y": 58.86005420406307,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.6271454397994163
+        },
+        {
+          "x": 1.2000000000000006,
+          "y": 63.593351129720176,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.9007324839875068
+        },
+        {
+          "x": 1.2500000000000004,
+          "y": 66.09780641438795,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.3000000000000007,
+          "y": 67.99171318411165,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.6115053041989384
+        },
+        {
+          "x": 1.3500000000000005,
+          "y": 69.34084844523616,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.42122403181549406
+        },
+        {
+          "x": 1.4000000000000008,
+          "y": 70.18408511733033,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.3494823993175331
+        },
+        {
+          "x": 1.4500000000000006,
+          "y": 70.56398583775825,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.1726296694218619
+        },
+        {
+          "x": 1.5000000000000009,
+          "y": 70.52604763503825,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.15896703290398342
+        },
+        {
+          "x": 1.5500000000000007,
+          "y": 70.11309857888244,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.284692476943998
+        },
+        {
+          "x": 1.600000000000001,
+          "y": 69.36869414532663,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.4052463133859405
+        },
+        {
+          "x": 1.6500000000000008,
+          "y": 68.33943507017317,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.5866207245899446
+        },
+        {
+          "x": 1.700000000000001,
+          "y": 67.06332850177066,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.7500000000000009,
+          "y": 65.5850633139542,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.8000000000000012,
+          "y": 63.94599623342766,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.4549051012907228
+        },
+        {
+          "x": 1.850000000000001,
+          "y": 62.20030663943374,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.9000000000000012,
+          "y": 60.37727158042355,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.8117229156480719
+        },
+        {
+          "x": 1.950000000000001,
+          "y": 58.53730498001323,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.6263613870963554
+        },
+        {
+          "x": 2.0000000000000013,
+          "y": 56.710192234542234,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 2.050000000000001,
+          "y": 54.86331299151774,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.5826787896728789
+        }
+      ]
+    },
+    {
+      "id": "paper-5",
+      "label": "Paper · Case 5",
+      "case": "5",
+      "engine": "paper",
+      "origin": "paper",
+      "points": [
+        {
+          "x": 1.1000000000000005,
+          "y": 50.24299933479386,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.7755379535536548
+        },
+        {
+          "x": 1.1500000000000004,
+          "y": 57.5228659130494,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.9671871938167016
+        },
+        {
+          "x": 1.2000000000000006,
+          "y": 62.11405601983671,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.6304914923905927
+        },
+        {
+          "x": 1.2500000000000004,
+          "y": 64.46080697377649,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.3000000000000007,
+          "y": 66.21487929382862,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.5402295060529767
+        },
+        {
+          "x": 1.3500000000000005,
+          "y": 67.47672657293424,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.4272707756235363
+        },
+        {
+          "x": 1.4000000000000008,
+          "y": 68.27386173246784,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.34527273064393715
+        },
+        {
+          "x": 1.4500000000000006,
+          "y": 68.64121920956828,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.17448738892847906
+        },
+        {
+          "x": 1.5000000000000009,
+          "y": 68.62567229710577,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.14850244246401736
+        },
+        {
+          "x": 1.5500000000000007,
+          "y": 68.25652778077473,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.2662684467581855
+        },
+        {
+          "x": 1.600000000000001,
+          "y": 67.57997374209852,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.3729718207179886
+        },
+        {
+          "x": 1.6500000000000008,
+          "y": 66.6314291934842,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.5274002320381712
+        },
+        {
+          "x": 1.700000000000001,
+          "y": 65.45061181451885,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.7500000000000009,
+          "y": 64.06511759914694,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.8000000000000012,
+          "y": 62.52784646260714,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.6151002688015865
+        },
+        {
+          "x": 1.850000000000001,
+          "y": 60.870217306190575,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.6675282236660209
+        },
+        {
+          "x": 1.9000000000000012,
+          "y": 59.13240398030919,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        },
+        {
+          "x": 1.950000000000001,
+          "y": 57.35702490300319,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.580984806555189
+        },
+        {
+          "x": 2.0000000000000013,
+          "y": 55.577739887991555,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.8007830645635565
+        },
+        {
+          "x": 2.050000000000001,
+          "y": 53.76259335733701,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.08398418352525575
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "forge-plot-v1",
+  "id": "case-1-oh",
+  "title": "Case 1 · OH-front checkpoints",
+  "x": {
+    "label": "Equivalence ratio, φ"
+  },
+  "y": {
+    "label": "Laminar flame speed (cm/s)"
+  },
+  "series": [
+    "cantera-1",
+    "paper-1",
+    "developed-energy-historical-oh",
+    "reactingfoam-stock-oh",
+    "deepflame-deepflame-oh"
+  ],
+  "smoothing": "pchip",
+  "colorBy": "engine",
+  "smoothingBySeries": {
+    "developed-energy-historical-oh": "points",
+    "reactingfoam-stock-oh": "points",
+    "deepflame-deepflame-oh": "points"
+  },
+  "subtitle": "Cantera: PCHIP guide · CFD: transient markers · dashed: paper traces",
+  "renderer": "forge-series-v1",
+  "interpolation_is_evidence": false,
+  "source_target": "liang-8a"
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f7fa">
+<title>Forge · Figure review</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="review.css"><link rel="stylesheet" href="workspace.css"></head>
+<body>
+<a class="skip" href="#comparisons">Skip to comparisons</a>
+<header class="app-header"><a class="brand" href="#top"><svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V4h14M5 11h10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Forge</span><span class="brand-parent">FlamePilot</span></a><nav aria-label="Page"><a href="#comparisons">Comparisons</a><a href="#targets">Targets</a><a href="#references">References</a><a href="#intake">Add a paper</a></nav></header>
+<main id="top">
+<div class="intro"><div><h1>Figure review</h1><p>Compare evidence for the next step in CFD verification and validation.</p></div><div class="workspace-actions" id="workspace-actions"><p class="connection-state" id="connection-status" data-state="local">Local workspace</p><div class="action-buttons"><button id="export">Export feedback <span id="draft-count">(0)</span></button></div></div></div>
+<aside class="notice"><strong>Local review preview.</strong> Drafts stay in this browser until exported. They are not sent to an agent or recorded as scientific acceptance. <span id="checkpoint"></span></aside>
+<p id="message" role="status" aria-live="polite"></p>
+<noscript><p class="notice">Enable JavaScript to load the retained figures and manage local feedback drafts.</p></noscript>
+<section id="comparisons" aria-labelledby="comparison-title"><div class="section-heading"><h2 id="comparison-title">Comparisons</h2><span id="count"></span></div>
+<div class="filters"><label>Find a figure<input id="search" type="search" placeholder="Figure, paper, or subject"></label><label>Paper<select id="paper"><option value="all">All papers</option></select></label><label>Show<select id="status"><option value="review">Imported comparisons</option><option value="all">All figure targets</option><option value="not_imported">Not imported</option></select></label></div>
+<div id="figures"></div><p id="empty" hidden>No figures match these filters. Try another paper or search term.</p></section>
+<section id="targets" aria-labelledby="target-title"><div class="section-heading"><h2 id="target-title">Target register</h2><span>Priority changes are drafts</span></div><p>Stable figure IDs retain their history. Rank changes do not cancel runs or change scientific criteria.</p><div class="table-wrap" role="region" aria-label="Target register table" tabindex="0"><table><caption class="visually-hidden">Figure targets and local scheduling drafts</caption><thead><tr><th scope="col">Target</th><th scope="col">Import state</th><th scope="col">Priority</th><th scope="col">Order</th><th scope="col">Action</th></tr></thead><tbody id="target-rows"></tbody></table></div></section>
+<section id="references" aria-labelledby="references-title"><h2 id="references-title">References</h2><div id="reference-list"></div></section>
+<section id="intake" aria-labelledby="intake-title"><h2 id="intake-title">Add a paper</h2><p>Select a downloaded PDF to create a receipt and check for duplicates. The file stays on your device.</p><div class="intake-fields"><label>Downloaded PDF<input id="pdf" type="file" accept=".pdf,application/pdf"></label><label>DOI or publisher URL (optional)<input id="pdf-reference" type="text" placeholder="10.… or https://…"></label></div><p id="pdf-status" role="status">No PDF selected. Receipts export with feedback; attach the PDF separately.</p></section>
+<footer>Retained results and supplied paper crops · No solver jobs start from this page.</footer>
+</main><script type="module" src="app.js"></script></body></html>

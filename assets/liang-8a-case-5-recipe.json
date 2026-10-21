@@ -1,0 +1,21 @@
+{
+  "schema": "forge-plot-v1",
+  "id": "case-5",
+  "title": "Case 5 · method comparison",
+  "x": {
+    "label": "Equivalence ratio, φ"
+  },
+  "y": {
+    "label": "Laminar flame speed (cm/s)"
+  },
+  "series": [
+    "cantera-5",
+    "paper-5"
+  ],
+  "smoothing": "pchip",
+  "colorBy": "engine",
+  "smoothingBySeries": {},
+  "renderer": "forge-series-v1",
+  "interpolation_is_evidence": false,
+  "source_target": "liang-8a"
+}

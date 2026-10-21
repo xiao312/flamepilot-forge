@@ -1,0 +1,4211 @@
+{
+  "figure": "liang-8a",
+  "x_unit": "1",
+  "y_label": "Laminar flame speed (cm/s)",
+  "rows": [
+    {
+      "case": "1",
+      "phi": 0.92,
+      "value": 5.990352704426165,
+      "origin": "computed",
+      "job": "124919999",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "1",
+      "phi": 0.95,
+      "value": 6.379410650711995,
+      "origin": "computed",
+      "job": "124920002",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "1",
+      "phi": 1.0,
+      "value": 6.910556897431561,
+      "origin": "computed",
+      "job": "124920005",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "1",
+      "phi": 1.02,
+      "value": 7.096915248337034,
+      "origin": "computed",
+      "job": "124940112",
+      "source": "96ba5de3776c72a2925d8db75a4a39d73d3eb1c1",
+      "build_job": "124939982"
+    },
+    {
+      "case": "1",
+      "phi": 1.05,
+      "value": 7.324550779486868,
+      "origin": "computed",
+      "job": "124920010",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "1",
+      "phi": 1.1,
+      "value": 7.461702833306255,
+      "origin": "computed",
+      "job": "124920014",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "1",
+      "phi": 1.15,
+      "value": 7.33869342194257,
+      "origin": "computed",
+      "job": "124920017",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "1",
+      "phi": 1.2,
+      "value": 7.115844489565243,
+      "origin": "computed",
+      "job": "124920020",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "1",
+      "phi": 1.25,
+      "value": 6.868865867632599,
+      "origin": "computed",
+      "job": "124920023",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "1",
+      "phi": 1.3,
+      "value": 6.614454323655951,
+      "origin": "computed",
+      "job": "124920027",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "1",
+      "phi": 1.35,
+      "value": 6.36147819695285,
+      "origin": "computed",
+      "job": "124920030",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "1",
+      "phi": 1.4,
+      "value": 6.116619431452803,
+      "origin": "computed",
+      "job": "124920034",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "1",
+      "phi": 1.44,
+      "value": 5.929065249252011,
+      "origin": "computed",
+      "job": "124920037",
+      "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+      "build_job": "124919933"
+    },
+    {
+      "case": "2",
+      "phi": 0.92,
+      "value": 6.019086317174071,
+      "origin": "computed",
+      "job": "124937455",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "2",
+      "phi": 0.95,
+      "value": 6.40887160766699,
+      "origin": "computed",
+      "job": "124937457",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "2",
+      "phi": 1.0,
+      "value": 6.93999508712814,
+      "origin": "computed",
+      "job": "124937459",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "2",
+      "phi": 1.02,
+      "value": 7.124864577444933,
+      "origin": "computed",
+      "job": "124938865",
+      "source": "a10cd1b647a53016b9aa5a918a1a3af1dfddc2e1",
+      "build_job": "124938314"
+    },
+    {
+      "case": "2",
+      "phi": 1.05,
+      "value": 7.348059844624125,
+      "origin": "computed",
+      "job": "124937461",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "2",
+      "phi": 1.1,
+      "value": 7.478315807644632,
+      "origin": "computed",
+      "job": "124937462",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "2",
+      "phi": 1.15,
+      "value": 7.349020256616656,
+      "origin": "computed",
+      "job": "124937463",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "2",
+      "phi": 1.2,
+      "value": 7.120137569982892,
+      "origin": "computed",
+      "job": "124937464",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "2",
+      "phi": 1.25,
+      "value": 6.868243167696382,
+      "origin": "computed",
+      "job": "124937466",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "2",
+      "phi": 1.3,
+      "value": 6.610059533661349,
+      "origin": "computed",
+      "job": "124937467",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "2",
+      "phi": 1.35,
+      "value": 6.353785969676514,
+      "origin": "computed",
+      "job": "124937468",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "2",
+      "phi": 1.4,
+      "value": 6.106087675972156,
+      "origin": "computed",
+      "job": "124937469",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "2",
+      "phi": 1.44,
+      "value": 5.916167754916478,
+      "origin": "computed",
+      "job": "124937473",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 0.92,
+      "value": 5.649955244699904,
+      "origin": "computed",
+      "job": "124937474",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 0.95,
+      "value": 6.027258998404866,
+      "origin": "computed",
+      "job": "124937478",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 1.0,
+      "value": 6.540947567612079,
+      "origin": "computed",
+      "job": "124937482",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 1.02,
+      "value": 6.719080624924533,
+      "origin": "computed",
+      "job": "124938868",
+      "source": "a10cd1b647a53016b9aa5a918a1a3af1dfddc2e1",
+      "build_job": "124938314"
+    },
+    {
+      "case": "3",
+      "phi": 1.05,
+      "value": 6.93891337127862,
+      "origin": "computed",
+      "job": "124937486",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 1.1,
+      "value": 7.061554837536449,
+      "origin": "computed",
+      "job": "124937487",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 1.15,
+      "value": 6.932695727433341,
+      "origin": "computed",
+      "job": "124937488",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 1.2,
+      "value": 6.714166889763224,
+      "origin": "computed",
+      "job": "124937494",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 1.25,
+      "value": 6.473972635922041,
+      "origin": "computed",
+      "job": "124937496",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 1.3,
+      "value": 6.225986603270626,
+      "origin": "computed",
+      "job": "124937498",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 1.35,
+      "value": 5.98292534436395,
+      "origin": "computed",
+      "job": "124937499",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 1.4,
+      "value": 5.748140586382971,
+      "origin": "computed",
+      "job": "124937501",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "3",
+      "phi": 1.44,
+      "value": 5.568595584939551,
+      "origin": "computed",
+      "job": "124937503",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 0.92,
+      "value": 5.712783729893163,
+      "origin": "computed",
+      "job": "124937513",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 0.95,
+      "value": 6.093605196501859,
+      "origin": "computed",
+      "job": "124937517",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 1.0,
+      "value": 6.612824661203528,
+      "origin": "computed",
+      "job": "124937518",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 1.02,
+      "value": 6.79401089237185,
+      "origin": "computed",
+      "job": "124938872",
+      "source": "a10cd1b647a53016b9aa5a918a1a3af1dfddc2e1",
+      "build_job": "124938314"
+    },
+    {
+      "case": "4",
+      "phi": 1.05,
+      "value": 7.013714119685273,
+      "origin": "computed",
+      "job": "124937519",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 1.1,
+      "value": 7.134648247403376,
+      "origin": "computed",
+      "job": "124937521",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 1.15,
+      "value": 7.003237094620751,
+      "origin": "computed",
+      "job": "124937522",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 1.2,
+      "value": 6.781166892656194,
+      "origin": "computed",
+      "job": "124937523",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 1.25,
+      "value": 6.538187745108661,
+      "origin": "computed",
+      "job": "124937524",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 1.3,
+      "value": 6.288280914124998,
+      "origin": "computed",
+      "job": "124937527",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 1.35,
+      "value": 6.04314335640305,
+      "origin": "computed",
+      "job": "124937528",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 1.4,
+      "value": 5.807094458279634,
+      "origin": "computed",
+      "job": "124937529",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "4",
+      "phi": 1.44,
+      "value": 5.625485638421042,
+      "origin": "computed",
+      "job": "124937530",
+      "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+      "build_job": "124937336"
+    },
+    {
+      "case": "5",
+      "phi": 0.92,
+      "value": 5.636545451448644,
+      "origin": "computed",
+      "job": "124942489",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 0.95,
+      "value": 6.009853354100093,
+      "origin": "computed",
+      "job": "124942493",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 1.0,
+      "value": 6.517968627026788,
+      "origin": "computed",
+      "job": "124942496",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 1.02,
+      "value": 6.697310926234637,
+      "origin": "computed",
+      "job": "124942553",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 1.05,
+      "value": 6.921428071945668,
+      "origin": "computed",
+      "job": "124942499",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 1.1,
+      "value": 7.049274733700522,
+      "origin": "computed",
+      "job": "124940385",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 1.15,
+      "value": 6.928826266787441,
+      "origin": "computed",
+      "job": "124942505",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 1.2,
+      "value": 6.716016115567873,
+      "origin": "computed",
+      "job": "124942514",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 1.25,
+      "value": 6.480043982032549,
+      "origin": "computed",
+      "job": "124942517",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 1.3,
+      "value": 6.235205467387821,
+      "origin": "computed",
+      "job": "124942523",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 1.35,
+      "value": 5.994493425482098,
+      "origin": "computed",
+      "job": "124942533",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 1.4,
+      "value": 5.7623993647663,
+      "origin": "computed",
+      "job": "124942535",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "5",
+      "phi": 1.44,
+      "value": 5.583528817909116,
+      "origin": "computed",
+      "job": "124942540",
+      "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+      "build_job": "124940280"
+    },
+    {
+      "case": "1",
+      "phi": 0.9314820163695503,
+      "value": 6.126259322599372,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9335583201285331,
+      "value": 6.151685489188542,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9356346238875158,
+      "value": 6.178806733550323,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9377109276464987,
+      "value": 6.204232900139493,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9397872314054815,
+      "value": 6.229659066728663,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9418635351644642,
+      "value": 6.256780311090444,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.943939838923447,
+      "value": 6.2822064776796145,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9460161426824298,
+      "value": 6.305937566496173,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9480924464414127,
+      "value": 6.333058810857954,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9501687502003954,
+      "value": 6.3550948219019014,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9522450539593782,
+      "value": 6.382216066263682,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.954321357718361,
+      "value": 6.40425207730763,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9563976614773437,
+      "value": 6.431373321669411,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9584739652363266,
+      "value": 6.453409332713358,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9605502689953094,
+      "value": 6.478835499302528,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9626265727542921,
+      "value": 6.500871510346475,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9647028765132749,
+      "value": 6.526297676935645,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9667791802722577,
+      "value": 6.548333687979593,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9688554840312404,
+      "value": 6.572064776796151,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9709317877902233,
+      "value": 6.594100787840098,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9730080915492061,
+      "value": 6.617831876656657,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9750843953081889,
+      "value": 6.641562965473216,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9771606990671716,
+      "value": 6.661903898744551,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9792370028261544,
+      "value": 6.683939909788498,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9813133065851372,
+      "value": 6.705975920832445,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.98338961034412,
+      "value": 6.728011931876393,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9854659141031028,
+      "value": 6.748352865147729,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9875422178620856,
+      "value": 6.770388876191676,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9896185216210683,
+      "value": 6.792424887235623,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9916948253800512,
+      "value": 6.812765820506959,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.993771129139034,
+      "value": 6.8314116760056836,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9958474328980167,
+      "value": 6.92803110904453,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 0.9979237366569995,
+      "value": 6.929726186817141,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0000000404159823,
+      "value": 6.921250797954084,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0020763441749652,
+      "value": 6.926336031271918,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.004152647933948,
+      "value": 6.933116342362363,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0062289516929306,
+      "value": 6.95515235340631,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0083052554519134,
+      "value": 6.977188364450258,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0103815592108962,
+      "value": 6.995834219948982,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.012457862969879,
+      "value": 7.016175153220319,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0145341667288619,
+      "value": 7.038211164264266,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0166104704878447,
+      "value": 7.117879819576998,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0186867742468273,
+      "value": 7.104319197396107,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0207630780058101,
+      "value": 7.114489664031775,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.022839381764793,
+      "value": 7.116184741804386,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0249156855237758,
+      "value": 7.128050286212666,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0269919892827586,
+      "value": 7.141610908393557,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0290682930417414,
+      "value": 7.160256763892281,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0311445968007242,
+      "value": 7.17212230830056,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0332209005597068,
+      "value": 7.190768163799285,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0352972043186897,
+      "value": 7.2043287859801755,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0373735080776725,
+      "value": 7.221279563706289,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0394498118366553,
+      "value": 7.236535263659791,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0415261155956381,
+      "value": 7.251790963613293,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.043602419354621,
+      "value": 7.2704368191120174,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0456787231136038,
+      "value": 7.345020241106916,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0477550268725864,
+      "value": 7.345020241106916,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0498313306315692,
+      "value": 7.341630085561693,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.051907634390552,
+      "value": 7.343325163334304,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0539839381495348,
+      "value": 7.339935007789082,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0560602419085177,
+      "value": 7.348410396652138,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0581365456675005,
+      "value": 7.3585808632878065,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.060212849426483,
+      "value": 7.368751329923474,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.062289153185466,
+      "value": 7.378921796559142,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0643654569444487,
+      "value": 7.38909226319481,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0664417607034316,
+      "value": 7.399262729830478,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0685180644624144,
+      "value": 7.409433196466146,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0705943682213972,
+      "value": 7.412823352011369,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0726706719803798,
+      "value": 7.419603663101814,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0747469757393626,
+      "value": 7.42638397419226,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0768232794983454,
+      "value": 7.433164285282705,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0788995832573283,
+      "value": 7.436554440827927,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.080975887016311,
+      "value": 7.443334751918373,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.083052190775294,
+      "value": 7.450115063008818,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0851284945342767,
+      "value": 7.451810140781429,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0872047982932593,
+      "value": 7.451810140781429,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0892811020522422,
+      "value": 7.451810140781429,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.091357405811225,
+      "value": 7.456895374099263,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0934337095702078,
+      "value": 7.456895374099263,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0955100133291906,
+      "value": 7.463675685189709,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0975863170881734,
+      "value": 7.470455996280154,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.0996626208471563,
+      "value": 7.477236307370599,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1017389246061389,
+      "value": 7.472151074052765,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1038152283651217,
+      "value": 7.46537076296232,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1058915321241045,
+      "value": 7.451810140781429,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1079678358830873,
+      "value": 7.451810140781429,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1100441396420702,
+      "value": 7.4467249074635955,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1121204434010528,
+      "value": 7.4467249074635955,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1141967471600358,
+      "value": 7.443334751918373,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1162730509190184,
+      "value": 7.443334751918373,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1183493546780012,
+      "value": 7.436554440827927,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.120425658436984,
+      "value": 7.433164285282705,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1225019621959669,
+      "value": 7.42638397419226,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1245782659549497,
+      "value": 7.422993818647036,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1266545697139323,
+      "value": 7.416213507556591,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1287308734729151,
+      "value": 7.409433196466146,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.130807177231898,
+      "value": 7.406043040920924,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1328834809908808,
+      "value": 7.399262729830478,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1349597847498636,
+      "value": 7.392482418740033,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1370360885088464,
+      "value": 7.385702107649587,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1391123922678292,
+      "value": 7.378921796559142,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1411886960268118,
+      "value": 7.372141485468697,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1432649997857947,
+      "value": 7.361971018833029,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1453413035447775,
+      "value": 7.3585808632878065,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1474176073037603,
+      "value": 7.353495629969972,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1494939110627431,
+      "value": 7.353495629969972,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1515702148217257,
+      "value": 7.353495629969972,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1536465185807088,
+      "value": 7.341630085561693,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1557228223396914,
+      "value": 7.353495629969972,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1577991260986742,
+      "value": 7.311118685654689,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.159875429857657,
+      "value": 7.300948219019022,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1619517336166398,
+      "value": 7.290777752383353,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1640280373756227,
+      "value": 7.283997441292908,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1661043411346053,
+      "value": 7.27382697465724,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1681806448935883,
+      "value": 7.265351585794184,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.170256948652571,
+      "value": 7.256876196931127,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1723332524115537,
+      "value": 7.246705730295458,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1744095561705366,
+      "value": 7.239925419205013,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1764858599295194,
+      "value": 7.229754952569346,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1785621636885022,
+      "value": 7.2195844859336775,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1806384674474848,
+      "value": 7.2128041748432326,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1827147712064676,
+      "value": 7.202633708207564,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1847910749654504,
+      "value": 7.192463241571897,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1868673787244333,
+      "value": 7.185682930481451,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.188943682483416,
+      "value": 7.1755124638457835,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.191019986242399,
+      "value": 7.165341997210115,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1930962900013817,
+      "value": 7.155171530574448,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1951725937603643,
+      "value": 7.143305986166168,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.1972488975193472,
+      "value": 7.126355208440055,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.19932520127833,
+      "value": 7.122965052894832,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2014015050373128,
+      "value": 7.122965052894832,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2034778087962956,
+      "value": 7.117879819576998,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2055541125552782,
+      "value": 7.122965052894832,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2076304163142613,
+      "value": 7.085673341897383,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2097067200732439,
+      "value": 7.077197953034326,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2117830238322267,
+      "value": 7.067027486398658,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2138593275912095,
+      "value": 7.05685701976299,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2159356313501923,
+      "value": 7.046686553127323,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2180119351091752,
+      "value": 7.039906242036877,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2200882388681578,
+      "value": 7.026345619855986,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2221645426271408,
+      "value": 7.016175153220319,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2242408463861234,
+      "value": 7.00600468658465,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2263171501451062,
+      "value": 6.995834219948982,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.228393453904089,
+      "value": 6.985663753313315,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2304697576630719,
+      "value": 6.975493286677647,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2325460614220547,
+      "value": 6.965322820041979,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2346223651810373,
+      "value": 6.95515235340631,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2366986689400201,
+      "value": 6.944981886770643,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.238774972699003,
+      "value": 6.934811420134975,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2408512764579858,
+      "value": 6.921250797954084,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2429275802169686,
+      "value": 6.914470486863639,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2450038839759514,
+      "value": 6.900909864682748,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2470801877349342,
+      "value": 6.8822640091840235,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2491564914939168,
+      "value": 6.87717877586619,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2512327952528997,
+      "value": 6.8754836980935785,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2533090990118825,
+      "value": 6.872093542548356,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2553854027708653,
+      "value": 6.87717877586619,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2574617065298481,
+      "value": 6.839887064868741,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2595380102888307,
+      "value": 6.82632644268785,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2616143140478138,
+      "value": 6.817851053824793,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2636906178067964,
+      "value": 6.805985509416514,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2657669215657792,
+      "value": 6.795815042780846,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.267843225324762,
+      "value": 6.785644576145178,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2699195290837448,
+      "value": 6.77547410950951,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2719958328427277,
+      "value": 6.7653036428738424,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2740721366017103,
+      "value": 6.751743020692952,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.276148440360693,
+      "value": 6.744962709602506,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.278224744119676,
+      "value": 6.734792242966838,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2803010478786587,
+      "value": 6.724621776331171,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2823773516376415,
+      "value": 6.7144513096955025,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2844536553966244,
+      "value": 6.704280843059834,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2865299591556072,
+      "value": 6.694110376424167,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2886062629145898,
+      "value": 6.683939909788498,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2906825666735726,
+      "value": 6.67376944315283,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2927588704325554,
+      "value": 6.66020882097194,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.2948351741915383,
+      "value": 6.651733432108883,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.296911477950521,
+      "value": 6.6263072655197135,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.298987781709504,
+      "value": 6.616136798884045,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3010640854684867,
+      "value": 6.616136798884045,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3031403892274693,
+      "value": 6.614441721111434,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3052166929864522,
+      "value": 6.6042712544757665,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.307292996745435,
+      "value": 6.587320476749653,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3093693005044178,
+      "value": 6.578845087886596,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3114456042634006,
+      "value": 6.565284465705705,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3135219080223832,
+      "value": 6.555113999070038,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3155982117813663,
+      "value": 6.544943532434369,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3176745155403489,
+      "value": 6.534773065798702,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3197508192993317,
+      "value": 6.524602599163034,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3218271230583145,
+      "value": 6.512737054754755,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3239034268172973,
+      "value": 6.504261665891698,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3259797305762802,
+      "value": 6.4940911992560295,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3280560343352628,
+      "value": 6.483920732620362,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3301323380942456,
+      "value": 6.473750265984694,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3322086418532284,
+      "value": 6.461884721576415,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3342849456122112,
+      "value": 6.455104410485969,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.336361249371194,
+      "value": 6.4432388660776905,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3384375531301766,
+      "value": 6.433068399442022,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3405138568891597,
+      "value": 6.422897932806354,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3425901606481423,
+      "value": 6.412727466170686,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3446664644071253,
+      "value": 6.3991668439897955,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.346742768166108,
+      "value": 6.373740677400626,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3488190719250908,
+      "value": 6.365265288537569,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3508953756840736,
+      "value": 6.361875132992346,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3529716794430562,
+      "value": 6.363570210764958,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3550479832020392,
+      "value": 6.35339974412929,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3571242869610218,
+      "value": 6.338144044175788,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3592005907200047,
+      "value": 6.331363733085343,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3612768944789875,
+      "value": 6.317803110904452,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3633531982379703,
+      "value": 6.307632644268784,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3654295019969531,
+      "value": 6.2974621776331166,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3675058057559357,
+      "value": 6.287291710997448,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3695821095149188,
+      "value": 6.27712124436178,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3716584132739014,
+      "value": 6.265255699953501,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3737347170328842,
+      "value": 6.256780311090444,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.375811020791867,
+      "value": 6.246609844454777,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3778873245508498,
+      "value": 6.236439377819108,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3799636283098327,
+      "value": 6.226268911183441,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3820399320688153,
+      "value": 6.2160984445477725,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3841162358277983,
+      "value": 6.205927977912104,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.386192539586781,
+      "value": 6.192367355731214,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3882688433457637,
+      "value": 6.183891966868157,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3903451471047465,
+      "value": 6.175416578005101,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3924214508637291,
+      "value": 6.165246111369433,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3944977546227122,
+      "value": 6.151685489188542,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3965740583816948,
+      "value": 6.1279544003719835,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.3986503621406778,
+      "value": 6.117783933736316,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4007266658996604,
+      "value": 6.116088855963705,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4028029696586433,
+      "value": 6.116088855963705,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.404879273417626,
+      "value": 6.104223311555424,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4069555771766087,
+      "value": 6.094052844919757,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4090318809355917,
+      "value": 6.080492222738867,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4111081846945743,
+      "value": 6.070321756103199,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4131844884535572,
+      "value": 6.063541445012753,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.41526079221254,
+      "value": 6.053370978377085,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4173370959715228,
+      "value": 6.043200511741418,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4194133997305056,
+      "value": 6.036420200650972,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4214897034894882,
+      "value": 6.026249734015304,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4235660072484713,
+      "value": 6.016079267379636,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4256423110074539,
+      "value": 6.005908800743968,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4277186147664367,
+      "value": 5.997433411880911,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4297949185254195,
+      "value": 5.9889580230178545,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "1",
+      "phi": 1.4318712222844023,
+      "value": 5.978787556382187,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "2",
+      "phi": 1.0000000404159823,
+      "value": 6.914470486863639,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "2",
+      "phi": 1.0197249261263188,
+      "value": 7.100929041850884,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "2",
+      "phi": 1.0498313306315692,
+      "value": 7.333154696698636,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "2",
+      "phi": 1.1007007727266476,
+      "value": 7.4755412295979875,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "2",
+      "phi": 1.1505320629422344,
+      "value": 7.353495629969972,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "2",
+      "phi": 1.2003633531578215,
+      "value": 7.122965052894832,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "2",
+      "phi": 1.2501946433734084,
+      "value": 6.87717877586619,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "2",
+      "phi": 1.3000259335889952,
+      "value": 6.616136798884045,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "2",
+      "phi": 1.349857223804582,
+      "value": 6.361875132992346,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "2",
+      "phi": 1.399688514020169,
+      "value": 6.116088855963705,
+      "origin": "paper",
+      "uncertainty": 0.04
+    },
+    {
+      "case": "3",
+      "phi": 0.9997405024461095,
+      "value": 6.543248454661758,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "3",
+      "phi": 1.019465388156446,
+      "value": 6.724621776331171,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "3",
+      "phi": 1.0495717926616963,
+      "value": 6.946676964543254,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "3",
+      "phi": 1.1004412347567747,
+      "value": 7.070417641943881,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "3",
+      "phi": 1.1502725249723615,
+      "value": 6.943286808998032,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "3",
+      "phi": 1.2001038151879486,
+      "value": 6.716146387468114,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "3",
+      "phi": 1.2504541813432812,
+      "value": 6.473750265984694,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "3",
+      "phi": 1.300285471558868,
+      "value": 6.22457383341083,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "3",
+      "phi": 1.350116761774455,
+      "value": 5.999128489653523,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "3",
+      "phi": 1.3999480519900418,
+      "value": 5.741476668216601,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "4",
+      "phi": 1.0002595783858552,
+      "value": 6.587320476749653,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "4",
+      "phi": 1.0197249261263188,
+      "value": 6.772083953964287,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "4",
+      "phi": 1.0498313306315692,
+      "value": 6.997529297721594,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "4",
+      "phi": 1.1001816967869018,
+      "value": 7.1246601306674435,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "4",
+      "phi": 1.1505320629422344,
+      "value": 6.9924440644037595,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "4",
+      "phi": 1.1998442772180757,
+      "value": 6.772083953964287,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "4",
+      "phi": 1.2504541813432812,
+      "value": 6.527992754708256,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "4",
+      "phi": 1.300285471558868,
+      "value": 6.275426166589169,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "4",
+      "phi": 1.3503762997443278,
+      "value": 6.033030045105749,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "4",
+      "phi": 1.4002075899599147,
+      "value": 5.795719156940164,
+      "origin": "paper",
+      "uncertainty": 0.03
+    },
+    {
+      "case": "5",
+      "phi": 0.925253105092602,
+      "value": 5.6668932462217025,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9273294088515848,
+      "value": 5.690624335038262,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9294057126105675,
+      "value": 5.716050501627431,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9314820163695503,
+      "value": 5.741476668216601,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9335583201285331,
+      "value": 5.766902834805771,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9356346238875158,
+      "value": 5.788938845849718,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9377109276464987,
+      "value": 5.8126699346662765,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9397872314054815,
+      "value": 5.834705945710224,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9418635351644642,
+      "value": 5.860132112299394,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.943939838923447,
+      "value": 5.882168123343341,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9460161426824298,
+      "value": 5.9058992121599,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9480924464414127,
+      "value": 5.927935223203847,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9501687502003954,
+      "value": 5.953361389793017,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9522450539593782,
+      "value": 5.975397400836965,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.954321357718361,
+      "value": 5.999128489653523,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9563976614773437,
+      "value": 6.022859578470081,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9584739652363266,
+      "value": 6.044895589514029,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9605502689953094,
+      "value": 6.068626678330586,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9626265727542921,
+      "value": 6.088967611601923,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9647028765132749,
+      "value": 6.112698700418481,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9667791802722577,
+      "value": 6.134734711462428,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9688554840312404,
+      "value": 6.158465800278988,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9709317877902233,
+      "value": 6.180501811322935,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9730080915492061,
+      "value": 6.20084274459427,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9750843953081889,
+      "value": 6.2228787556382175,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9771606990671716,
+      "value": 6.243219688909553,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9792370028261544,
+      "value": 6.266950777726112,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9813133065851372,
+      "value": 6.2889867887700595,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.98338961034412,
+      "value": 6.307632644268784,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9854659141031028,
+      "value": 6.329668655312731,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9875422178620856,
+      "value": 6.350009588584067,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9896185216210683,
+      "value": 6.372045599628015,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9916948253800512,
+      "value": 6.3923865328993505,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.993771129139034,
+      "value": 6.412727466170686,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9958474328980167,
+      "value": 6.431373321669411,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 0.9979237366569995,
+      "value": 6.453409332713358,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0000000404159823,
+      "value": 6.473750265984694,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0020763441749652,
+      "value": 6.4940911992560295,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.004152647933948,
+      "value": 6.514432132527366,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0062289516929306,
+      "value": 6.536468143571313,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0083052554519134,
+      "value": 6.556809076842649,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0103815592108962,
+      "value": 6.577150010113985,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.012457862969879,
+      "value": 6.597490943385321,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0145341667288619,
+      "value": 6.616136798884045,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0166104704878447,
+      "value": 6.63478265438277,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0186867742468273,
+      "value": 6.653428509881495,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0207630780058101,
+      "value": 6.672074365380219,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.022839381764793,
+      "value": 6.690720220878944,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0249156855237758,
+      "value": 6.709366076377668,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0269919892827586,
+      "value": 6.726316854103782,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0290682930417414,
+      "value": 6.741572554057283,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0311445968007242,
+      "value": 6.758523331783397,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0332209005597068,
+      "value": 6.77547410950951,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0352972043186897,
+      "value": 6.790729809463012,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0373735080776725,
+      "value": 6.8093756649617365,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0394498118366553,
+      "value": 6.821241209370016,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0415261155956381,
+      "value": 6.839887064868741,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.043602419354621,
+      "value": 6.855142764822243,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0456787231136038,
+      "value": 6.867008309230521,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0477550268725864,
+      "value": 6.883959086956635,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0498313306315692,
+      "value": 6.8975197091375255,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.051907634390552,
+      "value": 6.907690175773194,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0539839381495348,
+      "value": 6.921250797954084,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0560602419085177,
+      "value": 6.92803110904453,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0581365456675005,
+      "value": 6.9415917312254205,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.060212849426483,
+      "value": 6.9483720423158655,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.062289153185466,
+      "value": 6.958542508951533,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0643654569444487,
+      "value": 6.968712975587201,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0664417607034316,
+      "value": 6.977188364450258,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0685180644624144,
+      "value": 6.987358831085926,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0705943682213972,
+      "value": 6.995834219948982,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0726706719803798,
+      "value": 6.999224375494205,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0747469757393626,
+      "value": 7.004309608812039,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0768232794983454,
+      "value": 7.009394842129873,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0788995832573283,
+      "value": 7.016175153220319,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.080975887016311,
+      "value": 7.019565308765541,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.083052190775294,
+      "value": 7.021260386538152,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0851284945342767,
+      "value": 7.021260386538152,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0872047982932593,
+      "value": 7.021260386538152,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0892811020522422,
+      "value": 7.021260386538152,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.091357405811225,
+      "value": 7.022955464310764,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0934337095702078,
+      "value": 7.022955464310764,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0955100133291906,
+      "value": 7.019565308765541,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0975863170881734,
+      "value": 7.016175153220319,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.0996626208471563,
+      "value": 7.012784997675096,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1017389246061389,
+      "value": 7.009394842129873,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1038152283651217,
+      "value": 7.004309608812039,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1058915321241045,
+      "value": 6.999224375494205,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1079678358830873,
+      "value": 6.995834219948982,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1100441396420702,
+      "value": 6.989053908858537,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1121204434010528,
+      "value": 6.982273597768092,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1141967471600358,
+      "value": 6.97888344222287,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1162730509190184,
+      "value": 6.972103131132424,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1183493546780012,
+      "value": 6.968712975587201,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.120425658436984,
+      "value": 6.960237586724144,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1225019621959669,
+      "value": 6.95515235340631,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1245782659549497,
+      "value": 6.9483720423158655,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1266545697139323,
+      "value": 6.944981886770643,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1287308734729151,
+      "value": 6.934811420134975,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.130807177231898,
+      "value": 6.92803110904453,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1328834809908808,
+      "value": 6.922945875726695,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1349597847498636,
+      "value": 6.91616556463625,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1370360885088464,
+      "value": 6.909385253545805,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1391123922678292,
+      "value": 6.900909864682748,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1411886960268118,
+      "value": 6.895824631364914,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1432649997857947,
+      "value": 6.8890443202744684,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1453413035447775,
+      "value": 6.880568931411412,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1474176073037603,
+      "value": 6.873788620320967,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1494939110627431,
+      "value": 6.870398464775745,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1515702148217257,
+      "value": 6.8602279981400764,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1536465185807088,
+      "value": 6.851752609277019,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1557228223396914,
+      "value": 6.843277220413963,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1577991260986742,
+      "value": 6.833106753778296,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.159875429857657,
+      "value": 6.824631364915239,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1619517336166398,
+      "value": 6.8161559760521815,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1640280373756227,
+      "value": 6.8093756649617365,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1661043411346053,
+      "value": 6.8025953538712916,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1681806448935883,
+      "value": 6.795815042780846,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.170256948652571,
+      "value": 6.785644576145178,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1723332524115537,
+      "value": 6.778864265054732,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1744095561705366,
+      "value": 6.772083953964287,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1764858599295194,
+      "value": 6.76191348732862,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1785621636885022,
+      "value": 6.753438098465563,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1806384674474848,
+      "value": 6.744962709602506,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1827147712064676,
+      "value": 6.734792242966838,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1847910749654504,
+      "value": 6.724621776331171,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1868673787244333,
+      "value": 6.716146387468114,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.188943682483416,
+      "value": 6.707670998605057,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.191019986242399,
+      "value": 6.6991956097420005,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1930962900013817,
+      "value": 6.690720220878944,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1951725937603643,
+      "value": 6.680549754243276,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.1972488975193472,
+      "value": 6.67376944315283,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.19932520127833,
+      "value": 6.66020882097194,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2014015050373128,
+      "value": 6.653428509881495,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2034778087962956,
+      "value": 6.643258043245827,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2055541125552782,
+      "value": 6.6330875766101585,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2076304163142613,
+      "value": 6.6263072655197135,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2097067200732439,
+      "value": 6.616136798884045,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2117830238322267,
+      "value": 6.605966332248378,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2138593275912095,
+      "value": 6.594100787840098,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2159356313501923,
+      "value": 6.585625398977042,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2180119351091752,
+      "value": 6.575454932341374,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2200882388681578,
+      "value": 6.565284465705705,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2221645426271408,
+      "value": 6.555113999070038,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2242408463861234,
+      "value": 6.544943532434369,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2263171501451062,
+      "value": 6.534773065798702,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.228393453904089,
+      "value": 6.527992754708256,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2304697576630719,
+      "value": 6.517822288072589,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2325460614220547,
+      "value": 6.50765182143692,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2346223651810373,
+      "value": 6.4940911992560295,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2366986689400201,
+      "value": 6.483920732620362,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.238774972699003,
+      "value": 6.470360110439471,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2408512764579858,
+      "value": 6.460189643803803,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2429275802169686,
+      "value": 6.450019177168135,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2450038839759514,
+      "value": 6.439848710532468,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2470801877349342,
+      "value": 6.4296782438968,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2491564914939168,
+      "value": 6.419507777261131,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2512327952528997,
+      "value": 6.409337310625464,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2533090990118825,
+      "value": 6.3991668439897955,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2553854027708653,
+      "value": 6.388996377354127,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2574617065298481,
+      "value": 6.375435755173237,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2595380102888307,
+      "value": 6.365265288537569,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2616143140478138,
+      "value": 6.358484977447124,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2636906178067964,
+      "value": 6.344924355266233,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2657669215657792,
+      "value": 6.334753888630566,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.267843225324762,
+      "value": 6.324583421994897,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2699195290837448,
+      "value": 6.3110227998140065,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2719958328427277,
+      "value": 6.300852333178339,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2740721366017103,
+      "value": 6.2889867887700595,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.276148440360693,
+      "value": 6.280511399907002,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.278224744119676,
+      "value": 6.270340933271335,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2803010478786587,
+      "value": 6.256780311090444,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2823773516376415,
+      "value": 6.246609844454777,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2844536553966244,
+      "value": 6.234744300046497,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2865299591556072,
+      "value": 6.226268911183441,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2886062629145898,
+      "value": 6.21270828900255,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2906825666735726,
+      "value": 6.202537822366882,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2927588704325554,
+      "value": 6.190672277958603,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.2948351741915383,
+      "value": 6.178806733550323,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.296911477950521,
+      "value": 6.168636266914655,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.298987781709504,
+      "value": 6.16185595582421,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3010640854684867,
+      "value": 6.148295333643319,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3031403892274693,
+      "value": 6.138124867007651,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3052166929864522,
+      "value": 6.1279544003719835,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.307292996745435,
+      "value": 6.1143937781910935,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3093693005044178,
+      "value": 6.104223311555424,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3114456042634006,
+      "value": 6.090662689374534,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3135219080223832,
+      "value": 6.080492222738867,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3155982117813663,
+      "value": 6.070321756103199,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3176745155403489,
+      "value": 6.06015128946753,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3197508192993317,
+      "value": 6.04659066728664,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3218271230583145,
+      "value": 6.036420200650972,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3239034268172973,
+      "value": 6.022859578470081,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3259797305762802,
+      "value": 6.016079267379636,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3280560343352628,
+      "value": 6.005908800743968,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3301323380942456,
+      "value": 5.994043256335688,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3322086418532284,
+      "value": 5.9821777119274095,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3342849456122112,
+      "value": 5.972007245291742,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.336361249371194,
+      "value": 5.965226934201296,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3384375531301766,
+      "value": 5.948276156475183,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3405138568891597,
+      "value": 5.941495845384738,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3425901606481423,
+      "value": 5.924545067658624,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3446664644071253,
+      "value": 5.917764756568179,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.346742768166108,
+      "value": 5.904204134387289,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3488190719250908,
+      "value": 5.8940336677516205,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3508953756840736,
+      "value": 5.882168123343341,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3529716794430562,
+      "value": 5.873692734480285,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3550479832020392,
+      "value": 5.860132112299394,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3571242869610218,
+      "value": 5.849961645663726,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3592005907200047,
+      "value": 5.839791179028058,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3612768944789875,
+      "value": 5.826230556847167,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3633531982379703,
+      "value": 5.819450245756722,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3654295019969531,
+      "value": 5.809279779121054,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3675058057559357,
+      "value": 5.7991093124853865,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3695821095149188,
+      "value": 5.788938845849718,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3716584132739014,
+      "value": 5.77876837921405,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3737347170328842,
+      "value": 5.770292990350994,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.375811020791867,
+      "value": 5.758427445942715,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3778873245508498,
+      "value": 5.748256979307047,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3799636283098327,
+      "value": 5.738086512671378,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3820399320688153,
+      "value": 5.727916046035711,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3841162358277983,
+      "value": 5.71435542385482,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.386192539586781,
+      "value": 5.704184957219152,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3882688433457637,
+      "value": 5.697404646128707,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3903451471047465,
+      "value": 5.683844023947816,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3924214508637291,
+      "value": 5.6736735573121475,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3944977546227122,
+      "value": 5.66350309067648,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3965740583816948,
+      "value": 5.656722779586035,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.3986503621406778,
+      "value": 5.648247390722978,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4007266658996604,
+      "value": 5.639772001859922,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4028029696586433,
+      "value": 5.629601535224253,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.404879273417626,
+      "value": 5.619431068588586,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4069555771766087,
+      "value": 5.609260601952918,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4090318809355917,
+      "value": 5.6007852130898605,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4111081846945743,
+      "value": 5.592309824226804,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4131844884535572,
+      "value": 5.582139357591137,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.41526079221254,
+      "value": 5.5719688909554685,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4173370959715228,
+      "value": 5.5617984243198,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4194133997305056,
+      "value": 5.555018113229355,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4214897034894882,
+      "value": 5.544847646593688,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4235660072484713,
+      "value": 5.534677179958019,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4256423110074539,
+      "value": 5.527896868867574,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4277186147664367,
+      "value": 5.519421480004517,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4297949185254195,
+      "value": 5.510946091141461,
+      "origin": "paper",
+      "uncertainty": 0.015
+    },
+    {
+      "case": "5",
+      "phi": 1.4318712222844023,
+      "value": 5.504165780051015,
+      "origin": "paper",
+      "uncertainty": 0.015
+    }
+  ]
+}

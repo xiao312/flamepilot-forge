@@ -1,0 +1,17 @@
+{
+  "name": "@flamepilot/forge",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24.14.1 <25"
+  },
+  "scripts": {
+    "replot": "node reproduce.mjs"
+  },
+  "dependencies": {
+    "pdfjs-dist": "6.4.299",
+    "vega": "6.4.0",
+    "vega-lite": "6.5.0"
+  }
+}

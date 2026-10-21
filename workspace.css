@@ -1,0 +1,16 @@
+/* Connected controls use the same typography and spacing as the static review. */
+#workspace-connection { margin: 0 0 2rem; padding: 1.25rem 1.5rem; border: 1px solid var(--line, #d8dfe8); border-radius: 10px; background: #fff; }
+#workspace-connection h2 { font-size: 1rem; margin: 0 0 .4rem; }
+#workspace-connection p { margin: .5rem 0; }
+#workspace-connection label { display: grid; gap: .4rem; max-width: 32rem; margin: 1rem 0; }
+#workspace-connection details { margin-top: 1rem; }
+#workspace-connection li { margin: .8rem 0; }
+#workspace-connection li p { overflow-wrap: anywhere; }
+#target-editor { margin-top: 1.25rem; }
+#current-dependencies label { display: inline-flex; align-items: center; gap: .4rem; margin: .5rem .8rem .5rem 0; }
+#current-dependencies input { width: auto; }
+#intake > label { display: grid; gap: .4rem; max-width: 36rem; margin-bottom: 1rem; }
+#intake > .review-form { padding-top: 1rem; border-top: 1px solid #d8dfe8; }
+#intake a { overflow-wrap: anywhere; }
+@media (max-width: 650px) { #workspace-connection { padding: 1rem; } }
+@media print { #workspace-connection { display: none; } }

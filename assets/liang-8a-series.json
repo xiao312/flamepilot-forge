@@ -1,0 +1,5778 @@
+{
+  "schema": "forge-series-v1",
+  "target": "liang-8a",
+  "units": {
+    "x": "equivalence ratio",
+    "y": "cm/s"
+  },
+  "provenance": {
+    "retained_snapshot": "835acf11186cc3b46a86e57fb5faef358d317fc23b4acd58dcb1a699cd3d11be",
+    "source_revision": "a73a6caa7b54ca32e112cd79adac1f7d36d875f6",
+    "capture": "Retained checkpoints imported on 2026-10-21; no fresh solver execution.",
+    "paper_duplicate_x": "Original digitized rows remain in the legacy table. Exact repeated x coordinates are omitted from display interpolation.",
+    "openfoam": {
+      "definition": {
+        "formula": "S_side = outward_sign * arithmetic_mean_window[(rho_front/rho_fresh) * (v_fit - U_front)]; S_reported = (S_left + S_right)/2",
+        "v_fit": "Least-squares slope of contour position against physical time over the trailing 5 microsecond window, including its bracketing sample.",
+        "fresh_density": "Mean density over the outermost 5% of cells on the corresponding side; fresh temperature must remain within 2 K of 298 K.",
+        "contour": "Linear interpolation of T or OH between adjacent cells; ambiguous or missing contours are rejected.",
+        "temperature_marker": "Condition-specific retained Cantera anchor; see temperature_anchor_K or marker_level at each point.",
+        "OH_marker": "Y_OH = 2e-5",
+        "value_selection": "Final paired valid observation in the frozen history; not a time-averaged steady estimate.",
+        "distinction": "Density normalization maps the local contour-relative velocity to a fresh-gas basis. During transients it need not equal the steady FreeFlame eigenvalue or the direct v_fit-U_fresh measure.",
+        "source": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/development/flame-tracking/trackingCore.H",
+        "plotting_source": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/development/solver-comparison/plot_history.py"
+      },
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence."
+      ],
+      "conditions": {
+        "fuel": "CH4",
+        "oxidizer": "air",
+        "pressure_atm": 100,
+        "fresh_temperature_K": 298
+      }
+    }
+  },
+  "series": [
+    {
+      "id": "cantera-1",
+      "label": "Cantera · Case 1",
+      "case": "1",
+      "engine": "cantera",
+      "origin": "computed",
+      "points": [
+        {
+          "x": 0.92,
+          "y": 5.990352704426165,
+          "case": "1",
+          "origin": "computed",
+          "job": "124919999",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        },
+        {
+          "x": 0.95,
+          "y": 6.379410650711995,
+          "case": "1",
+          "origin": "computed",
+          "job": "124920002",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        },
+        {
+          "x": 1,
+          "y": 6.910556897431561,
+          "case": "1",
+          "origin": "computed",
+          "job": "124920005",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        },
+        {
+          "x": 1.02,
+          "y": 7.096915248337034,
+          "case": "1",
+          "origin": "computed",
+          "job": "124940112",
+          "source": "96ba5de3776c72a2925d8db75a4a39d73d3eb1c1",
+          "build_job": "124939982"
+        },
+        {
+          "x": 1.05,
+          "y": 7.324550779486868,
+          "case": "1",
+          "origin": "computed",
+          "job": "124920010",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        },
+        {
+          "x": 1.1,
+          "y": 7.461702833306255,
+          "case": "1",
+          "origin": "computed",
+          "job": "124920014",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        },
+        {
+          "x": 1.15,
+          "y": 7.33869342194257,
+          "case": "1",
+          "origin": "computed",
+          "job": "124920017",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        },
+        {
+          "x": 1.2,
+          "y": 7.115844489565243,
+          "case": "1",
+          "origin": "computed",
+          "job": "124920020",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        },
+        {
+          "x": 1.25,
+          "y": 6.868865867632599,
+          "case": "1",
+          "origin": "computed",
+          "job": "124920023",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        },
+        {
+          "x": 1.3,
+          "y": 6.614454323655951,
+          "case": "1",
+          "origin": "computed",
+          "job": "124920027",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        },
+        {
+          "x": 1.35,
+          "y": 6.36147819695285,
+          "case": "1",
+          "origin": "computed",
+          "job": "124920030",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        },
+        {
+          "x": 1.4,
+          "y": 6.116619431452803,
+          "case": "1",
+          "origin": "computed",
+          "job": "124920034",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        },
+        {
+          "x": 1.44,
+          "y": 5.929065249252011,
+          "case": "1",
+          "origin": "computed",
+          "job": "124920037",
+          "source": "961f6a1fc6662167076abea2b8d4c6aee449622c",
+          "build_job": "124919933"
+        }
+      ]
+    },
+    {
+      "id": "cantera-2",
+      "label": "Cantera · Case 2",
+      "case": "2",
+      "engine": "cantera",
+      "origin": "computed",
+      "points": [
+        {
+          "x": 0.92,
+          "y": 6.019086317174071,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937455",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 0.95,
+          "y": 6.40887160766699,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937457",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1,
+          "y": 6.93999508712814,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937459",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.02,
+          "y": 7.124864577444933,
+          "case": "2",
+          "origin": "computed",
+          "job": "124938865",
+          "source": "a10cd1b647a53016b9aa5a918a1a3af1dfddc2e1",
+          "build_job": "124938314"
+        },
+        {
+          "x": 1.05,
+          "y": 7.348059844624125,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937461",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.1,
+          "y": 7.478315807644632,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937462",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.15,
+          "y": 7.349020256616656,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937463",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.2,
+          "y": 7.120137569982892,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937464",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.25,
+          "y": 6.868243167696382,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937466",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.3,
+          "y": 6.610059533661349,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937467",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.35,
+          "y": 6.353785969676514,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937468",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.4,
+          "y": 6.106087675972156,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937469",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.44,
+          "y": 5.916167754916478,
+          "case": "2",
+          "origin": "computed",
+          "job": "124937473",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        }
+      ]
+    },
+    {
+      "id": "cantera-3",
+      "label": "Cantera · Case 3",
+      "case": "3",
+      "engine": "cantera",
+      "origin": "computed",
+      "points": [
+        {
+          "x": 0.92,
+          "y": 5.649955244699904,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937474",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 0.95,
+          "y": 6.027258998404866,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937478",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1,
+          "y": 6.540947567612079,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937482",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.02,
+          "y": 6.719080624924533,
+          "case": "3",
+          "origin": "computed",
+          "job": "124938868",
+          "source": "a10cd1b647a53016b9aa5a918a1a3af1dfddc2e1",
+          "build_job": "124938314"
+        },
+        {
+          "x": 1.05,
+          "y": 6.93891337127862,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937486",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.1,
+          "y": 7.061554837536449,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937487",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.15,
+          "y": 6.932695727433341,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937488",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.2,
+          "y": 6.714166889763224,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937494",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.25,
+          "y": 6.473972635922041,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937496",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.3,
+          "y": 6.225986603270626,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937498",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.35,
+          "y": 5.98292534436395,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937499",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.4,
+          "y": 5.748140586382971,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937501",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.44,
+          "y": 5.568595584939551,
+          "case": "3",
+          "origin": "computed",
+          "job": "124937503",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        }
+      ]
+    },
+    {
+      "id": "cantera-4",
+      "label": "Cantera · Case 4",
+      "case": "4",
+      "engine": "cantera",
+      "origin": "computed",
+      "points": [
+        {
+          "x": 0.92,
+          "y": 5.712783729893163,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937513",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 0.95,
+          "y": 6.093605196501859,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937517",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1,
+          "y": 6.612824661203528,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937518",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.02,
+          "y": 6.79401089237185,
+          "case": "4",
+          "origin": "computed",
+          "job": "124938872",
+          "source": "a10cd1b647a53016b9aa5a918a1a3af1dfddc2e1",
+          "build_job": "124938314"
+        },
+        {
+          "x": 1.05,
+          "y": 7.013714119685273,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937519",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.1,
+          "y": 7.134648247403376,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937521",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.15,
+          "y": 7.003237094620751,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937522",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.2,
+          "y": 6.781166892656194,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937523",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.25,
+          "y": 6.538187745108661,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937524",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.3,
+          "y": 6.288280914124998,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937527",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.35,
+          "y": 6.04314335640305,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937528",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.4,
+          "y": 5.807094458279634,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937529",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        },
+        {
+          "x": 1.44,
+          "y": 5.625485638421042,
+          "case": "4",
+          "origin": "computed",
+          "job": "124937530",
+          "source": "cf4083449b57c778c44fe97f5b74d46b5955a8eb",
+          "build_job": "124937336"
+        }
+      ]
+    },
+    {
+      "id": "cantera-5",
+      "label": "Cantera · Case 5",
+      "case": "5",
+      "engine": "cantera",
+      "origin": "computed",
+      "points": [
+        {
+          "x": 0.92,
+          "y": 5.636545451448644,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942489",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 0.95,
+          "y": 6.009853354100093,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942493",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 1,
+          "y": 6.517968627026788,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942496",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 1.02,
+          "y": 6.697310926234637,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942553",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 1.05,
+          "y": 6.921428071945668,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942499",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 1.1,
+          "y": 7.049274733700522,
+          "case": "5",
+          "origin": "computed",
+          "job": "124940385",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 1.15,
+          "y": 6.928826266787441,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942505",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 1.2,
+          "y": 6.716016115567873,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942514",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 1.25,
+          "y": 6.480043982032549,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942517",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 1.3,
+          "y": 6.235205467387821,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942523",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 1.35,
+          "y": 5.994493425482098,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942533",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 1.4,
+          "y": 5.7623993647663,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942535",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        },
+        {
+          "x": 1.44,
+          "y": 5.583528817909116,
+          "case": "5",
+          "origin": "computed",
+          "job": "124942540",
+          "source": "8a0c8d001c22206ef03cf1c2e5a79a6053d4f46e",
+          "build_job": "124940280"
+        }
+      ]
+    },
+    {
+      "id": "paper-1",
+      "label": "Paper · Case 1",
+      "case": "1",
+      "engine": "paper",
+      "origin": "paper",
+      "points": [
+        {
+          "x": 0.9314820163695503,
+          "y": 6.126259322599372,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9335583201285331,
+          "y": 6.151685489188542,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9356346238875158,
+          "y": 6.178806733550323,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9377109276464987,
+          "y": 6.204232900139493,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9397872314054815,
+          "y": 6.229659066728663,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9418635351644642,
+          "y": 6.256780311090444,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.943939838923447,
+          "y": 6.2822064776796145,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9460161426824298,
+          "y": 6.305937566496173,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9480924464414127,
+          "y": 6.333058810857954,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9501687502003954,
+          "y": 6.3550948219019014,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9522450539593782,
+          "y": 6.382216066263682,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.954321357718361,
+          "y": 6.40425207730763,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9563976614773437,
+          "y": 6.431373321669411,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9584739652363266,
+          "y": 6.453409332713358,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9605502689953094,
+          "y": 6.478835499302528,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9626265727542921,
+          "y": 6.500871510346475,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9647028765132749,
+          "y": 6.526297676935645,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9667791802722577,
+          "y": 6.548333687979593,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9688554840312404,
+          "y": 6.572064776796151,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9709317877902233,
+          "y": 6.594100787840098,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9730080915492061,
+          "y": 6.617831876656657,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9750843953081889,
+          "y": 6.641562965473216,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9771606990671716,
+          "y": 6.661903898744551,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9792370028261544,
+          "y": 6.683939909788498,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9813133065851372,
+          "y": 6.705975920832445,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.98338961034412,
+          "y": 6.728011931876393,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9854659141031028,
+          "y": 6.748352865147729,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9875422178620856,
+          "y": 6.770388876191676,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9896185216210683,
+          "y": 6.792424887235623,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9916948253800512,
+          "y": 6.812765820506959,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.993771129139034,
+          "y": 6.8314116760056836,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9958474328980167,
+          "y": 6.92803110904453,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 0.9979237366569995,
+          "y": 6.929726186817141,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0000000404159823,
+          "y": 6.921250797954084,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0020763441749652,
+          "y": 6.926336031271918,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.004152647933948,
+          "y": 6.933116342362363,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0062289516929306,
+          "y": 6.95515235340631,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0083052554519134,
+          "y": 6.977188364450258,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0103815592108962,
+          "y": 6.995834219948982,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.012457862969879,
+          "y": 7.016175153220319,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0145341667288619,
+          "y": 7.038211164264266,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0166104704878447,
+          "y": 7.117879819576998,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0186867742468273,
+          "y": 7.104319197396107,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0207630780058101,
+          "y": 7.114489664031775,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.022839381764793,
+          "y": 7.116184741804386,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0249156855237758,
+          "y": 7.128050286212666,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0269919892827586,
+          "y": 7.141610908393557,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0290682930417414,
+          "y": 7.160256763892281,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0311445968007242,
+          "y": 7.17212230830056,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0332209005597068,
+          "y": 7.190768163799285,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0352972043186897,
+          "y": 7.2043287859801755,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0373735080776725,
+          "y": 7.221279563706289,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0394498118366553,
+          "y": 7.236535263659791,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0415261155956381,
+          "y": 7.251790963613293,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.043602419354621,
+          "y": 7.2704368191120174,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0456787231136038,
+          "y": 7.345020241106916,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0477550268725864,
+          "y": 7.345020241106916,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0498313306315692,
+          "y": 7.341630085561693,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.051907634390552,
+          "y": 7.343325163334304,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0539839381495348,
+          "y": 7.339935007789082,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0560602419085177,
+          "y": 7.348410396652138,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0581365456675005,
+          "y": 7.3585808632878065,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.060212849426483,
+          "y": 7.368751329923474,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.062289153185466,
+          "y": 7.378921796559142,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0643654569444487,
+          "y": 7.38909226319481,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0664417607034316,
+          "y": 7.399262729830478,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0685180644624144,
+          "y": 7.409433196466146,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0705943682213972,
+          "y": 7.412823352011369,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0726706719803798,
+          "y": 7.419603663101814,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0747469757393626,
+          "y": 7.42638397419226,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0768232794983454,
+          "y": 7.433164285282705,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0788995832573283,
+          "y": 7.436554440827927,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.080975887016311,
+          "y": 7.443334751918373,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.083052190775294,
+          "y": 7.450115063008818,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0851284945342767,
+          "y": 7.451810140781429,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0872047982932593,
+          "y": 7.451810140781429,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0892811020522422,
+          "y": 7.451810140781429,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.091357405811225,
+          "y": 7.456895374099263,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0934337095702078,
+          "y": 7.456895374099263,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0955100133291906,
+          "y": 7.463675685189709,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0975863170881734,
+          "y": 7.470455996280154,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0996626208471563,
+          "y": 7.477236307370599,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1017389246061389,
+          "y": 7.472151074052765,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1038152283651217,
+          "y": 7.46537076296232,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1058915321241045,
+          "y": 7.451810140781429,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1079678358830873,
+          "y": 7.451810140781429,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1100441396420702,
+          "y": 7.4467249074635955,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1121204434010528,
+          "y": 7.4467249074635955,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1141967471600358,
+          "y": 7.443334751918373,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1162730509190184,
+          "y": 7.443334751918373,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1183493546780012,
+          "y": 7.436554440827927,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.120425658436984,
+          "y": 7.433164285282705,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1225019621959669,
+          "y": 7.42638397419226,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1245782659549497,
+          "y": 7.422993818647036,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1266545697139323,
+          "y": 7.416213507556591,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1287308734729151,
+          "y": 7.409433196466146,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.130807177231898,
+          "y": 7.406043040920924,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1328834809908808,
+          "y": 7.399262729830478,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1349597847498636,
+          "y": 7.392482418740033,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1370360885088464,
+          "y": 7.385702107649587,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1391123922678292,
+          "y": 7.378921796559142,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1411886960268118,
+          "y": 7.372141485468697,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1432649997857947,
+          "y": 7.361971018833029,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1453413035447775,
+          "y": 7.3585808632878065,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1474176073037603,
+          "y": 7.353495629969972,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1494939110627431,
+          "y": 7.353495629969972,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1515702148217257,
+          "y": 7.353495629969972,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1536465185807088,
+          "y": 7.341630085561693,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1557228223396914,
+          "y": 7.353495629969972,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1577991260986742,
+          "y": 7.311118685654689,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.159875429857657,
+          "y": 7.300948219019022,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1619517336166398,
+          "y": 7.290777752383353,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1640280373756227,
+          "y": 7.283997441292908,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1661043411346053,
+          "y": 7.27382697465724,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1681806448935883,
+          "y": 7.265351585794184,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.170256948652571,
+          "y": 7.256876196931127,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1723332524115537,
+          "y": 7.246705730295458,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1744095561705366,
+          "y": 7.239925419205013,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1764858599295194,
+          "y": 7.229754952569346,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1785621636885022,
+          "y": 7.2195844859336775,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1806384674474848,
+          "y": 7.2128041748432326,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1827147712064676,
+          "y": 7.202633708207564,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1847910749654504,
+          "y": 7.192463241571897,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1868673787244333,
+          "y": 7.185682930481451,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.188943682483416,
+          "y": 7.1755124638457835,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.191019986242399,
+          "y": 7.165341997210115,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1930962900013817,
+          "y": 7.155171530574448,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1951725937603643,
+          "y": 7.143305986166168,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1972488975193472,
+          "y": 7.126355208440055,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.19932520127833,
+          "y": 7.122965052894832,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2014015050373128,
+          "y": 7.122965052894832,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2034778087962956,
+          "y": 7.117879819576998,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2055541125552782,
+          "y": 7.122965052894832,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2076304163142613,
+          "y": 7.085673341897383,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2097067200732439,
+          "y": 7.077197953034326,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2117830238322267,
+          "y": 7.067027486398658,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2138593275912095,
+          "y": 7.05685701976299,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2159356313501923,
+          "y": 7.046686553127323,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2180119351091752,
+          "y": 7.039906242036877,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2200882388681578,
+          "y": 7.026345619855986,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2221645426271408,
+          "y": 7.016175153220319,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2242408463861234,
+          "y": 7.00600468658465,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2263171501451062,
+          "y": 6.995834219948982,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.228393453904089,
+          "y": 6.985663753313315,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2304697576630719,
+          "y": 6.975493286677647,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2325460614220547,
+          "y": 6.965322820041979,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2346223651810373,
+          "y": 6.95515235340631,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2366986689400201,
+          "y": 6.944981886770643,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.238774972699003,
+          "y": 6.934811420134975,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2408512764579858,
+          "y": 6.921250797954084,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2429275802169686,
+          "y": 6.914470486863639,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2450038839759514,
+          "y": 6.900909864682748,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2470801877349342,
+          "y": 6.8822640091840235,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2491564914939168,
+          "y": 6.87717877586619,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2512327952528997,
+          "y": 6.8754836980935785,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2533090990118825,
+          "y": 6.872093542548356,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2553854027708653,
+          "y": 6.87717877586619,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2574617065298481,
+          "y": 6.839887064868741,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2595380102888307,
+          "y": 6.82632644268785,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2616143140478138,
+          "y": 6.817851053824793,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2636906178067964,
+          "y": 6.805985509416514,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2657669215657792,
+          "y": 6.795815042780846,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.267843225324762,
+          "y": 6.785644576145178,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2699195290837448,
+          "y": 6.77547410950951,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2719958328427277,
+          "y": 6.7653036428738424,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2740721366017103,
+          "y": 6.751743020692952,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.276148440360693,
+          "y": 6.744962709602506,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.278224744119676,
+          "y": 6.734792242966838,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2803010478786587,
+          "y": 6.724621776331171,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2823773516376415,
+          "y": 6.7144513096955025,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2844536553966244,
+          "y": 6.704280843059834,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2865299591556072,
+          "y": 6.694110376424167,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2886062629145898,
+          "y": 6.683939909788498,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2906825666735726,
+          "y": 6.67376944315283,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2927588704325554,
+          "y": 6.66020882097194,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2948351741915383,
+          "y": 6.651733432108883,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.296911477950521,
+          "y": 6.6263072655197135,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.298987781709504,
+          "y": 6.616136798884045,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3010640854684867,
+          "y": 6.616136798884045,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3031403892274693,
+          "y": 6.614441721111434,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3052166929864522,
+          "y": 6.6042712544757665,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.307292996745435,
+          "y": 6.587320476749653,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3093693005044178,
+          "y": 6.578845087886596,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3114456042634006,
+          "y": 6.565284465705705,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3135219080223832,
+          "y": 6.555113999070038,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3155982117813663,
+          "y": 6.544943532434369,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3176745155403489,
+          "y": 6.534773065798702,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3197508192993317,
+          "y": 6.524602599163034,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3218271230583145,
+          "y": 6.512737054754755,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3239034268172973,
+          "y": 6.504261665891698,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3259797305762802,
+          "y": 6.4940911992560295,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3280560343352628,
+          "y": 6.483920732620362,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3301323380942456,
+          "y": 6.473750265984694,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3322086418532284,
+          "y": 6.461884721576415,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3342849456122112,
+          "y": 6.455104410485969,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.336361249371194,
+          "y": 6.4432388660776905,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3384375531301766,
+          "y": 6.433068399442022,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3405138568891597,
+          "y": 6.422897932806354,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3425901606481423,
+          "y": 6.412727466170686,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3446664644071253,
+          "y": 6.3991668439897955,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.346742768166108,
+          "y": 6.373740677400626,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3488190719250908,
+          "y": 6.365265288537569,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3508953756840736,
+          "y": 6.361875132992346,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3529716794430562,
+          "y": 6.363570210764958,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3550479832020392,
+          "y": 6.35339974412929,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3571242869610218,
+          "y": 6.338144044175788,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3592005907200047,
+          "y": 6.331363733085343,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3612768944789875,
+          "y": 6.317803110904452,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3633531982379703,
+          "y": 6.307632644268784,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3654295019969531,
+          "y": 6.2974621776331166,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3675058057559357,
+          "y": 6.287291710997448,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3695821095149188,
+          "y": 6.27712124436178,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3716584132739014,
+          "y": 6.265255699953501,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3737347170328842,
+          "y": 6.256780311090444,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.375811020791867,
+          "y": 6.246609844454777,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3778873245508498,
+          "y": 6.236439377819108,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3799636283098327,
+          "y": 6.226268911183441,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3820399320688153,
+          "y": 6.2160984445477725,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3841162358277983,
+          "y": 6.205927977912104,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.386192539586781,
+          "y": 6.192367355731214,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3882688433457637,
+          "y": 6.183891966868157,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3903451471047465,
+          "y": 6.175416578005101,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3924214508637291,
+          "y": 6.165246111369433,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3944977546227122,
+          "y": 6.151685489188542,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3965740583816948,
+          "y": 6.1279544003719835,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3986503621406778,
+          "y": 6.117783933736316,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4007266658996604,
+          "y": 6.116088855963705,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4028029696586433,
+          "y": 6.116088855963705,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.404879273417626,
+          "y": 6.104223311555424,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4069555771766087,
+          "y": 6.094052844919757,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4090318809355917,
+          "y": 6.080492222738867,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4111081846945743,
+          "y": 6.070321756103199,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4131844884535572,
+          "y": 6.063541445012753,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.41526079221254,
+          "y": 6.053370978377085,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4173370959715228,
+          "y": 6.043200511741418,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4194133997305056,
+          "y": 6.036420200650972,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4214897034894882,
+          "y": 6.026249734015304,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4235660072484713,
+          "y": 6.016079267379636,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4256423110074539,
+          "y": 6.005908800743968,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4277186147664367,
+          "y": 5.997433411880911,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4297949185254195,
+          "y": 5.9889580230178545,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.4318712222844023,
+          "y": 5.978787556382187,
+          "case": "1",
+          "origin": "paper",
+          "uncertainty": 0.04
+        }
+      ]
+    },
+    {
+      "id": "paper-2",
+      "label": "Paper · Case 2",
+      "case": "2",
+      "engine": "paper",
+      "origin": "paper",
+      "points": [
+        {
+          "x": 1.0000000404159823,
+          "y": 6.914470486863639,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0197249261263188,
+          "y": 7.100929041850884,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.0498313306315692,
+          "y": 7.333154696698636,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1007007727266476,
+          "y": 7.4755412295979875,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.1505320629422344,
+          "y": 7.353495629969972,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2003633531578215,
+          "y": 7.122965052894832,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.2501946433734084,
+          "y": 6.87717877586619,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.3000259335889952,
+          "y": 6.616136798884045,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.349857223804582,
+          "y": 6.361875132992346,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.04
+        },
+        {
+          "x": 1.399688514020169,
+          "y": 6.116088855963705,
+          "case": "2",
+          "origin": "paper",
+          "uncertainty": 0.04
+        }
+      ]
+    },
+    {
+      "id": "paper-3",
+      "label": "Paper · Case 3",
+      "case": "3",
+      "engine": "paper",
+      "origin": "paper",
+      "points": [
+        {
+          "x": 0.9997405024461095,
+          "y": 6.543248454661758,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.019465388156446,
+          "y": 6.724621776331171,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.0495717926616963,
+          "y": 6.946676964543254,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.1004412347567747,
+          "y": 7.070417641943881,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.1502725249723615,
+          "y": 6.943286808998032,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.2001038151879486,
+          "y": 6.716146387468114,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.2504541813432812,
+          "y": 6.473750265984694,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.300285471558868,
+          "y": 6.22457383341083,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.350116761774455,
+          "y": 5.999128489653523,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.3999480519900418,
+          "y": 5.741476668216601,
+          "case": "3",
+          "origin": "paper",
+          "uncertainty": 0.03
+        }
+      ]
+    },
+    {
+      "id": "paper-4",
+      "label": "Paper · Case 4",
+      "case": "4",
+      "engine": "paper",
+      "origin": "paper",
+      "points": [
+        {
+          "x": 1.0002595783858552,
+          "y": 6.587320476749653,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.0197249261263188,
+          "y": 6.772083953964287,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.0498313306315692,
+          "y": 6.997529297721594,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.1001816967869018,
+          "y": 7.1246601306674435,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.1505320629422344,
+          "y": 6.9924440644037595,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.1998442772180757,
+          "y": 6.772083953964287,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.2504541813432812,
+          "y": 6.527992754708256,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.300285471558868,
+          "y": 6.275426166589169,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.3503762997443278,
+          "y": 6.033030045105749,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.03
+        },
+        {
+          "x": 1.4002075899599147,
+          "y": 5.795719156940164,
+          "case": "4",
+          "origin": "paper",
+          "uncertainty": 0.03
+        }
+      ]
+    },
+    {
+      "id": "paper-5",
+      "label": "Paper · Case 5",
+      "case": "5",
+      "engine": "paper",
+      "origin": "paper",
+      "points": [
+        {
+          "x": 0.925253105092602,
+          "y": 5.6668932462217025,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9273294088515848,
+          "y": 5.690624335038262,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9294057126105675,
+          "y": 5.716050501627431,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9314820163695503,
+          "y": 5.741476668216601,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9335583201285331,
+          "y": 5.766902834805771,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9356346238875158,
+          "y": 5.788938845849718,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9377109276464987,
+          "y": 5.8126699346662765,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9397872314054815,
+          "y": 5.834705945710224,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9418635351644642,
+          "y": 5.860132112299394,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.943939838923447,
+          "y": 5.882168123343341,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9460161426824298,
+          "y": 5.9058992121599,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9480924464414127,
+          "y": 5.927935223203847,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9501687502003954,
+          "y": 5.953361389793017,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9522450539593782,
+          "y": 5.975397400836965,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.954321357718361,
+          "y": 5.999128489653523,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9563976614773437,
+          "y": 6.022859578470081,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9584739652363266,
+          "y": 6.044895589514029,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9605502689953094,
+          "y": 6.068626678330586,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9626265727542921,
+          "y": 6.088967611601923,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9647028765132749,
+          "y": 6.112698700418481,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9667791802722577,
+          "y": 6.134734711462428,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9688554840312404,
+          "y": 6.158465800278988,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9709317877902233,
+          "y": 6.180501811322935,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9730080915492061,
+          "y": 6.20084274459427,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9750843953081889,
+          "y": 6.2228787556382175,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9771606990671716,
+          "y": 6.243219688909553,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9792370028261544,
+          "y": 6.266950777726112,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9813133065851372,
+          "y": 6.2889867887700595,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.98338961034412,
+          "y": 6.307632644268784,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9854659141031028,
+          "y": 6.329668655312731,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9875422178620856,
+          "y": 6.350009588584067,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9896185216210683,
+          "y": 6.372045599628015,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9916948253800512,
+          "y": 6.3923865328993505,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.993771129139034,
+          "y": 6.412727466170686,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9958474328980167,
+          "y": 6.431373321669411,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 0.9979237366569995,
+          "y": 6.453409332713358,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0000000404159823,
+          "y": 6.473750265984694,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0020763441749652,
+          "y": 6.4940911992560295,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.004152647933948,
+          "y": 6.514432132527366,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0062289516929306,
+          "y": 6.536468143571313,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0083052554519134,
+          "y": 6.556809076842649,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0103815592108962,
+          "y": 6.577150010113985,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.012457862969879,
+          "y": 6.597490943385321,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0145341667288619,
+          "y": 6.616136798884045,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0166104704878447,
+          "y": 6.63478265438277,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0186867742468273,
+          "y": 6.653428509881495,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0207630780058101,
+          "y": 6.672074365380219,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.022839381764793,
+          "y": 6.690720220878944,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0249156855237758,
+          "y": 6.709366076377668,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0269919892827586,
+          "y": 6.726316854103782,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0290682930417414,
+          "y": 6.741572554057283,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0311445968007242,
+          "y": 6.758523331783397,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0332209005597068,
+          "y": 6.77547410950951,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0352972043186897,
+          "y": 6.790729809463012,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0373735080776725,
+          "y": 6.8093756649617365,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0394498118366553,
+          "y": 6.821241209370016,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0415261155956381,
+          "y": 6.839887064868741,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.043602419354621,
+          "y": 6.855142764822243,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0456787231136038,
+          "y": 6.867008309230521,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0477550268725864,
+          "y": 6.883959086956635,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0498313306315692,
+          "y": 6.8975197091375255,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.051907634390552,
+          "y": 6.907690175773194,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0539839381495348,
+          "y": 6.921250797954084,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0560602419085177,
+          "y": 6.92803110904453,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0581365456675005,
+          "y": 6.9415917312254205,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.060212849426483,
+          "y": 6.9483720423158655,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.062289153185466,
+          "y": 6.958542508951533,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0643654569444487,
+          "y": 6.968712975587201,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0664417607034316,
+          "y": 6.977188364450258,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0685180644624144,
+          "y": 6.987358831085926,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0705943682213972,
+          "y": 6.995834219948982,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0726706719803798,
+          "y": 6.999224375494205,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0747469757393626,
+          "y": 7.004309608812039,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0768232794983454,
+          "y": 7.009394842129873,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0788995832573283,
+          "y": 7.016175153220319,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.080975887016311,
+          "y": 7.019565308765541,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.083052190775294,
+          "y": 7.021260386538152,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0851284945342767,
+          "y": 7.021260386538152,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0872047982932593,
+          "y": 7.021260386538152,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0892811020522422,
+          "y": 7.021260386538152,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.091357405811225,
+          "y": 7.022955464310764,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0934337095702078,
+          "y": 7.022955464310764,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0955100133291906,
+          "y": 7.019565308765541,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0975863170881734,
+          "y": 7.016175153220319,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.0996626208471563,
+          "y": 7.012784997675096,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1017389246061389,
+          "y": 7.009394842129873,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1038152283651217,
+          "y": 7.004309608812039,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1058915321241045,
+          "y": 6.999224375494205,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1079678358830873,
+          "y": 6.995834219948982,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1100441396420702,
+          "y": 6.989053908858537,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1121204434010528,
+          "y": 6.982273597768092,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1141967471600358,
+          "y": 6.97888344222287,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1162730509190184,
+          "y": 6.972103131132424,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1183493546780012,
+          "y": 6.968712975587201,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.120425658436984,
+          "y": 6.960237586724144,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1225019621959669,
+          "y": 6.95515235340631,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1245782659549497,
+          "y": 6.9483720423158655,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1266545697139323,
+          "y": 6.944981886770643,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1287308734729151,
+          "y": 6.934811420134975,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.130807177231898,
+          "y": 6.92803110904453,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1328834809908808,
+          "y": 6.922945875726695,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1349597847498636,
+          "y": 6.91616556463625,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1370360885088464,
+          "y": 6.909385253545805,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1391123922678292,
+          "y": 6.900909864682748,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1411886960268118,
+          "y": 6.895824631364914,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1432649997857947,
+          "y": 6.8890443202744684,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1453413035447775,
+          "y": 6.880568931411412,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1474176073037603,
+          "y": 6.873788620320967,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1494939110627431,
+          "y": 6.870398464775745,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1515702148217257,
+          "y": 6.8602279981400764,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1536465185807088,
+          "y": 6.851752609277019,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1557228223396914,
+          "y": 6.843277220413963,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1577991260986742,
+          "y": 6.833106753778296,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.159875429857657,
+          "y": 6.824631364915239,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1619517336166398,
+          "y": 6.8161559760521815,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1640280373756227,
+          "y": 6.8093756649617365,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1661043411346053,
+          "y": 6.8025953538712916,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1681806448935883,
+          "y": 6.795815042780846,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.170256948652571,
+          "y": 6.785644576145178,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1723332524115537,
+          "y": 6.778864265054732,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1744095561705366,
+          "y": 6.772083953964287,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1764858599295194,
+          "y": 6.76191348732862,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1785621636885022,
+          "y": 6.753438098465563,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1806384674474848,
+          "y": 6.744962709602506,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1827147712064676,
+          "y": 6.734792242966838,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1847910749654504,
+          "y": 6.724621776331171,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1868673787244333,
+          "y": 6.716146387468114,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.188943682483416,
+          "y": 6.707670998605057,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.191019986242399,
+          "y": 6.6991956097420005,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1930962900013817,
+          "y": 6.690720220878944,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1951725937603643,
+          "y": 6.680549754243276,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.1972488975193472,
+          "y": 6.67376944315283,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.19932520127833,
+          "y": 6.66020882097194,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2014015050373128,
+          "y": 6.653428509881495,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2034778087962956,
+          "y": 6.643258043245827,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2055541125552782,
+          "y": 6.6330875766101585,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2076304163142613,
+          "y": 6.6263072655197135,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2097067200732439,
+          "y": 6.616136798884045,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2117830238322267,
+          "y": 6.605966332248378,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2138593275912095,
+          "y": 6.594100787840098,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2159356313501923,
+          "y": 6.585625398977042,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2180119351091752,
+          "y": 6.575454932341374,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2200882388681578,
+          "y": 6.565284465705705,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2221645426271408,
+          "y": 6.555113999070038,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2242408463861234,
+          "y": 6.544943532434369,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2263171501451062,
+          "y": 6.534773065798702,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.228393453904089,
+          "y": 6.527992754708256,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2304697576630719,
+          "y": 6.517822288072589,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2325460614220547,
+          "y": 6.50765182143692,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2346223651810373,
+          "y": 6.4940911992560295,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2366986689400201,
+          "y": 6.483920732620362,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.238774972699003,
+          "y": 6.470360110439471,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2408512764579858,
+          "y": 6.460189643803803,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2429275802169686,
+          "y": 6.450019177168135,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2450038839759514,
+          "y": 6.439848710532468,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2470801877349342,
+          "y": 6.4296782438968,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2491564914939168,
+          "y": 6.419507777261131,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2512327952528997,
+          "y": 6.409337310625464,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2533090990118825,
+          "y": 6.3991668439897955,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2553854027708653,
+          "y": 6.388996377354127,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2574617065298481,
+          "y": 6.375435755173237,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2595380102888307,
+          "y": 6.365265288537569,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2616143140478138,
+          "y": 6.358484977447124,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2636906178067964,
+          "y": 6.344924355266233,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2657669215657792,
+          "y": 6.334753888630566,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.267843225324762,
+          "y": 6.324583421994897,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2699195290837448,
+          "y": 6.3110227998140065,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2719958328427277,
+          "y": 6.300852333178339,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2740721366017103,
+          "y": 6.2889867887700595,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.276148440360693,
+          "y": 6.280511399907002,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.278224744119676,
+          "y": 6.270340933271335,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2803010478786587,
+          "y": 6.256780311090444,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2823773516376415,
+          "y": 6.246609844454777,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2844536553966244,
+          "y": 6.234744300046497,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2865299591556072,
+          "y": 6.226268911183441,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2886062629145898,
+          "y": 6.21270828900255,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2906825666735726,
+          "y": 6.202537822366882,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2927588704325554,
+          "y": 6.190672277958603,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.2948351741915383,
+          "y": 6.178806733550323,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.296911477950521,
+          "y": 6.168636266914655,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.298987781709504,
+          "y": 6.16185595582421,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3010640854684867,
+          "y": 6.148295333643319,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3031403892274693,
+          "y": 6.138124867007651,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3052166929864522,
+          "y": 6.1279544003719835,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.307292996745435,
+          "y": 6.1143937781910935,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3093693005044178,
+          "y": 6.104223311555424,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3114456042634006,
+          "y": 6.090662689374534,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3135219080223832,
+          "y": 6.080492222738867,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3155982117813663,
+          "y": 6.070321756103199,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3176745155403489,
+          "y": 6.06015128946753,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3197508192993317,
+          "y": 6.04659066728664,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3218271230583145,
+          "y": 6.036420200650972,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3239034268172973,
+          "y": 6.022859578470081,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3259797305762802,
+          "y": 6.016079267379636,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3280560343352628,
+          "y": 6.005908800743968,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3301323380942456,
+          "y": 5.994043256335688,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3322086418532284,
+          "y": 5.9821777119274095,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3342849456122112,
+          "y": 5.972007245291742,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.336361249371194,
+          "y": 5.965226934201296,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3384375531301766,
+          "y": 5.948276156475183,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3405138568891597,
+          "y": 5.941495845384738,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3425901606481423,
+          "y": 5.924545067658624,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3446664644071253,
+          "y": 5.917764756568179,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.346742768166108,
+          "y": 5.904204134387289,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3488190719250908,
+          "y": 5.8940336677516205,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3508953756840736,
+          "y": 5.882168123343341,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3529716794430562,
+          "y": 5.873692734480285,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3550479832020392,
+          "y": 5.860132112299394,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3571242869610218,
+          "y": 5.849961645663726,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3592005907200047,
+          "y": 5.839791179028058,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3612768944789875,
+          "y": 5.826230556847167,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3633531982379703,
+          "y": 5.819450245756722,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3654295019969531,
+          "y": 5.809279779121054,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3675058057559357,
+          "y": 5.7991093124853865,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3695821095149188,
+          "y": 5.788938845849718,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3716584132739014,
+          "y": 5.77876837921405,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3737347170328842,
+          "y": 5.770292990350994,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.375811020791867,
+          "y": 5.758427445942715,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3778873245508498,
+          "y": 5.748256979307047,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3799636283098327,
+          "y": 5.738086512671378,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3820399320688153,
+          "y": 5.727916046035711,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3841162358277983,
+          "y": 5.71435542385482,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.386192539586781,
+          "y": 5.704184957219152,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3882688433457637,
+          "y": 5.697404646128707,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3903451471047465,
+          "y": 5.683844023947816,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3924214508637291,
+          "y": 5.6736735573121475,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3944977546227122,
+          "y": 5.66350309067648,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3965740583816948,
+          "y": 5.656722779586035,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.3986503621406778,
+          "y": 5.648247390722978,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4007266658996604,
+          "y": 5.639772001859922,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4028029696586433,
+          "y": 5.629601535224253,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.404879273417626,
+          "y": 5.619431068588586,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4069555771766087,
+          "y": 5.609260601952918,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4090318809355917,
+          "y": 5.6007852130898605,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4111081846945743,
+          "y": 5.592309824226804,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4131844884535572,
+          "y": 5.582139357591137,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.41526079221254,
+          "y": 5.5719688909554685,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4173370959715228,
+          "y": 5.5617984243198,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4194133997305056,
+          "y": 5.555018113229355,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4214897034894882,
+          "y": 5.544847646593688,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4235660072484713,
+          "y": 5.534677179958019,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4256423110074539,
+          "y": 5.527896868867574,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4277186147664367,
+          "y": 5.519421480004517,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4297949185254195,
+          "y": 5.510946091141461,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        },
+        {
+          "x": 1.4318712222844023,
+          "y": 5.504165780051015,
+          "case": "5",
+          "origin": "paper",
+          "uncertainty": 0.015
+        }
+      ]
+    },
+    {
+      "id": "developed-energy-historical-t",
+      "label": "Developed · T front (historical)",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "T",
+      "points": [
+        {
+          "x": 0.9,
+          "y": 5.75357592859551,
+          "job": "124939589",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 300.00600389046053,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 763.4723992894018,
+          "marker_unit": "K",
+          "left_cm_s": 5.747731009896346,
+          "right_cm_s": 5.759420847294675,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "0d3afdeb41880882700a5902518065e89d3581884a8e4903e9958d89a09cd20e",
+          "fit_window_start_s": 0.0002949560038904632,
+          "fit_window_end_s": 0.00030000600389046056,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "dfd97e4cf6aa415f1cf72c22993829138f3c4f9c93c15be08c8121c0ce049991",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 763.4723992894018
+        },
+        {
+          "x": 0.95,
+          "y": 6.494191315926399,
+          "job": "124939594",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.98717909564436,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 781.8439466361449,
+          "marker_unit": "K",
+          "left_cm_s": 6.4910984314822135,
+          "right_cm_s": 6.497284200370585,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "c3c06c30fd45ed5b862998a295b4d2b9577d05ed5d5fe3719c76c8916a93a4f4",
+          "fit_window_start_s": 0.000294937179095647,
+          "fit_window_end_s": 0.0002999871790956444,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "75976f9f072faa83bc2a43f2d46b88bc1d2571aeccf106e2e1148beee3f8137c",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 781.8439466361449
+        },
+        {
+          "x": 1,
+          "y": 7.050169523171821,
+          "job": "124939600",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 286.4180631531308,
+          "scheduler_state": "TIMEOUT",
+          "marker": "T",
+          "marker_level": 796.774000467596,
+          "marker_unit": "K",
+          "left_cm_s": 7.039099936827588,
+          "right_cm_s": 7.0612391095160545,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "9b89c4d00017b98e867076d141894cfc45c42fcc0836b7e4e2ffd885f70c2afd",
+          "fit_window_start_s": 0.0002809180631531336,
+          "fit_window_end_s": 0.00028641806315313076,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "df8497f17784aa9908d3f63b7f1f7ea8c91ee036ba64388a44d54803054c2389",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 796.774000467596
+        },
+        {
+          "x": 1.05,
+          "y": 7.464380582024913,
+          "job": "124939606",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 300.0166727768922,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 791.7025261312986,
+          "marker_unit": "K",
+          "left_cm_s": 7.467091558710467,
+          "right_cm_s": 7.461669605339359,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "c8a8eed81f6fcb7b0ad472a28f4d3407ebf9ee1cf3240344f781e55813a8fea8",
+          "fit_window_start_s": 0.00029491667277689484,
+          "fit_window_end_s": 0.0003000166727768922,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "e3d4e5af02c2cb8ce5e721b9939108cd7deb3bd6d6a417f7c89573d8be583d8e",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 791.7025261312986
+        },
+        {
+          "x": 1.1,
+          "y": 7.545517452971195,
+          "job": "124939611",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 300.02097558882923,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 780.8722452267356,
+          "marker_unit": "K",
+          "left_cm_s": 7.548505000597048,
+          "right_cm_s": 7.542529905345343,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "acbfd7101a9856479c3c200f206cdc5e62ce66db4d606a67fcb16c6a9d11a1f8",
+          "fit_window_start_s": 0.0002949209755888319,
+          "fit_window_end_s": 0.00030002097558882925,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "a33a541dbcb62fcbbad236fdaaff9b87418e317c029dc07e750a34ca75d95027",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 780.8722452267356
+        },
+        {
+          "x": 1.15,
+          "y": 7.346511840901446,
+          "job": "124939614",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 284.92623512185827,
+          "scheduler_state": "TIMEOUT",
+          "marker": "T",
+          "marker_level": 769.9301534631155,
+          "marker_unit": "K",
+          "left_cm_s": 7.351237732806874,
+          "right_cm_s": 7.341785948996018,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "c1ffc9c5127deba8e3411d2324cf10ff8937d09c311eb690d34a3e82fecf5933",
+          "fit_window_start_s": 0.0002794262351218611,
+          "fit_window_end_s": 0.00028492623512185825,
+          "fit_samples_left": 13,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "02b6f1593ff84a3534f52b5add53bfe0dc51a0c878927834d583137eef2cc5e0",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 769.9301534631155
+        },
+        {
+          "x": 1.2,
+          "y": 7.085383174431582,
+          "job": "124939620",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.98167839761095,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 759.1860630265394,
+          "marker_unit": "K",
+          "left_cm_s": 7.08103266788174,
+          "right_cm_s": 7.089733680981425,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "b5c82c176523de54464e534efd0ec250fcfdce266cdc675fe24b689eb56d78ac",
+          "fit_window_start_s": 0.00029493167839761354,
+          "fit_window_end_s": 0.00029998167839761093,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "071836528d4c794e45d5e40b37ae3003bc8a438c46901ff088396985abbb46c9",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 759.1860630265394
+        },
+        {
+          "x": 1.25,
+          "y": 6.771158720255805,
+          "job": "124939636",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.9881303441829,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 748.6865412525168,
+          "marker_unit": "K",
+          "left_cm_s": 6.763967797512767,
+          "right_cm_s": 6.778349642998842,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "1cf693d309139947b761adceca29dce4fa94d36d0bfd13b779aec3de8b526325",
+          "fit_window_start_s": 0.0002949381303441855,
+          "fit_window_end_s": 0.0002999881303441829,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "a71d1c429c6fc858d05f257c2aeb8dfe39f816cc631ca915cfb1d2a74344fed0",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 748.6865412525168
+        },
+        {
+          "x": 1.3,
+          "y": 6.469219417549679,
+          "job": "124939647",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.99286548815746,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 738.4331803230109,
+          "marker_unit": "K",
+          "left_cm_s": 6.474167839976676,
+          "right_cm_s": 6.464270995122683,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "6d4b8fa093ef79c3a70705b6d369d15bae0d673c39bd76fcc56cec74ab669b06",
+          "fit_window_start_s": 0.00029494286548816006,
+          "fit_window_end_s": 0.00029999286548815744,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "bbaad86af1b6dd39285dc4ea38914119fa1645f9f2338859516fb05e088cfd4c",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 738.4331803230109
+        },
+        {
+          "x": 1.35,
+          "y": 6.182804171517606,
+          "job": "124939655",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.9964140478056,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 728.4153979919608,
+          "marker_unit": "K",
+          "left_cm_s": 6.189744385682063,
+          "right_cm_s": 6.175863957353148,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "2a611fe63461e526408f26d271402c70c99fd96a6f6a0d3c0f1a18a5a88635f6",
+          "fit_window_start_s": 0.0002949464140478082,
+          "fit_window_end_s": 0.0002999964140478056,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "28e26a6915aa019716aba35d3521ad2738dac5e9a9a064332785a4103c6e9ef7",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 728.4153979919608
+        },
+        {
+          "x": 1.4,
+          "y": 5.9184988974346,
+          "job": "124939658",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.99982047224836,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 718.6193673285339,
+          "marker_unit": "K",
+          "left_cm_s": 5.914485710109746,
+          "right_cm_s": 5.922512084759454,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "f6d6cfb4f1d6e5d0070ab7089cf53135621018713cbbb8b0149e7a4af509f5db",
+          "fit_window_start_s": 0.000294949820472251,
+          "fit_window_end_s": 0.00029999982047224837,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "982da2a8427d2860f225e484ab75971fe283cb2a841d2df7ca3a2e6c9d7d44f2",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 718.6193673285339
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "This sweep predates the qualified temperature-inversion correction. It is historical solver-diagnosis evidence."
+      ],
+      "default_visible": true,
+      "campaign": "historical-original-zero-300us",
+      "original_label": "Developed solver, energy correction — T front (historical transient)"
+    },
+    {
+      "id": "developed-energy-historical-oh",
+      "label": "Developed · OH front (historical)",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "OH",
+      "points": [
+        {
+          "x": 0.9,
+          "y": 5.822745517255862,
+          "job": "124939589",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 300.00600389046053,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 5.815261704420316,
+          "right_cm_s": 5.8302293300914085,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "0d3afdeb41880882700a5902518065e89d3581884a8e4903e9958d89a09cd20e",
+          "fit_window_start_s": 0.0002949560038904632,
+          "fit_window_end_s": 0.00030000600389046056,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "dfd97e4cf6aa415f1cf72c22993829138f3c4f9c93c15be08c8121c0ce049991",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 763.4723992894018
+        },
+        {
+          "x": 0.95,
+          "y": 6.541318952324142,
+          "job": "124939594",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.98717909564436,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 6.5399461723429715,
+          "right_cm_s": 6.542691732305313,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "c3c06c30fd45ed5b862998a295b4d2b9577d05ed5d5fe3719c76c8916a93a4f4",
+          "fit_window_start_s": 0.000294937179095647,
+          "fit_window_end_s": 0.0002999871790956444,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "75976f9f072faa83bc2a43f2d46b88bc1d2571aeccf106e2e1148beee3f8137c",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 781.8439466361449
+        },
+        {
+          "x": 1,
+          "y": 7.084264615283921,
+          "job": "124939600",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 286.4180631531308,
+          "scheduler_state": "TIMEOUT",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 7.074492680288441,
+          "right_cm_s": 7.094036550279401,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "9b89c4d00017b98e867076d141894cfc45c42fcc0836b7e4e2ffd885f70c2afd",
+          "fit_window_start_s": 0.0002809180631531336,
+          "fit_window_end_s": 0.00028641806315313076,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "df8497f17784aa9908d3f63b7f1f7ea8c91ee036ba64388a44d54803054c2389",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 796.774000467596
+        },
+        {
+          "x": 1.05,
+          "y": 7.497769498010655,
+          "job": "124939606",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 300.0166727768922,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 7.503002322169909,
+          "right_cm_s": 7.492536673851401,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "c8a8eed81f6fcb7b0ad472a28f4d3407ebf9ee1cf3240344f781e55813a8fea8",
+          "fit_window_start_s": 0.00029491667277689484,
+          "fit_window_end_s": 0.0003000166727768922,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "e3d4e5af02c2cb8ce5e721b9939108cd7deb3bd6d6a417f7c89573d8be583d8e",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 791.7025261312986
+        },
+        {
+          "x": 1.1,
+          "y": 7.615060366386511,
+          "job": "124939611",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 300.02097558882923,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 7.614073294006225,
+          "right_cm_s": 7.616047438766797,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "acbfd7101a9856479c3c200f206cdc5e62ce66db4d606a67fcb16c6a9d11a1f8",
+          "fit_window_start_s": 0.0002949209755888319,
+          "fit_window_end_s": 0.00030002097558882925,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "a33a541dbcb62fcbbad236fdaaff9b87418e317c029dc07e750a34ca75d95027",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 780.8722452267356
+        },
+        {
+          "x": 1.15,
+          "y": 7.418630078513653,
+          "job": "124939614",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 284.92623512185827,
+          "scheduler_state": "TIMEOUT",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 7.420012652681477,
+          "right_cm_s": 7.417247504345828,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "c1ffc9c5127deba8e3411d2324cf10ff8937d09c311eb690d34a3e82fecf5933",
+          "fit_window_start_s": 0.0002794262351218611,
+          "fit_window_end_s": 0.00028492623512185825,
+          "fit_samples_left": 13,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "02b6f1593ff84a3534f52b5add53bfe0dc51a0c878927834d583137eef2cc5e0",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 769.9301534631155
+        },
+        {
+          "x": 1.2,
+          "y": 7.186917375117806,
+          "job": "124939620",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.98167839761095,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 7.182646159538475,
+          "right_cm_s": 7.191188590697137,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "b5c82c176523de54464e534efd0ec250fcfdce266cdc675fe24b689eb56d78ac",
+          "fit_window_start_s": 0.00029493167839761354,
+          "fit_window_end_s": 0.00029998167839761093,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "071836528d4c794e45d5e40b37ae3003bc8a438c46901ff088396985abbb46c9",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 759.1860630265394
+        },
+        {
+          "x": 1.25,
+          "y": 6.451695958564216,
+          "job": "124939636",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 161.43813034420978,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 6.453977693306298,
+          "right_cm_s": 6.449414223822135,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "1cf693d309139947b761adceca29dce4fa94d36d0bfd13b779aec3de8b526325",
+          "fit_window_start_s": 0.00015643813034420966,
+          "fit_window_end_s": 0.00016143813034420979,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "a71d1c429c6fc858d05f257c2aeb8dfe39f816cc631ca915cfb1d2a74344fed0",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 748.6865412525168
+        },
+        {
+          "x": 1.3,
+          "y": 6.588715989011906,
+          "job": "124939647",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.99286548815746,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 6.588245050896968,
+          "right_cm_s": 6.589186927126843,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "6d4b8fa093ef79c3a70705b6d369d15bae0d673c39bd76fcc56cec74ab669b06",
+          "fit_window_start_s": 0.00029494286548816006,
+          "fit_window_end_s": 0.00029999286548815744,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "bbaad86af1b6dd39285dc4ea38914119fa1645f9f2338859516fb05e088cfd4c",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 738.4331803230109
+        },
+        {
+          "x": 1.35,
+          "y": 6.310778922613476,
+          "job": "124939655",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.9964140478056,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 6.320749084136551,
+          "right_cm_s": 6.300808761090402,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "2a611fe63461e526408f26d271402c70c99fd96a6f6a0d3c0f1a18a5a88635f6",
+          "fit_window_start_s": 0.0002949464140478082,
+          "fit_window_end_s": 0.0002999964140478056,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "28e26a6915aa019716aba35d3521ad2738dac5e9a9a064332785a4103c6e9ef7",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 728.4153979919608
+        },
+        {
+          "x": 1.4,
+          "y": 6.053891942108118,
+          "job": "124939658",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.99982047224836,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 6.054046664473961,
+          "right_cm_s": 6.053737219742275,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "f6d6cfb4f1d6e5d0070ab7089cf53135621018713cbbb8b0149e7a4af509f5db",
+          "fit_window_start_s": 0.000294949820472251,
+          "fit_window_end_s": 0.00029999982047224837,
+          "fit_samples_left": 12,
+          "initialization": "generated_original_zero",
+          "tracking_inputs_sha256": "982da2a8427d2860f225e484ab75971fe283cb2a841d2df7ca3a2e6c9d7d44f2",
+          "solver_build_job": "124900963",
+          "library_build_job": "124657926",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-sweep-20261020-1305.json",
+          "temperature_anchor_K": 718.6193673285339
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "This sweep predates the qualified temperature-inversion correction. It is historical solver-diagnosis evidence."
+      ],
+      "default_visible": false,
+      "campaign": "historical-original-zero-300us",
+      "original_label": "Developed solver, energy correction — OH front (historical transient)"
+    },
+    {
+      "id": "developed-openfoam-native300-t",
+      "label": "Native developed solver (historical transient) — T front",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "T",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.350486296855987,
+          "job": "124939663",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 300.01806325131747,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 780.8722452267356,
+          "marker_unit": "K",
+          "left_cm_s": 7.35353298763181,
+          "right_cm_s": 7.347439606080163,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "bcac3aebc2acb08089bf55d8f66a8fff96a9f4459d048153edae7746f85f13a5",
+          "fit_window_start_s": 0.0002949180632513201,
+          "fit_window_end_s": 0.00030001806325131747,
+          "fit_samples_left": 12,
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-controls-20261020-1305.json",
+          "clean_start_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/fresh-zero-comparison-20261020.md"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "This sweep predates the qualified temperature-inversion correction. It is historical solver-diagnosis evidence."
+      ],
+      "default_visible": true,
+      "campaign": "historical-original-zero-controls",
+      "original_label": "Native developed solver (historical transient) — T front"
+    },
+    {
+      "id": "developed-openfoam-native300-oh",
+      "label": "Native developed solver (historical transient) — OH front",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "OH",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.427678723667794,
+          "job": "124939663",
+          "source": "6d22c3e347e4e07c344571e1e7edc4324173a493",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 300.01806325131747,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 7.426951634927072,
+          "right_cm_s": 7.428405812408516,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "bcac3aebc2acb08089bf55d8f66a8fff96a9f4459d048153edae7746f85f13a5",
+          "fit_window_start_s": 0.0002949180632513201,
+          "fit_window_end_s": 0.00030001806325131747,
+          "fit_samples_left": 12,
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-controls-20261020-1305.json",
+          "clean_start_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/fresh-zero-comparison-20261020.md"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "This sweep predates the qualified temperature-inversion correction. It is historical solver-diagnosis evidence."
+      ],
+      "default_visible": false,
+      "campaign": "historical-original-zero-controls",
+      "original_label": "Native developed solver (historical transient) — OH front"
+    },
+    {
+      "id": "developed-openfoam-transport-t",
+      "label": "Developed solver, Cantera transport (historical transient) — T front",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "T",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.397237888980656,
+          "job": "124942608",
+          "source": "0f31be8d73b0c74334013d9a5f8b59d7baeea80a",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.99190354651114,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 780.8722452267356,
+          "marker_unit": "K",
+          "left_cm_s": 7.401661388232017,
+          "right_cm_s": 7.392814389729295,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "3e5e06e6d740bf0db94d30c7a0855c3c59809b0b4d2a8dfe8c42497e640da8eb",
+          "fit_window_start_s": 0.00029494190354651377,
+          "fit_window_end_s": 0.00029999190354651115,
+          "fit_samples_left": 12,
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-controls-20261020-1305.json",
+          "clean_start_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/fresh-zero-comparison-20261020.md"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "This sweep predates the qualified temperature-inversion correction. It is historical solver-diagnosis evidence."
+      ],
+      "default_visible": true,
+      "campaign": "historical-original-zero-controls",
+      "original_label": "Developed solver, Cantera transport (historical transient) — T front"
+    },
+    {
+      "id": "developed-openfoam-transport-oh",
+      "label": "Developed solver, Cantera transport (historical transient) — OH front",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "OH",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.413692764258538,
+          "job": "124942608",
+          "source": "0f31be8d73b0c74334013d9a5f8b59d7baeea80a",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 299.99190354651114,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 7.414191028000053,
+          "right_cm_s": 7.413194500517023,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "3e5e06e6d740bf0db94d30c7a0855c3c59809b0b4d2a8dfe8c42497e640da8eb",
+          "fit_window_start_s": 0.00029494190354651377,
+          "fit_window_end_s": 0.00029999190354651115,
+          "fit_samples_left": 12,
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-controls-20261020-1305.json",
+          "clean_start_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/fresh-zero-comparison-20261020.md"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "This sweep predates the qualified temperature-inversion correction. It is historical solver-diagnosis evidence."
+      ],
+      "default_visible": false,
+      "campaign": "historical-original-zero-controls",
+      "original_label": "Developed solver, Cantera transport (historical transient) — OH front"
+    },
+    {
+      "id": "developed-openfoam-cp-t",
+      "label": "Developed solver, Cantera transport and CP chemistry (historical transient) — T front",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "T",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.318466999878309,
+          "job": "124950538",
+          "source": "2ead1ab4f4d0e45da05322b32abde16a9be8f6a1",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 221.94180656387954,
+          "scheduler_state": "TIMEOUT",
+          "marker": "T",
+          "marker_level": 780.8722452267356,
+          "marker_unit": "K",
+          "left_cm_s": 7.319779872775095,
+          "right_cm_s": 7.317154126981522,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "6205a5a98a130c48f648de0fd741d776e9bf51e775ab372dd2b4fed781c94944",
+          "fit_window_start_s": 0.00021694180656387941,
+          "fit_window_end_s": 0.00022194180656387954,
+          "fit_samples_left": 12,
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-controls-20261020-1305.json",
+          "clean_start_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/fresh-zero-comparison-20261020.md"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "This sweep predates the qualified temperature-inversion correction. It is historical solver-diagnosis evidence."
+      ],
+      "default_visible": true,
+      "campaign": "historical-original-zero-controls",
+      "original_label": "Developed solver, Cantera transport and CP chemistry (historical transient) — T front"
+    },
+    {
+      "id": "developed-openfoam-cp-oh",
+      "label": "Developed solver, Cantera transport and CP chemistry (historical transient) — OH front",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "OH",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.382935014566252,
+          "job": "124950538",
+          "source": "2ead1ab4f4d0e45da05322b32abde16a9be8f6a1",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 221.94180656387954,
+          "scheduler_state": "TIMEOUT",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 7.38560549214282,
+          "right_cm_s": 7.380264536989685,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "6205a5a98a130c48f648de0fd741d776e9bf51e775ab372dd2b4fed781c94944",
+          "fit_window_start_s": 0.00021694180656387941,
+          "fit_window_end_s": 0.00022194180656387954,
+          "fit_samples_left": 12,
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-controls-20261020-1305.json",
+          "clean_start_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/fresh-zero-comparison-20261020.md"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "This sweep predates the qualified temperature-inversion correction. It is historical solver-diagnosis evidence."
+      ],
+      "default_visible": false,
+      "campaign": "historical-original-zero-controls",
+      "original_label": "Developed solver, Cantera transport and CP chemistry (historical transient) — OH front"
+    },
+    {
+      "id": "reactingfoam-stock-t",
+      "label": "reactingFoam · T front",
+      "origin": "computed",
+      "engine": "reactingfoam",
+      "case": "1",
+      "marker": "T",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 6.6260447869167365,
+          "job": "124896761",
+          "source": "c18481dc5423c4447ca85c1e69978551a3442090",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 198.929603628,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 780.8722452267356,
+          "marker_unit": "K",
+          "left_cm_s": 6.625661401822085,
+          "right_cm_s": 6.626428172011388,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "aa57cea4936a5ae7c359b1addde119d7275745016ecfcb3e55d96ab2a9611626",
+          "fit_window_start_s": 0.000193429603628,
+          "fit_window_end_s": 0.000198929603628,
+          "fit_samples_left": 12,
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-controls-20261020-1305.json",
+          "clean_start_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/fresh-zero-comparison-20261020.md",
+          "openfoam_version": "8",
+          "transport_note": "Native Fourier/unity-Lewis transport; not matched to species-dependent models"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "Transport and chemistry coupling differ across solver families."
+      ],
+      "default_visible": true,
+      "campaign": "historical-original-zero-controls",
+      "original_label": "Stock reactingFoam (transient) — T front"
+    },
+    {
+      "id": "reactingfoam-stock-oh",
+      "label": "reactingFoam · OH front",
+      "origin": "computed",
+      "engine": "reactingfoam",
+      "case": "1",
+      "marker": "OH",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 6.609476291057341,
+          "job": "124896761",
+          "source": "c18481dc5423c4447ca85c1e69978551a3442090",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 198.929603628,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 6.605378236532772,
+          "right_cm_s": 6.6135743455819105,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "aa57cea4936a5ae7c359b1addde119d7275745016ecfcb3e55d96ab2a9611626",
+          "fit_window_start_s": 0.000193429603628,
+          "fit_window_end_s": 0.000198929603628,
+          "fit_samples_left": 12,
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-controls-20261020-1305.json",
+          "clean_start_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/fresh-zero-comparison-20261020.md",
+          "openfoam_version": "8",
+          "transport_note": "Native Fourier/unity-Lewis transport; not matched to species-dependent models"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "Transport and chemistry coupling differ across solver families."
+      ],
+      "default_visible": false,
+      "campaign": "historical-original-zero-controls",
+      "original_label": "Stock reactingFoam (transient) — OH front"
+    },
+    {
+      "id": "deepflame-deepflame-t",
+      "label": "DeepFlame · T front",
+      "origin": "computed",
+      "engine": "deepflame",
+      "case": "1",
+      "marker": "T",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.237348802848587,
+          "job": "124901315",
+          "source": "9957c2cfbea7dbcbb1af7deba91a004cbdf7fe1d",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 198.941249729,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 780.8722452267356,
+          "marker_unit": "K",
+          "left_cm_s": 7.239921622247356,
+          "right_cm_s": 7.234775983449817,
+          "first_saved_tracking_time_s": 3.11504185344e-9,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "75d2e25c21f487cea859329b584ba82522c16db11bdedd91a329d687ba66c2a6",
+          "fit_window_start_s": 0.000193441249729,
+          "fit_window_end_s": 0.000198941249729,
+          "fit_samples_left": 12,
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-controls-20261020-1305.json",
+          "clean_start_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/fresh-zero-comparison-20261020.md",
+          "solver_upstream_sha": "7cb3294b275525cb8829ada3d3fbc067ab9323eb",
+          "solver_build_job": "124899720",
+          "openfoam_version": "7",
+          "cantera_version": "2.6",
+          "chemistry_mode": "CPU CVODE; DNN/GPU disabled"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "Transport and chemistry coupling differ across solver families."
+      ],
+      "default_visible": true,
+      "campaign": "historical-original-zero-controls",
+      "original_label": "DeepFlame dfLowMachFoam (transient) — T front"
+    },
+    {
+      "id": "deepflame-deepflame-oh",
+      "label": "DeepFlame · OH front",
+      "origin": "computed",
+      "engine": "deepflame",
+      "case": "1",
+      "marker": "OH",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.304692315201122,
+          "job": "124901315",
+          "source": "9957c2cfbea7dbcbb1af7deba91a004cbdf7fe1d",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 198.941249729,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 7.31159814775157,
+          "right_cm_s": 7.297786482650674,
+          "first_saved_tracking_time_s": 3.11504185344e-9,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "75d2e25c21f487cea859329b584ba82522c16db11bdedd91a329d687ba66c2a6",
+          "fit_window_start_s": 0.000193441249729,
+          "fit_window_end_s": 0.000198941249729,
+          "fit_samples_left": 12,
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-cfd-controls-20261020-1305.json",
+          "clean_start_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/fresh-zero-comparison-20261020.md",
+          "solver_upstream_sha": "7cb3294b275525cb8829ada3d3fbc067ab9323eb",
+          "solver_build_job": "124899720",
+          "openfoam_version": "7",
+          "cantera_version": "2.6",
+          "chemistry_mode": "CPU CVODE; DNN/GPU disabled"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "Transport and chemistry coupling differ across solver families."
+      ],
+      "default_visible": false,
+      "campaign": "historical-original-zero-controls",
+      "original_label": "DeepFlame dfLowMachFoam (transient) — OH front"
+    },
+    {
+      "id": "developed-inversion-fixed-zero-t",
+      "label": "Fixed library · U=0 · T",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "T",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.410814751177164,
+          "job": "125035576",
+          "source": "5f946723070f100e062852202021c5aeef5ae4c7",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 19.994734114577188,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 780.8722452267356,
+          "marker_unit": "K",
+          "left_cm_s": 7.441504069416012,
+          "right_cm_s": 7.380125432938317,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "d3dba9f2976fae0881d34bb920d97eb41ed465eb1e608be2f5c58cee30758ac4",
+          "fit_window_start_s": 0.000014994734114577075,
+          "fit_window_end_s": 0.000019994734114577188,
+          "fit_samples_left": 12,
+          "library_build_job": "125030062",
+          "library_source_sha": "ef60c736b5ce802f3918980dc895a944bd1bbadb",
+          "initialization": "reference-profile-mapped-to-original-zero-fields",
+          "initial_profile_job": "124920014",
+          "initial_profile_sha256": "09408212459b4f4b318de2310714cba6b4429d169cfad386d84c2c47962d550e",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-reference-wave-20261020.json"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "The qualified-library update has only a short phi=1.10 diagnostic here, not a complete phi sweep.",
+        "The initial reference profile and central-products slab campaigns are distinct experiments."
+      ],
+      "default_visible": false,
+      "campaign": "inversion-fixed-reference-wave-20us",
+      "original_label": "Inversion-fixed Native: reference profile, initial U=0 — T front (20 µs diagnostic)"
+    },
+    {
+      "id": "developed-inversion-fixed-zero-oh",
+      "label": "Fixed library · U=0 · OH",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "OH",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 6.8573848449717865,
+          "job": "125035576",
+          "source": "5f946723070f100e062852202021c5aeef5ae4c7",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 19.994734114577188,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 6.859651197253445,
+          "right_cm_s": 6.855118492690128,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "d3dba9f2976fae0881d34bb920d97eb41ed465eb1e608be2f5c58cee30758ac4",
+          "fit_window_start_s": 0.000014994734114577075,
+          "fit_window_end_s": 0.000019994734114577188,
+          "fit_samples_left": 12,
+          "library_build_job": "125030062",
+          "library_source_sha": "ef60c736b5ce802f3918980dc895a944bd1bbadb",
+          "initialization": "reference-profile-mapped-to-original-zero-fields",
+          "initial_profile_job": "124920014",
+          "initial_profile_sha256": "09408212459b4f4b318de2310714cba6b4429d169cfad386d84c2c47962d550e",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-reference-wave-20261020.json"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "The qualified-library update has only a short phi=1.10 diagnostic here, not a complete phi sweep.",
+        "The initial reference profile and central-products slab campaigns are distinct experiments."
+      ],
+      "default_visible": false,
+      "campaign": "inversion-fixed-reference-wave-20us",
+      "original_label": "Inversion-fixed Native: reference profile, initial U=0 — OH front (20 µs diagnostic)"
+    },
+    {
+      "id": "developed-inversion-fixed-travelling-t",
+      "label": "Fixed library · travelling U · T",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "T",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.397968320241063,
+          "job": "125035588",
+          "source": "5f946723070f100e062852202021c5aeef5ae4c7",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 19.994734114577188,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 780.8722452267356,
+          "marker_unit": "K",
+          "left_cm_s": 7.433632395217344,
+          "right_cm_s": 7.362304245264782,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "faefde20c56e0871240c85dd627341fe8875003d629c9feff6bc1efe79ad0536",
+          "fit_window_start_s": 0.000014994734114577075,
+          "fit_window_end_s": 0.000019994734114577188,
+          "fit_samples_left": 12,
+          "library_build_job": "125030062",
+          "library_source_sha": "ef60c736b5ce802f3918980dc895a944bd1bbadb",
+          "initialization": "reference-profile-mapped-to-original-zero-fields",
+          "initial_profile_job": "124920014",
+          "initial_profile_sha256": "09408212459b4f4b318de2310714cba6b4429d169cfad386d84c2c47962d550e",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-reference-wave-20261020.json"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "The qualified-library update has only a short phi=1.10 diagnostic here, not a complete phi sweep.",
+        "The initial reference profile and central-products slab campaigns are distinct experiments."
+      ],
+      "default_visible": false,
+      "campaign": "inversion-fixed-reference-wave-20us",
+      "original_label": "Inversion-fixed Native: reference profile, travelling U — T front (20 µs diagnostic)"
+    },
+    {
+      "id": "developed-inversion-fixed-travelling-oh",
+      "label": "Fixed library · travelling U · OH",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "OH",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 6.857405056147445,
+          "job": "125035588",
+          "source": "5f946723070f100e062852202021c5aeef5ae4c7",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 19.994734114577188,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 6.860439605519178,
+          "right_cm_s": 6.8543705067757115,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "faefde20c56e0871240c85dd627341fe8875003d629c9feff6bc1efe79ad0536",
+          "fit_window_start_s": 0.000014994734114577075,
+          "fit_window_end_s": 0.000019994734114577188,
+          "fit_samples_left": 12,
+          "library_build_job": "125030062",
+          "library_source_sha": "ef60c736b5ce802f3918980dc895a944bd1bbadb",
+          "initialization": "reference-profile-mapped-to-original-zero-fields",
+          "initial_profile_job": "124920014",
+          "initial_profile_sha256": "09408212459b4f4b318de2310714cba6b4429d169cfad386d84c2c47962d550e",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-reference-wave-20261020.json"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "The qualified-library update has only a short phi=1.10 diagnostic here, not a complete phi sweep.",
+        "The initial reference profile and central-products slab campaigns are distinct experiments."
+      ],
+      "default_visible": false,
+      "campaign": "inversion-fixed-reference-wave-20us",
+      "original_label": "Inversion-fixed Native: reference profile, travelling U — OH front (20 µs diagnostic)"
+    },
+    {
+      "id": "developed-inversion-fixed-cantera-transport-t",
+      "label": "Fixed library · CT transport · T",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "T",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.413846911907834,
+          "job": "125041726",
+          "source": "6bf3cb8a7f550aa316a4f4bcfb27474857c85210",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 19.994734114577188,
+          "scheduler_state": "COMPLETED",
+          "marker": "T",
+          "marker_level": 780.8722452267356,
+          "marker_unit": "K",
+          "left_cm_s": 7.423527117886283,
+          "right_cm_s": 7.404166705929385,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "a49f1135498f2b144e591f2ad94b04ed38f2b7f2de97ec29d03de28206b8a4b3",
+          "fit_window_start_s": 0.000014994734114577075,
+          "fit_window_end_s": 0.000019994734114577188,
+          "fit_samples_left": 12,
+          "library_build_job": "125030062",
+          "library_source_sha": "ef60c736b5ce802f3918980dc895a944bd1bbadb",
+          "initialization": "reference-profile-mapped-to-original-zero-fields",
+          "initial_profile_job": "124920014",
+          "initial_profile_sha256": "09408212459b4f4b318de2310714cba6b4429d169cfad386d84c2c47962d550e",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-reference-wave-20261020.json"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "The qualified-library update has only a short phi=1.10 diagnostic here, not a complete phi sweep.",
+        "The initial reference profile and central-products slab campaigns are distinct experiments."
+      ],
+      "default_visible": false,
+      "campaign": "inversion-fixed-reference-wave-20us",
+      "original_label": "Inversion-fixed Cantera transport: travelling U, native chemistry — T front (20 µs diagnostic)"
+    },
+    {
+      "id": "developed-inversion-fixed-cantera-transport-oh",
+      "label": "Fixed library · CT transport · OH",
+      "origin": "computed",
+      "engine": "developed-openfoam",
+      "case": "1",
+      "marker": "OH",
+      "points": [
+        {
+          "x": 1.1,
+          "y": 7.456345506637977,
+          "job": "125041726",
+          "source": "6bf3cb8a7f550aa316a4f4bcfb27474857c85210",
+          "source_role": "case-and-wrapper revision; executable identity is recorded separately",
+          "time_us": 19.994734114577188,
+          "scheduler_state": "COMPLETED",
+          "marker": "OH",
+          "marker_level": 0.00002,
+          "marker_unit": "mass-fraction",
+          "left_cm_s": 7.4599429600544385,
+          "right_cm_s": 7.452748053221516,
+          "first_saved_tracking_time_s": 0,
+          "simulation_start_time_s": 0,
+          "clean_start": true,
+          "convergence_status": "not-established",
+          "scientific_acceptance": false,
+          "tracking_sha256": "a49f1135498f2b144e591f2ad94b04ed38f2b7f2de97ec29d03de28206b8a4b3",
+          "fit_window_start_s": 0.000014994734114577075,
+          "fit_window_end_s": 0.000019994734114577188,
+          "fit_samples_left": 12,
+          "library_build_job": "125030062",
+          "library_source_sha": "ef60c736b5ce802f3918980dc895a944bd1bbadb",
+          "initialization": "reference-profile-mapped-to-original-zero-fields",
+          "initial_profile_job": "124920014",
+          "initial_profile_sha256": "09408212459b4f4b318de2310714cba6b4429d169cfad386d84c2c47962d550e",
+          "provenance_record": "https://github.com/xiao312/realFluidFoam-8/blob/a73a6caa7b54ca32e112cd79adac1f7d36d875f6/replication/docs/liang-reference-wave-20261020.json"
+        }
+      ],
+      "limitations": [
+        "These are retained transient checkpoints, not accepted steady flame speeds.",
+        "The displayed quantity is density-normalized contour displacement relative to local gas, averaged across two fronts.",
+        "Point ages differ; do not interpret these checkpoints as a matched-time solver ranking.",
+        "No matching nonideal OpenFOAM Case 2-5 curve is established by this evidence.",
+        "The qualified-library update has only a short phi=1.10 diagnostic here, not a complete phi sweep.",
+        "The initial reference profile and central-products slab campaigns are distinct experiments."
+      ],
+      "default_visible": false,
+      "campaign": "inversion-fixed-reference-wave-20us",
+      "original_label": "Inversion-fixed Cantera transport: travelling U, native chemistry — OH front (20 µs diagnostic)"
+    }
+  ]
+}

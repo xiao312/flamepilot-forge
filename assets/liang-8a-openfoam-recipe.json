@@ -1,0 +1,28 @@
+{
+  "schema": "forge-plot-v1",
+  "id": "openfoam",
+  "title": "Developed OpenFOAM solver and paper",
+  "x": {
+    "label": "Equivalence ratio, φ"
+  },
+  "y": {
+    "label": "Laminar flame speed (cm/s)"
+  },
+  "series": [
+    "paper-1",
+    "paper-2",
+    "paper-3",
+    "paper-4",
+    "paper-5",
+    "developed-energy-historical-t"
+  ],
+  "smoothing": "pchip",
+  "colorBy": "case",
+  "smoothingBySeries": {
+    "developed-energy-historical-t": "points"
+  },
+  "subtitle": "Cantera: PCHIP guide · CFD: transient markers · dashed: paper traces",
+  "renderer": "forge-series-v1",
+  "interpolation_is_evidence": false,
+  "source_target": "liang-8a"
+}

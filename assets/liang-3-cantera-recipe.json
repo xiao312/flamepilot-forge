@@ -1,0 +1,31 @@
+{
+  "schema": "forge-plot-v1",
+  "id": "cantera",
+  "title": "Cantera and paper",
+  "x": {
+    "label": "Equivalence ratio, φ"
+  },
+  "y": {
+    "label": "Laminar flame speed (cm/s)"
+  },
+  "series": [
+    "cantera-1",
+    "cantera-2",
+    "cantera-3",
+    "cantera-3star",
+    "cantera-4",
+    "cantera-5",
+    "paper-1",
+    "paper-2",
+    "paper-3star",
+    "paper-3",
+    "paper-4",
+    "paper-5"
+  ],
+  "smoothing": "pchip",
+  "colorBy": "case",
+  "smoothingBySeries": {},
+  "renderer": "forge-series-v1",
+  "interpolation_is_evidence": false,
+  "source_target": "liang-3"
+}

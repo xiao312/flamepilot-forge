@@ -1,0 +1,29 @@
+{
+  "schema": "forge-plot-v1",
+  "id": "fixed-library",
+  "title": "Case 1 · corrected-library diagnostics",
+  "x": {
+    "label": "Equivalence ratio, φ"
+  },
+  "y": {
+    "label": "Laminar flame speed (cm/s)"
+  },
+  "series": [
+    "cantera-1",
+    "paper-1",
+    "developed-inversion-fixed-zero-t",
+    "developed-inversion-fixed-travelling-t",
+    "developed-inversion-fixed-cantera-transport-t"
+  ],
+  "smoothing": "pchip",
+  "colorBy": "engine",
+  "smoothingBySeries": {
+    "developed-inversion-fixed-zero-t": "points",
+    "developed-inversion-fixed-travelling-t": "points",
+    "developed-inversion-fixed-cantera-transport-t": "points"
+  },
+  "subtitle": "Cantera: PCHIP guide · CFD: transient markers · dashed: paper traces",
+  "renderer": "forge-series-v1",
+  "interpolation_is_evidence": false,
+  "source_target": "liang-8a"
+}
