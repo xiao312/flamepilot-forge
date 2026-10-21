@@ -3,7 +3,6 @@ import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {parseArgs} from 'node:util';
 import {createHash} from 'node:crypto';
-import {renderComparison} from './reproduction/plots/render.mjs';
 
 const root = dirname(fileURLToPath(import.meta.url));
 const {values} = parseArgs({options:{data:{type:'string'},recipe:{type:'string'},output:{type:'string'},plan:{type:'boolean'}}});
@@ -16,7 +15,14 @@ try {
     return JSON.parse(bytes);
   };
   const table = await read(values.data), recipe = await read(values.recipe);
-  const result = await renderComparison(table,recipe);
+  let result;
+  if(recipe.schema==='forge-paper-style-v1'){
+    const {renderPaperComparison}=await import('./reproduction/plots/paper-style.mjs');
+    result=renderPaperComparison(table.series,recipe);
+  }else if(recipe.schema==='forge-plot-v1'){
+    const {renderComparison}=await import('./reproduction/plots/render.mjs');
+    result=await renderComparison(table,recipe);
+  }else throw new Error(`Unsupported plotting recipe: ${recipe.schema}`);
   if (!values.output) throw new Error('Supply a new --output SVG path');
   const output = resolve(values.output);
   try {await access(output); throw new Error('Output exists; choose a new path');} catch(error) {if(error.code !== 'ENOENT') throw error;}

@@ -68,7 +68,7 @@ byId('target-rows').querySelectorAll                     ('tr').forEach(row => {
     catch (error) { announce(error.message); }
   };
 });
-byId('reference-list').innerHTML = payload.papers.map(p => `<article class="reference" id="ref-${h(p.id)}"><h3>${h(p.short)}</h3><p>${h(p.authors)}. ${h(p.title)} (${p.year}). <a href="${h(p.url)}" target="_blank" rel="noreferrer">DOI: ${h(p.doi)}</a></p><p><small>Private supplied PDF · SHA-256 ${h(p.pdf_sha256)}</small></p><div class="backlinks" aria-label="Figures citing ${h(p.short)}">${figures.filter(f => f.paper === p.id).map(f => `<a href="#figure-${h(f.id)}">Fig. ${h(f.number)}</a>`).join('')}</div></article>`).join('');
+byId('reference-list').innerHTML = payload.papers.map(p => `<article class="reference" id="ref-${h(p.id)}"><h3>${h(p.short)}</h3><p>${h(p.authors)}. ${h(p.title)} (${p.year}). <a href="${h(p.url)}" target="_blank" rel="noreferrer">${h(p.doi ? 'DOI: ' + p.doi : 'Source publication')}</a></p><p><small>Private supplied PDF · SHA-256 ${h(p.pdf_sha256)}</small></p><div class="backlinks" aria-label="Figures citing ${h(p.short)}">${figures.filter(f => f.paper === p.id).map(f => `<a href="#figure-${h(f.id)}">Fig. ${h(f.number)}</a>`).join('')}</div></article>`).join('');
 for (const control of [search, paperSelect, statusSelect]) control.addEventListener('input', renderFigures);
 window.addEventListener('hashchange', revealTarget);
 renderFigures(); revealTarget();

@@ -102,11 +102,11 @@ export function bindWorkspaceForms(live) {
   for (const paper of state.papers.filter(p => p.status !== 'confirmed' || state.requests.some(r => r.sha256 === p.sha256 && r.status !== 'resolved'))) {
     const registered = payload.papers.find(p => p.id === paper.known_paper);
     const form = document.createElement('form'); form.className = 'review-form';
-    form.innerHTML = `<p class="wide">Stored PDF ${h(paper.sha256.slice(0, 16))}… · ${paper.pages} pages · ${paper.metadata_conflict ? 'Metadata conflict needs explanation' : 'Review the source identity'}</p><label>Title<input name="title" value="${h(registered?.title || paper.title)}" required></label><label>DOI<input name="doi" value="${h(registered?.doi || paper.doi_candidates[0] || '')}" required></label><label class="wide">Explanation if metadata differ<input name="explanation"></label><button>Confirm source</button>`;
+    form.innerHTML = `<p class="wide">Stored PDF ${h(paper.sha256.slice(0, 16))}… · ${paper.pages} pages · ${paper.metadata_conflict ? 'Metadata conflict needs explanation' : 'Review the source identity'}</p><label>Title<input name="title" value="${h(registered?.title || paper.title)}" required></label><label>DOI (if assigned)<input name="doi" value="${h(registered?.doi || paper.doi_candidates[0] || '')}"></label><label>Source URL (required without DOI)<input name="url" type="url" value="${h(registered?.url || paper.url || '')}"></label><label class="wide">Explanation if metadata differ<input name="explanation"></label><button>Confirm source</button>`;
     form.onsubmit = async event => {
       event.preventDefault(); const fields = new FormData(form);
       try { await live.action('paper-confirm', { sha256: paper.sha256, expected_version: paper.version,
-        title: fields.get('title'), doi: fields.get('doi'), explanation: fields.get('explanation') }); live.announce('Paper metadata confirmed. Refresh the workspace.'); form.querySelector('button') .disabled = true; }
+        title: fields.get('title'), doi: String(fields.get('doi') || '').trim() || null, url: fields.get('url'), explanation: fields.get('explanation') }); live.announce('Paper metadata confirmed. Refresh the workspace.'); form.querySelector('button') .disabled = true; }
       catch (error) { live.announce(error.message); }
     }; metadata.append(form);
   }

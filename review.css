@@ -117,7 +117,7 @@ footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--line);
 .publication .state { padding: 0; background: none; color: var(--muted); font-size: .875rem; }
 .publication .state.planned { color: var(--copper); }
 .figure-purpose { max-width: 70ch; margin: 20px 0 0; }
-.publication .conditions { max-width: 75ch; margin: 18px 0; line-height: 1.6; }
+.publication .conditions { overflow-wrap: anywhere; max-width: 75ch; margin: 18px 0; line-height: 1.6; }
 .publication .panels { gap: 28px; }
 .publication .panel-label { min-height: 68px; align-items: flex-start; justify-content: flex-end; flex-direction: column; gap: 3px; margin-bottom: 20px; font-size: .875rem; }
 .publication .panel-label span { flex: none; }
@@ -171,3 +171,10 @@ footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--line);
   .publication .panel-label { min-height: 45pt; }
   .publication .figure-header, .publication .stage-heading { break-after: avoid; }
 }
+
+.publication .original-caption { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); font-size: .9375rem; }
+.publication .original-caption p { margin: 8px 0; }
+.publication .original-caption .missing { min-height: 0; padding: 12px; }
+.publication .original-caption small { display: block; margin-top: 8px; color: var(--muted); }
+.publication .ladder-status { padding: 16px 20px; background: var(--quiet); margin: 24px 0; }
+.publication .target-review-state { font-size: .875rem; color: var(--muted); }
