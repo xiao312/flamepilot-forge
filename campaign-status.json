@@ -1,6 +1,6 @@
 {
   "schema": "forge-public-campaign-status-v1",
-  "updated_at": "2026-10-23T09:26:09.635Z",
+  "updated_at": "2026-10-23T10:00:04.456Z",
   "campaign_id": "forge-campaign-20261021",
   "campaign_state": "active",
   "deadline": "2026-10-24T03:59:00.000Z",
@@ -20,7 +20,7 @@
       "registered_targets": 68,
       "last_checkpoint_at": "2026-10-23T07:09:18.050Z",
       "candidate_review": "ladder-r5",
-      "supervision_episode": "ladder-s3-7fe585ac"
+      "supervision_episode": "ladder-s4-7fe585ac"
     }
   ],
   "rounds": [
@@ -67,7 +67,7 @@
     {
       "id": "ladder-s3-7fe585ac",
       "kind": "supervision",
-      "state": "pending",
+      "state": "reviewed",
       "source": null,
       "code_decision": null,
       "science_decision": null
@@ -79,6 +79,14 @@
       "source": "8afa63025dd317c6b4450a9b0c3f4c7710499ba2",
       "code_decision": "approve",
       "science_decision": "revise"
+    },
+    {
+      "id": "ladder-s4-7fe585ac",
+      "kind": "supervision",
+      "state": "pending",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
     },
     {
       "id": "ladder-r5",
@@ -118,13 +126,6 @@
   ],
   "recent_allocations": [
     {
-      "job_id": "125304976",
-      "role": "reviewer",
-      "state": "terminal",
-      "terminal_confirmed": true,
-      "observed_at": "2026-10-23T04:15:12.537Z"
-    },
-    {
       "job_id": "125306360",
       "role": "worker",
       "state": "terminal",
@@ -160,18 +161,25 @@
       "observed_at": "2026-10-23T06:56:48.525Z"
     },
     {
+      "job_id": "125336168",
+      "role": "reviewer",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-23T09:55:34.429Z"
+    },
+    {
       "job_id": "125323464",
       "role": "worker",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-23T09:25:02.409Z"
+      "observed_at": "2026-10-23T09:57:38.124Z"
     },
     {
       "job_id": "125309342",
       "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-23T09:25:02.409Z"
+      "observed_at": "2026-10-23T09:57:38.124Z"
     }
   ],
   "human_acceptance": "Separate from independent review; unchanged by this publication."
