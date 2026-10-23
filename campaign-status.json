@@ -1,0 +1,178 @@
+{
+  "schema": "forge-public-campaign-status-v1",
+  "updated_at": "2026-10-23T08:55:51.238Z",
+  "campaign_id": "forge-campaign-20261021",
+  "campaign_state": "active",
+  "deadline": "2026-10-24T03:59:00.000Z",
+  "deadline_passed": false,
+  "schedule": {
+    "timezone": "Asia/Shanghai",
+    "hours": [
+      0,
+      6,
+      12,
+      18
+    ]
+  },
+  "assignments": [
+    {
+      "id": "ladder",
+      "registered_targets": 68,
+      "last_checkpoint_at": "2026-10-23T07:09:18.050Z",
+      "candidate_review": "ladder-r5",
+      "supervision_episode": "ladder-s3-7fe585ac"
+    }
+  ],
+  "rounds": [
+    {
+      "id": "ladder-r1",
+      "kind": "candidate",
+      "state": "integrated",
+      "source": "59bdc03ca8d0190ea199fd13704b4c148bd13368",
+      "code_decision": "approve",
+      "science_decision": "approve"
+    },
+    {
+      "id": "ladder-s1-7fe585ac",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "ladder-r2",
+      "kind": "candidate",
+      "state": "reviewed",
+      "source": "a787643856f02da5be019d9afabe2c3b0d1198e7",
+      "code_decision": "revise",
+      "science_decision": "approve"
+    },
+    {
+      "id": "ladder-s2-7fe585ac",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "ladder-r3",
+      "kind": "candidate",
+      "state": "integrated",
+      "source": "2b89db00469e91446f898becd4f8a71b30b6b17d",
+      "code_decision": "approve",
+      "science_decision": "approve"
+    },
+    {
+      "id": "ladder-s3-7fe585ac",
+      "kind": "supervision",
+      "state": "pending",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "ladder-r4",
+      "kind": "candidate",
+      "state": "reviewed",
+      "source": "8afa63025dd317c6b4450a9b0c3f4c7710499ba2",
+      "code_decision": "approve",
+      "science_decision": "revise"
+    },
+    {
+      "id": "ladder-r5",
+      "kind": "candidate",
+      "state": "exhausted",
+      "source": "486f17a80a4a85cd13c524d08d8c3c1556c6c002",
+      "code_decision": null,
+      "science_decision": null
+    }
+  ],
+  "buffered_reports": [
+    {
+      "id": "report-17988c3200391a1e5792773ee8331a7f",
+      "at": "2026-10-23T04:12:27.627Z",
+      "source": "67116a12eb8b257c914e4379d955646b495842f2",
+      "outcome": "blocked",
+      "job_ids": []
+    },
+    {
+      "id": "report-0e701c8d6e104b1ad04e527234da7e49",
+      "at": "2026-10-23T05:18:35.926Z",
+      "source": "b320d7bd7a87c9321e67094bc87aba3c7090a6d0",
+      "outcome": "progress",
+      "job_ids": [
+        "125311663"
+      ]
+    },
+    {
+      "id": "report-460fade03c5b97699a7767f573fab6a3",
+      "at": "2026-10-23T05:27:19.083Z",
+      "source": "e77255249578f55ae8cdc0348e8597754ac1be85",
+      "outcome": "progress",
+      "job_ids": [
+        "125311663"
+      ]
+    }
+  ],
+  "recent_allocations": [
+    {
+      "job_id": "125304976",
+      "role": "reviewer",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-23T04:15:12.537Z"
+    },
+    {
+      "job_id": "125306360",
+      "role": "worker",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-23T04:29:20.518Z"
+    },
+    {
+      "job_id": "125306775",
+      "role": "reviewer",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-23T04:33:41.977Z"
+    },
+    {
+      "job_id": "125308200",
+      "role": "reviewer",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-23T05:26:16.231Z"
+    },
+    {
+      "job_id": "125309158",
+      "role": "worker",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-23T05:48:47.845Z"
+    },
+    {
+      "job_id": "125316741",
+      "role": "worker",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-23T06:56:48.525Z"
+    },
+    {
+      "job_id": "125323464",
+      "role": "worker",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-23T08:54:54.385Z"
+    },
+    {
+      "job_id": "125309342",
+      "role": "reviewer",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-23T08:54:54.385Z"
+    }
+  ],
+  "human_acceptance": "Separate from independent review; unchanged by this publication."
+}

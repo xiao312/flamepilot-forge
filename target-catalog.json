@@ -1,6 +1,6 @@
 {
   "schema": "forge-public-target-catalog-v1",
-  "snapshot_sha256": "c4bc44f677a9fc600dc94a537e727c7126e2edcddef09f9a28fa67eaad2d9aa0",
+  "snapshot_sha256": "44716e47827e5d2eca3631f636bde817e98cf9aa0da91c255b8e03db11b1ba09",
   "central_catalog_sha256": "a19ae79b6dc2a24872e79bdddd98360b8476b326808c323e02b322491bb9e360",
   "papers": [
     {
@@ -132,7 +132,7 @@
       "number": "1(a)",
       "title": "Cryogenic oxygen density",
       "caption": "Oxygen density at 5.61 MPa compares PR, volume-translated PR, and NIST values.",
-      "note": "All six visible low-temperature markers at 85, 90, 95, 100, 105, and 110 K are included. This corrects plot coverage, not the retained equation implementation. Numerical replication has not been accepted.",
+      "note": "Independent agent approved this candidate’s code and evidence. Human scientific acceptance remains pending. Review receipt: review-result:3e28628e3c0a106cf27bb1037bae7eac0aac1723649b8d7e66270c573bdc58a6",
       "page_index": 2,
       "crop_pt": [
         62,
@@ -155,20 +155,14 @@
       "rights": "Selected excerpt from a user-supplied paper, attributed for scholarly comparison. Copyright retained by the original rights holder; no open license established.",
       "views": [
         {
-          "id": "props-r2",
-          "label": "Paper-style comparison",
-          "image": "assets/muller2015-fig1a-density-props-r2.svg",
-          "image_sha256": "6af5eecbcaf9d880604591acb224aba99e0ab9f51c796ec8d9fd33289faca25b",
-          "data": "assets/muller2015-fig1a-density-props-r2-series.json",
-          "data_sha256": "da1b97fa25cfb2de5e25654a8a817fa0ee3aa4c3accf7cd9e2873ff8f400b47f",
-          "recipe": "assets/muller2015-fig1a-density-props-r2-recipe.json",
-          "recipe_sha256": "5259d18bfaa4243dc5c799e99524631be2310aafa495e0aebf2deb019acc9ace",
-          "note": "Figure-only revision: measured paper axes, glyph sizes, strokes, and every recovered NIST marker. Numerical model samples remain from props-r1. Reference curves are extracted PDF vectors; no missing reference points were interpolated. Numerical and agent review remain pending."
-        },
-        {
-          "id": "error",
-          "label": "error",
-          "note": "Separate relative-error subplot versus NIST, with 85 K inset."
+          "data": "assets/0d16e372f216c1c0db57f414603abd2fbef209dda441ea4d50e27d024722ae67.json",
+          "data_sha256": "0d16e372f216c1c0db57f414603abd2fbef209dda441ea4d50e27d024722ae67",
+          "id": "campaign-result",
+          "image": "assets/c917e901263a07f856e152e7825414436ed99f3a94cac7040687cc70642e4a8b.svg",
+          "image_sha256": "c917e901263a07f856e152e7825414436ed99f3a94cac7040687cc70642e4a8b",
+          "label": "Latest reviewed candidate",
+          "recipe": "assets/5259d18bfaa4243dc5c799e99524631be2310aafa495e0aebf2deb019acc9ace.json",
+          "recipe_sha256": "5259d18bfaa4243dc5c799e99524631be2310aafa495e0aebf2deb019acc9ace"
         }
       ],
       "plot_plan": {
@@ -200,7 +194,7 @@
         "field_policy": "Fixed physical aspect ratio and documented color ranges. No image smoothing or intensity matching. Keep measured and modeled observables distinct.",
         "acceptance": "Human review of the exact evidence generation; no scientific acceptance assigned by this page."
       },
-      "review_generation": "sha256:edce7cd7107e5c7ecb56ec6f045d1c31ddbd38edf862ea61e672d5d1a28dfeb0",
+      "review_generation": "sha256:a525ceef9655f3d7755dc8c16829fb35138a7329875850a762758ff7975ba48e",
       "original_caption": {
         "status": "verified",
         "image": "assets/muller2015-fig1-original-caption.png",
@@ -215,41 +209,106 @@
         "agent_review": "pending",
         "human_acceptance": "not_assessed"
       },
-      "result_image": "assets/muller2015-fig1a-density-props-r2.svg",
-      "result_image_sha256": "6af5eecbcaf9d880604591acb224aba99e0ab9f51c796ec8d9fd33289faca25b",
-      "data": "assets/muller2015-fig1a-density-props-r2-series.json",
-      "data_sha256": "da1b97fa25cfb2de5e25654a8a817fa0ee3aa4c3accf7cd9e2873ff8f400b47f",
+      "result_image": "assets/c917e901263a07f856e152e7825414436ed99f3a94cac7040687cc70642e4a8b.svg",
+      "result_image_sha256": "c917e901263a07f856e152e7825414436ed99f3a94cac7040687cc70642e4a8b",
+      "data": "assets/0d16e372f216c1c0db57f414603abd2fbef209dda441ea4d50e27d024722ae67.json",
+      "data_sha256": "0d16e372f216c1c0db57f414603abd2fbef209dda441ea4d50e27d024722ae67",
       "evidence_binding": {
         "source": {
-          "revision": "5675a2f0baa44ca8ce7db4b94c0aa4bc93b419d0",
-          "kind": "figure-only-revision",
-          "candidate": "props-r2",
-          "numerical_candidate": "props-r1",
-          "model_csv_sha256": "cc2817c230626ce2ef2dafb50f4c77e285dffa45af189c77c87693771b855139",
-          "numerical_source_freeze_sha256": "ffa80223b1215a1a60a9bb507b92a5571f0a7ea38b0b9cadfad114b0be27090c",
-          "numerical_eos_source_sha256": "a549e17dbbc1f53c935ef3e5846f40414cf97cdce9ce7219b0313f2c9af55d93"
+          "agent_review_receipt": {
+            "authority": "independent_reviewer",
+            "binding_sha256": "564c2c89b74d7314a5583e0d8f36e5c4a612e9ab39cc6a50425c82e67f447dc6",
+            "code": "approve",
+            "receipt": "review-result:3e28628e3c0a106cf27bb1037bae7eac0aac1723649b8d7e66270c573bdc58a6",
+            "science": "approve"
+          },
+          "revision": "2b89db00469e91446f898becd4f8a71b30b6b17d",
+          "worker_revision": "b778d884afaceb2454957c5ddb2288a3bd24af84"
         },
         "run": {
-          "id": "forge-overnight-20261021",
-          "candidate": "props-r1",
-          "scheduler_job_ids": [
-            "125150481",
-            "125151013"
+          "abandoned_job_ids": [
+            "125195453",
+            "125195857"
           ],
-          "fresh_simulation": false,
-          "actual_conditions": {
-            "fluid": "O2",
-            "pressure_Pa": 5610000,
-            "temperature_K": [
-              85,
-              300
-            ]
-          }
+          "candidate_commit": "b778d884afaceb2454957c5ddb2288a3bd24af84",
+          "changed_non_target_commits": [
+            "9cdbae1675eb9d77a3cd2deae0a0243b0fce211e",
+            "6a959cbbeec04610935d2d449d137dfb586761ab",
+            "f157563d198bc4360209fdcf6511ffc586f5c365"
+          ],
+          "committed_files_sha256": {
+            "critical_tolerance.py": "71492d5b58ad5c571dd16af15d7510d78462a70c9648dc5e84e5e453d7e5f7f3",
+            "job.sh": "1db125065e4b06ee4b60cd088994b9fbc5a9185f92bb038c16773b51f321ab7e",
+            "oxygen_properties.py": "95dca0d29bb6a1ac9d7450472c75c7da9dc9c5b1cafe46f6598b5242a9b07f41",
+            "run_properties.py": "80dd8e3431197f7d95a71cf3e2779803ca47049b6f0f1fceb92d610bdc36b41f"
+          },
+          "environment": {
+            "OMP_NUM_THREADS": 1,
+            "OPENBLAS_NUM_THREADS": 1,
+            "environment_id": "paraview",
+            "job_end_at_utc": "2026-10-21T22:31:27Z",
+            "job_end_source": "last timestamp printed by the job's own wrapper",
+            "memory_gib": 1,
+            "python": "3.12.15",
+            "ranks": 1,
+            "recipe_id": "paraview-local-20261017",
+            "scheduler_terminal_observed_at_utc": "2026-10-21T22:31:43Z",
+            "scheduler_terminal_source": "scheduler job_finished notification; observation time, not the job end",
+            "submitted_at_source": "scheduler receipt submitted_at 2026-10-22T06:27:48 (+08:00, zone label absent in receipt) converted to UTC",
+            "submitted_at_utc": "2026-10-21T22:27:48Z",
+            "wall_seconds": 1500,
+            "wrapper_started_at_utc": "2026-10-21T22:31:15Z"
+          },
+          "executed_commit": "f157563d198bc4360209fdcf6511ffc586f5c365",
+          "executed_files_sha256": {
+            "critical_tolerance.py": "71492d5b58ad5c571dd16af15d7510d78462a70c9648dc5e84e5e453d7e5f7f3",
+            "job.sh": "1db125065e4b06ee4b60cd088994b9fbc5a9185f92bb038c16773b51f321ab7e",
+            "oxygen_properties.py": "95dca0d29bb6a1ac9d7450472c75c7da9dc9c5b1cafe46f6598b5242a9b07f41",
+            "run_properties.py": "80dd8e3431197f7d95a71cf3e2779803ca47049b6f0f1fceb92d610bdc36b41f"
+          },
+          "execution_binding": {
+            "archive": "src.tar.gz",
+            "archive_bytes": 2033960,
+            "archive_sha256": "58429c7c6b269c120a1679fafcb190af7041938dddbe09ce1f63bb34c3c529ba",
+            "method": "frozen git archive verified in-job"
+          },
+          "first_numeric_commit": "5c20c46339e150a82c9630220ba7f47a75555e49",
+          "id": "o2-props-density-125196221-f157563",
+          "job_ids": [
+            "125196221"
+          ],
+          "kind": "properties",
+          "note": "the job wrapper's own sha256 lines are the execution record; they equal the git blobs of the executed commit and of this candidate, which do not differ for any numerical file. The four numerical files are unchanged since 5c20c46, so this run reproduces the earlier numbers rather than replacing them",
+          "numerical_equivalence_note": "the four numerical files are byte-identical at f157563d198bc4360209fdcf6511ffc586f5c365 and at b778d884afaceb2454957c5ddb2288a3bd24af84; the figure was re-rendered at b778d884afaceb2454957c5ddb2288a3bd24af84 from this run's CSV and plot.svg is byte-identical to the r6 render, while data.json differs only inside the recorded source_commit token",
+          "pressure_Pa": 5610000,
+          "prior_job_ids": [
+            "125180094",
+            "125191317",
+            "125191655"
+          ],
+          "render_commit": "b778d884afaceb2454957c5ddb2288a3bd24af84",
+          "restart": false,
+          "samples": 1100,
+          "source_commit": "b778d884afaceb2454957c5ddb2288a3bd24af84",
+          "start_time": null,
+          "temperature_range_K": [
+            85,
+            300
+          ],
+          "worktree_clean": true,
+          "worktree_files_sha256": {
+            "critical_tolerance.py": "71492d5b58ad5c571dd16af15d7510d78462a70c9648dc5e84e5e453d7e5f7f3",
+            "job.sh": "1db125065e4b06ee4b60cd088994b9fbc5a9185f92bb038c16773b51f321ab7e",
+            "oxygen_properties.py": "95dca0d29bb6a1ac9d7450472c75c7da9dc9c5b1cafe46f6598b5242a9b07f41",
+            "run_properties.py": "80dd8e3431197f7d95a71cf3e2779803ca47049b6f0f1fceb92d610bdc36b41f"
+          },
+          "worktree_head": "b778d884afaceb2454957c5ddb2288a3bd24af84"
         },
         "review": {
-          "numerical": "pending",
           "agent_review": "pending",
-          "note": "Plotting verification only. Unresolved candidate equations and heat-capacity disagreement require independent numerical review; no scientific acceptance."
+          "note": "Independent approval is retained in the source evidence receipt; the generic ladder updater cannot grant scientific acceptance.",
+          "numerical": "pending",
+          "report_sha256": "6086138ba3d9302ab5039fdc52ccd85eda83e5aa01dff432e6fbd980558af22a"
         }
       },
       "accepted": false

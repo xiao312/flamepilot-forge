@@ -42,7 +42,7 @@ const output = await renderComparison(table, {
 });
 ```
 
-Run `node --test plots/*.test.mjs` from `extension/forge`.
+Run `node --test plots/*.test.mjs` from `apps/forge`.
 Expected: interpolation preserves samples and local bounds; invalid inputs fail; raw points remain unchanged.
 Replotting requires the original table and recipe. It does not reproduce the upstream solver run.
 

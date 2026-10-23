@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-23T08:55:51.238Z",
+  "figure_generation": "44716e47827e5d2eca3631f636bde817e98cf9aa0da91c255b8e03db11b1ba09",
+  "baseline": "c4bc44f677a9fc600dc94a537e727c7126e2edcddef09f9a28fa67eaad2d9aa0",
+  "approvals": [
+    {
+      "target": "muller2015-fig1a-density",
+      "review_receipt": "review-result:3e28628e3c0a106cf27bb1037bae7eac0aac1723649b8d7e66270c573bdc58a6",
+      "binding_sha256": "564c2c89b74d7314a5583e0d8f36e5c4a612e9ab39cc6a50425c82e67f447dc6",
+      "source": "2b89db00469e91446f898becd4f8a71b30b6b17d"
+    }
+  ],
+  "human_acceptance": "unchanged",
+  "schedule": {
+    "timezone": "Asia/Shanghai",
+    "hours": [
+      0,
+      6,
+      12,
+      18
+    ]
+  }
+}
