@@ -1,6 +1,6 @@
 {
   "schema": "forge-public-campaign-status-v1",
-  "updated_at": "2026-10-23T16:00:01.301Z",
+  "updated_at": "2026-10-23T22:00:04.564Z",
   "campaign_id": "forge-campaign-20261021",
   "campaign_state": "active",
   "deadline": "2026-10-24T03:59:00.000Z",
@@ -18,9 +18,9 @@
     {
       "id": "ladder",
       "registered_targets": 68,
-      "last_checkpoint_at": "2026-10-23T11:54:07.866Z",
+      "last_checkpoint_at": "2026-10-23T20:03:22.109Z",
       "candidate_review": "ladder-r5",
-      "supervision_episode": "ladder-s8-7fe585ac"
+      "supervision_episode": "ladder-s16-7fe585ac"
     }
   ],
   "rounds": [
@@ -127,6 +127,70 @@
       "source": null,
       "code_decision": null,
       "science_decision": null
+    },
+    {
+      "id": "ladder-s9-7fe585ac",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "ladder-s10-7fe585ac",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "ladder-s11-7fe585ac",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "ladder-s12-7fe585ac",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "ladder-s13-7fe585ac",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "ladder-s14-7fe585ac",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "ladder-s15-7fe585ac",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "ladder-s16-7fe585ac",
+      "kind": "supervision",
+      "state": "pending",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
     }
   ],
   "buffered_reports": [
@@ -161,64 +225,82 @@
       "source": "375db190ad1fa727506d6709ed85184e9856e079",
       "outcome": "progress",
       "job_ids": []
+    },
+    {
+      "id": "report-3484a36d7eb936f2fffc8a5ea42ac7f9",
+      "at": "2026-10-23T17:02:30.264Z",
+      "source": "375db190ad1fa727506d6709ed85184e9856e079",
+      "outcome": "progress",
+      "job_ids": [
+        "125374008"
+      ]
+    },
+    {
+      "id": "report-d86cf499fcd077443d8170b3bb18be5e",
+      "at": "2026-10-23T18:00:56.921Z",
+      "source": "375db190ad1fa727506d6709ed85184e9856e079",
+      "outcome": "blocked",
+      "job_ids": [
+        "125379495"
+      ]
     }
   ],
   "recent_allocations": [
     {
-      "job_id": "125348312",
+      "job_id": "125384283",
       "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-23T11:55:20.638Z"
+      "observed_at": "2026-10-23T19:18:45.341Z"
     },
     {
-      "job_id": "125343155",
+      "job_id": "125384102",
       "role": "worker",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-23T12:43:55.537Z"
+      "observed_at": "2026-10-23T19:25:12.689Z"
     },
     {
-      "job_id": "125351635",
+      "job_id": "125392330",
       "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-23T13:13:09.285Z"
+      "observed_at": "2026-10-23T19:36:46.973Z"
     },
     {
-      "job_id": "125359647",
+      "job_id": "125392396",
+      "role": "worker",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-23T19:52:45.621Z"
+    },
+    {
+      "job_id": "125394246",
       "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-23T15:02:06.509Z"
+      "observed_at": "2026-10-23T20:46:38.944Z"
     },
     {
-      "job_id": "125353778",
-      "role": "worker",
+      "job_id": "125401976",
+      "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-23T15:27:31.913Z"
-    },
-    {
-      "job_id": "125369237",
-      "role": "worker",
-      "state": "running",
-      "terminal_confirmed": false,
-      "observed_at": "2026-10-23T15:59:42.645Z"
+      "observed_at": "2026-10-23T21:56:30.195Z"
     },
     {
       "job_id": "125309342",
       "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-23T15:59:42.645Z"
+      "observed_at": "2026-10-23T21:58:59.291Z"
     },
     {
-      "job_id": "125367943",
-      "role": "reviewer",
-      "state": "terminal",
-      "terminal_confirmed": true,
-      "observed_at": "2026-10-23T15:59:42.645Z"
+      "job_id": "125395313",
+      "role": "worker",
+      "state": "running",
+      "terminal_confirmed": false,
+      "observed_at": "2026-10-23T21:58:59.291Z"
     }
   ],
   "human_acceptance": "Separate from independent review; unchanged by this publication."
