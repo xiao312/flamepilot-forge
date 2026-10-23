@@ -1,6 +1,6 @@
 {
   "schema": "forge-public-campaign-status-v1",
-  "updated_at": "2026-10-23T08:55:51.238Z",
+  "updated_at": "2026-10-23T09:26:09.635Z",
   "campaign_id": "forge-campaign-20261021",
   "campaign_state": "active",
   "deadline": "2026-10-24T03:59:00.000Z",
@@ -164,14 +164,14 @@
       "role": "worker",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-23T08:54:54.385Z"
+      "observed_at": "2026-10-23T09:25:02.409Z"
     },
     {
       "job_id": "125309342",
       "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-23T08:54:54.385Z"
+      "observed_at": "2026-10-23T09:25:02.409Z"
     }
   ],
   "human_acceptance": "Separate from independent review; unchanged by this publication."
