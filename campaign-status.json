@@ -1,8 +1,8 @@
 {
   "schema": "forge-public-campaign-status-v1",
-  "updated_at": "2026-10-24T10:00:04.499Z",
-  "campaign_id": "forge-campaign-20261021",
-  "campaign_state": "active",
+  "updated_at": "2026-10-24T16:00:04.541Z",
+  "campaign_id": "forge-campaign-20261024-parallel",
+  "campaign_state": "paused",
   "deadline": "2026-10-25T07:27:57.017Z",
   "deadline_passed": false,
   "schedule": {
@@ -16,24 +16,23 @@
   },
   "assignments": [
     {
-      "id": "ladder",
-      "registered_targets": 68,
-      "last_checkpoint_at": "2026-10-24T09:05:30.120Z",
-      "candidate_review": "ladder-r5",
-      "supervision_episode": "ladder-s3-efaccdcf"
+      "id": "fgm",
+      "registered_targets": 12,
+      "last_checkpoint_at": "2026-10-24T15:06:29.358Z",
+      "candidate_review": null,
+      "supervision_episode": "fgm-s4-f6ea6093"
+    },
+    {
+      "id": "of8",
+      "registered_targets": 56,
+      "last_checkpoint_at": "2026-10-24T15:42:13.707Z",
+      "candidate_review": null,
+      "supervision_episode": "of8-s5-d4c85493"
     }
   ],
   "rounds": [
     {
-      "id": "ladder-r1",
-      "kind": "candidate",
-      "state": "integrated",
-      "source": "59bdc03ca8d0190ea199fd13704b4c148bd13368",
-      "code_decision": "approve",
-      "science_decision": "approve"
-    },
-    {
-      "id": "ladder-s1-7fe585ac",
+      "id": "fgm-s1-f6ea6093",
       "kind": "supervision",
       "state": "reviewed",
       "source": null,
@@ -41,7 +40,7 @@
       "science_decision": null
     },
     {
-      "id": "ladder-s1-efaccdcf",
+      "id": "of8-s1-d4c85493",
       "kind": "supervision",
       "state": "reviewed",
       "source": null,
@@ -49,15 +48,7 @@
       "science_decision": null
     },
     {
-      "id": "ladder-r2",
-      "kind": "candidate",
-      "state": "reviewed",
-      "source": "a787643856f02da5be019d9afabe2c3b0d1198e7",
-      "code_decision": "revise",
-      "science_decision": "approve"
-    },
-    {
-      "id": "ladder-s2-7fe585ac",
+      "id": "fgm-s2-f6ea6093",
       "kind": "supervision",
       "state": "reviewed",
       "source": null,
@@ -65,7 +56,7 @@
       "science_decision": null
     },
     {
-      "id": "ladder-s2-efaccdcf",
+      "id": "of8-s2-d4c85493",
       "kind": "supervision",
       "state": "reviewed",
       "source": null,
@@ -73,15 +64,7 @@
       "science_decision": null
     },
     {
-      "id": "ladder-r3",
-      "kind": "candidate",
-      "state": "integrated",
-      "source": "2b89db00469e91446f898becd4f8a71b30b6b17d",
-      "code_decision": "approve",
-      "science_decision": "approve"
-    },
-    {
-      "id": "ladder-s3-7fe585ac",
+      "id": "fgm-s3-f6ea6093",
       "kind": "supervision",
       "state": "reviewed",
       "source": null,
@@ -89,7 +72,7 @@
       "science_decision": null
     },
     {
-      "id": "ladder-s3-efaccdcf",
+      "id": "of8-s3-d4c85493",
       "kind": "supervision",
       "state": "reviewed",
       "source": null,
@@ -97,15 +80,7 @@
       "science_decision": null
     },
     {
-      "id": "ladder-r4",
-      "kind": "candidate",
-      "state": "reviewed",
-      "source": "8afa63025dd317c6b4450a9b0c3f4c7710499ba2",
-      "code_decision": "approve",
-      "science_decision": "revise"
-    },
-    {
-      "id": "ladder-s4-7fe585ac",
+      "id": "fgm-s4-f6ea6093",
       "kind": "supervision",
       "state": "reviewed",
       "source": null,
@@ -113,15 +88,7 @@
       "science_decision": null
     },
     {
-      "id": "ladder-r5",
-      "kind": "candidate",
-      "state": "exhausted",
-      "source": "486f17a80a4a85cd13c524d08d8c3c1556c6c002",
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s5-7fe585ac",
+      "id": "of8-s4-d4c85493",
       "kind": "supervision",
       "state": "reviewed",
       "source": null,
@@ -129,111 +96,7 @@
       "science_decision": null
     },
     {
-      "id": "ladder-s6-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s7-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s8-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s9-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s10-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s11-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s12-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s13-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s14-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s15-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s16-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s17-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s18-7fe585ac",
-      "kind": "supervision",
-      "state": "reviewed",
-      "source": null,
-      "code_decision": null,
-      "science_decision": null
-    },
-    {
-      "id": "ladder-s19-7fe585ac",
+      "id": "of8-s5-d4c85493",
       "kind": "supervision",
       "state": "reviewed",
       "source": null,
@@ -243,145 +106,91 @@
   ],
   "buffered_reports": [
     {
-      "id": "report-17988c3200391a1e5792773ee8331a7f",
-      "at": "2026-10-23T04:12:27.627Z",
-      "source": "67116a12eb8b257c914e4379d955646b495842f2",
-      "outcome": "blocked",
-      "job_ids": []
-    },
-    {
-      "id": "report-0e701c8d6e104b1ad04e527234da7e49",
-      "at": "2026-10-23T05:18:35.926Z",
-      "source": "b320d7bd7a87c9321e67094bc87aba3c7090a6d0",
+      "id": "report-e928f9644dda499fd47d72e6e5cf01c8",
+      "at": "2026-10-24T12:52:02.979Z",
+      "source": "13484c1a50c2f708fec1355a96c97d04d40131a2",
       "outcome": "progress",
       "job_ids": [
-        "125311663"
+        "125475058",
+        "125477210"
       ]
     },
     {
-      "id": "report-460fade03c5b97699a7767f573fab6a3",
-      "at": "2026-10-23T05:27:19.083Z",
-      "source": "e77255249578f55ae8cdc0348e8597754ac1be85",
+      "id": "report-983af47506915e8fee2dbdd37c84f904",
+      "at": "2026-10-24T13:23:40.434Z",
+      "source": "13484c1a50c2f708fec1355a96c97d04d40131a2",
       "outcome": "progress",
       "job_ids": [
-        "125311663"
+        "125477210",
+        "125479432"
       ]
     },
     {
-      "id": "report-2a63501bd8a697b4e5a316c60fd95a66",
-      "at": "2026-10-23T15:59:29.035Z",
-      "source": "375db190ad1fa727506d6709ed85184e9856e079",
-      "outcome": "progress",
-      "job_ids": []
-    },
-    {
-      "id": "report-3484a36d7eb936f2fffc8a5ea42ac7f9",
-      "at": "2026-10-23T17:02:30.264Z",
-      "source": "375db190ad1fa727506d6709ed85184e9856e079",
-      "outcome": "progress",
-      "job_ids": [
-        "125374008"
-      ]
-    },
-    {
-      "id": "report-d86cf499fcd077443d8170b3bb18be5e",
-      "at": "2026-10-23T18:00:56.921Z",
-      "source": "375db190ad1fa727506d6709ed85184e9856e079",
+      "id": "report-80bd930279a65ec98929df1356d08ce7",
+      "at": "2026-10-24T13:46:27.805Z",
+      "source": "f32bc07274258beca5743d5460669b58c10295f5",
       "outcome": "blocked",
       "job_ids": [
-        "125379495"
-      ]
-    },
-    {
-      "id": "report-101dffca0de3e69bef1778d1d1f1d2a6",
-      "at": "2026-10-23T23:11:23.185Z",
-      "source": "857cf12e86c502d5c6e8dc1a6cf1801559c30f13",
-      "outcome": "progress",
-      "job_ids": [
-        "125408861",
-        "125405917",
-        "125393379"
-      ]
-    },
-    {
-      "id": "report-c63c235399c0cdde7866746c96455443",
-      "at": "2026-10-24T00:20:27.939Z",
-      "source": "b2acc630bf36751cc87a25884e44500137cefdcf",
-      "outcome": "progress",
-      "job_ids": [
-        "125415767",
-        "125414311",
-        "125408861",
-        "125405917"
-      ]
-    },
-    {
-      "id": "report-3539c528925cc0eac696e21238865d03",
-      "at": "2026-10-24T00:24:52.404Z",
-      "source": "b2acc630bf36751cc87a25884e44500137cefdcf",
-      "outcome": "progress",
-      "job_ids": [
-        "125415767",
-        "125414311"
+        "125479432"
       ]
     }
   ],
   "recent_allocations": [
     {
-      "job_id": "125413632",
+      "job_id": "125477550",
       "role": "worker",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-24T07:49:26.676Z"
+      "observed_at": "2026-10-24T13:35:13.470Z"
     },
     {
-      "job_id": "125452723",
+      "job_id": "125479875",
       "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-24T07:49:26.676Z"
+      "observed_at": "2026-10-24T13:47:44.397Z"
     },
     {
-      "job_id": "125454442",
+      "job_id": "125480689",
       "role": "worker",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-24T08:06:09.260Z"
+      "observed_at": "2026-10-24T13:59:04.735Z"
     },
     {
-      "job_id": "125459440",
-      "role": "reviewer",
-      "state": "terminal",
-      "terminal_confirmed": true,
-      "observed_at": "2026-10-24T08:58:35.278Z"
-    },
-    {
-      "job_id": "125463015",
-      "role": "reviewer",
-      "state": "terminal",
-      "terminal_confirmed": true,
-      "observed_at": "2026-10-24T09:49:43.779Z"
-    },
-    {
-      "job_id": "125309342",
-      "role": "reviewer",
-      "state": "terminal",
-      "terminal_confirmed": true,
-      "observed_at": "2026-10-24T09:51:13.436Z"
-    },
-    {
-      "job_id": "125455867",
+      "job_id": "125482389",
       "role": "worker",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-24T09:52:19.083Z"
+      "observed_at": "2026-10-24T14:09:50.821Z"
     },
     {
-      "job_id": "125463651",
+      "job_id": "125481631",
+      "role": "reviewer",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-24T14:12:58.588Z"
+    },
+    {
+      "job_id": "125482776",
+      "role": "reviewer",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-24T14:12:58.588Z"
+    },
+    {
+      "job_id": "125483421",
       "role": "worker",
-      "state": "running",
-      "terminal_confirmed": false,
-      "observed_at": "2026-10-24T09:59:40.459Z"
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-24T15:07:22.700Z"
+    },
+    {
+      "job_id": "125478750",
+      "role": "worker",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-24T15:45:33.617Z"
     }
   ],
   "human_acceptance": "Separate from independent review; unchanged by this publication."
