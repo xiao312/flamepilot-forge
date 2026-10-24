@@ -1,8 +1,8 @@
 {
   "schema": "forge-public-campaign-status-v1",
-  "updated_at": "2026-10-24T16:00:04.541Z",
+  "updated_at": "2026-10-24T22:00:01.631Z",
   "campaign_id": "forge-campaign-20261024-parallel",
-  "campaign_state": "paused",
+  "campaign_state": "active",
   "deadline": "2026-10-25T07:27:57.017Z",
   "deadline_passed": false,
   "schedule": {
@@ -18,16 +18,16 @@
     {
       "id": "fgm",
       "registered_targets": 12,
-      "last_checkpoint_at": "2026-10-24T15:06:29.358Z",
+      "last_checkpoint_at": "2026-10-24T18:31:56.129Z",
       "candidate_review": null,
-      "supervision_episode": "fgm-s4-f6ea6093"
+      "supervision_episode": "fgm-s14-f6ea6093"
     },
     {
       "id": "of8",
       "registered_targets": 56,
-      "last_checkpoint_at": "2026-10-24T15:42:13.707Z",
+      "last_checkpoint_at": "2026-10-24T17:37:51.185Z",
       "candidate_review": null,
-      "supervision_episode": "of8-s5-d4c85493"
+      "supervision_episode": "of8-s14-d4c85493"
     }
   ],
   "rounds": [
@@ -96,7 +96,159 @@
       "science_decision": null
     },
     {
+      "id": "fgm-s5-f6ea6093",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
       "id": "of8-s5-d4c85493",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "fgm-s6-f6ea6093",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "of8-s6-d4c85493",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "fgm-s7-f6ea6093",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "of8-s7-d4c85493",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "fgm-s8-f6ea6093",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "of8-s8-d4c85493",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "fgm-s9-f6ea6093",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "of8-s9-d4c85493",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "fgm-s10-f6ea6093",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "of8-s10-d4c85493",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "fgm-s11-f6ea6093",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "of8-s11-d4c85493",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "fgm-s12-f6ea6093",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "of8-s12-d4c85493",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "fgm-s13-f6ea6093",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "of8-s13-d4c85493",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "fgm-s14-f6ea6093",
+      "kind": "supervision",
+      "state": "reviewed",
+      "source": null,
+      "code_decision": null,
+      "science_decision": null
+    },
+    {
+      "id": "of8-s14-d4c85493",
       "kind": "supervision",
       "state": "reviewed",
       "source": null,
@@ -133,64 +285,78 @@
       "job_ids": [
         "125479432"
       ]
+    },
+    {
+      "id": "report-856615de6e245f51c71e67a68bf40164",
+      "at": "2026-10-24T18:07:06.283Z",
+      "source": "dca4f0b1e2184ffddf8382ce61815362414b15e5",
+      "outcome": "completed",
+      "job_ids": []
+    },
+    {
+      "id": "report-d95c21a04a4c0837d897612081d587a5",
+      "at": "2026-10-24T18:32:43.307Z",
+      "source": "5c19947110209b724b98a6400f81d6455a5383de",
+      "outcome": "completed",
+      "job_ids": []
     }
   ],
   "recent_allocations": [
     {
-      "job_id": "125477550",
-      "role": "worker",
-      "state": "terminal",
-      "terminal_confirmed": true,
-      "observed_at": "2026-10-24T13:35:13.470Z"
-    },
-    {
-      "job_id": "125479875",
+      "job_id": "125515582",
       "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-24T13:47:44.397Z"
+      "observed_at": "2026-10-24T20:25:21.220Z"
     },
     {
-      "job_id": "125480689",
-      "role": "worker",
-      "state": "terminal",
-      "terminal_confirmed": true,
-      "observed_at": "2026-10-24T13:59:04.735Z"
-    },
-    {
-      "job_id": "125482389",
-      "role": "worker",
-      "state": "terminal",
-      "terminal_confirmed": true,
-      "observed_at": "2026-10-24T14:09:50.821Z"
-    },
-    {
-      "job_id": "125481631",
+      "job_id": "125513464",
       "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-24T14:12:58.588Z"
+      "observed_at": "2026-10-24T20:39:40.193Z"
     },
     {
-      "job_id": "125482776",
+      "job_id": "125516831",
       "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-24T14:12:58.588Z"
+      "observed_at": "2026-10-24T20:48:42.871Z"
     },
     {
-      "job_id": "125483421",
-      "role": "worker",
+      "job_id": "125517442",
+      "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-24T15:07:22.700Z"
+      "observed_at": "2026-10-24T21:10:40.582Z"
     },
     {
-      "job_id": "125478750",
-      "role": "worker",
+      "job_id": "125519137",
+      "role": "reviewer",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-24T15:45:33.617Z"
+      "observed_at": "2026-10-24T21:25:34.129Z"
+    },
+    {
+      "job_id": "125520257",
+      "role": "reviewer",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-24T21:43:36.057Z"
+    },
+    {
+      "job_id": "125522899",
+      "role": "reviewer",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-24T21:57:01.830Z"
+    },
+    {
+      "job_id": "125521670",
+      "role": "reviewer",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-24T21:57:01.830Z"
     }
   ],
   "human_acceptance": "Separate from independent review; unchanged by this publication."
