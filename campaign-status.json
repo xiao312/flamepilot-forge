@@ -1,6 +1,6 @@
 {
   "schema": "forge-public-campaign-status-v1",
-  "updated_at": "2026-10-27T10:00:03.235Z",
+  "updated_at": "2026-10-27T16:00:30.787Z",
   "campaign_id": "forge-campaign-20261024-parallel",
   "campaign_state": "active",
   "deadline": "2026-10-27T16:36:17.000Z",
@@ -18,14 +18,14 @@
     {
       "id": "fgm",
       "registered_targets": 12,
-      "last_checkpoint_at": "2026-10-27T08:45:04.978Z",
+      "last_checkpoint_at": "2026-10-27T10:20:07.221Z",
       "candidate_review": null,
       "supervision_episode": "fgm-s9-b43c35f7"
     },
     {
       "id": "of8",
       "registered_targets": 56,
-      "last_checkpoint_at": "2026-10-27T09:06:12.039Z",
+      "last_checkpoint_at": "2026-10-27T14:21:19.178Z",
       "candidate_review": null,
       "supervision_episode": "of8-s4-147d46af"
     }
@@ -946,15 +946,6 @@
   ],
   "buffered_reports": [
     {
-      "id": "report-623110d623201bad7c284e221524405d",
-      "at": "2026-10-26T15:44:29.041Z",
-      "source": "9874e4e36c13f7dc929f5eae721ca6459382a403",
-      "outcome": "blocked",
-      "job_ids": [
-        "125719723"
-      ]
-    },
-    {
       "id": "report-e571651f2d7369e36be691a093a27b03",
       "at": "2026-10-26T16:10:48.989Z",
       "source": "8892cc7f2d8f7e128e6eba420dfc3e0f6b431178",
@@ -1033,6 +1024,23 @@
       "source": "b70f935efb5bb5d3a8f0bbcd0e2361e5c4c0cdb4",
       "outcome": "blocked",
       "job_ids": []
+    },
+    {
+      "id": "report-84eaae1bdfbf7b394c84d42784441cbc",
+      "at": "2026-10-27T14:18:44.088Z",
+      "source": "b56e66a42e649ff46d4448d555cb15ba3d1bfa97",
+      "outcome": "blocked",
+      "job_ids": [
+        "125854293",
+        "125862186",
+        "125857064",
+        "125865404",
+        "125867063",
+        "125870093",
+        "125873481",
+        "125877618",
+        "125880951"
+      ]
     }
   ],
   "recent_allocations": [
@@ -1079,18 +1087,18 @@
       "observed_at": "2026-10-27T07:11:51.691Z"
     },
     {
-      "job_id": "125819173",
-      "role": "worker",
-      "state": "terminal",
-      "terminal_confirmed": true,
-      "observed_at": "2026-10-27T08:23:40.452Z"
-    },
-    {
       "job_id": "125820408",
       "role": "worker",
       "state": "terminal",
       "terminal_confirmed": true,
-      "observed_at": "2026-10-27T09:59:29.472Z"
+      "observed_at": "2026-10-27T10:21:18.369Z"
+    },
+    {
+      "job_id": "125819173",
+      "role": "worker",
+      "state": "terminal",
+      "terminal_confirmed": true,
+      "observed_at": "2026-10-27T14:53:37.032Z"
     }
   ],
   "human_acceptance": "Separate from independent review; unchanged by this publication."
